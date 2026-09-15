@@ -1,0 +1,12 @@
+rule,n_trials
+Trial rows in the released selected attempts,83206
+Invalid trial number,0
+Invalid source label,0
+Invalid target emotion for source,0
+Invalid or inconsistent stimulus metadata,0
+Duplicate trial-number occurrence,0
+Missing correctness,0
+RT below 0.2 sec,123
+RT above 30 sec,420
+Included accuracy trials,83206
+Included correct-RT trials,67852

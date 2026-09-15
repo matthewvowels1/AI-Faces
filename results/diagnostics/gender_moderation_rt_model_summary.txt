@@ -1,0 +1,67 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: 
+log_rt ~ trial_stratum * gender_binary * face_gender + target_emotion +  
+    trial_position_z + task_position + (1 | participant_id) +  
+    (1 | stimulus_id)
+   Data: gender_rt_data
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  72468.0   72683.4  -36210.0   72420.0     58372 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.2713 -0.6148 -0.1461  0.4384  6.6984 
+
+Random effects:
+ Groups         Name        Variance Std.Dev.
+ participant_id (Intercept) 0.05950  0.2439  
+ stimulus_id    (Intercept) 0.01189  0.1091  
+ Residual                   0.19062  0.4366  
+Number of obs: 58396, groups:  participant_id, 978; stimulus_id, 210
+
+Fixed effects:
+                                                           Estimate Std. Error
+(Intercept)                                                1.054093   0.029926
+trial_stratumAI-white                                     -0.166702   0.033439
+trial_stratumAI-non-white                                 -0.165465   0.025359
+gender_binaryMan                                          -0.002278   0.017374
+face_genderman                                            -0.066671   0.026709
+target_emotiondisgust                                      0.045132   0.026979
+target_emotionfear                                         0.196082   0.027037
+target_emotionhappy                                       -0.325602   0.026834
+target_emotionneutral                                     -0.161676   0.026883
+target_emotionsad                                         -0.071451   0.026897
+trial_position_z                                          -0.083181   0.001816
+task_positionPosition 2                                   -0.004471   0.019521
+task_positionPosition 3                                   -0.036871   0.020164
+task_positionPosition 4                                   -0.059961   0.048917
+trial_stratumAI-white:gender_binaryMan                    -0.015411   0.016378
+trial_stratumAI-non-white:gender_binaryMan                 0.010020   0.011598
+trial_stratumAI-white:face_genderman                       0.038752   0.045185
+trial_stratumAI-non-white:face_genderman                   0.040334   0.035823
+gender_binaryMan:face_genderman                            0.004731   0.010272
+trial_stratumAI-white:gender_binaryMan:face_genderman      0.021397   0.021630
+trial_stratumAI-non-white:gender_binaryMan:face_genderman  0.008158   0.016143
+                                                          t value
+(Intercept)                                                35.223
+trial_stratumAI-white                                      -4.985
+trial_stratumAI-non-white                                  -6.525
+gender_binaryMan                                           -0.131
+face_genderman                                             -2.496
+target_emotiondisgust                                       1.673
+target_emotionfear                                          7.252
+target_emotionhappy                                       -12.134
+target_emotionneutral                                      -6.014
+target_emotionsad                                          -2.656
+trial_position_z                                          -45.809
+task_positionPosition 2                                    -0.229
+task_positionPosition 3                                    -1.829
+task_positionPosition 4                                    -1.226
+trial_stratumAI-white:gender_binaryMan                     -0.941
+trial_stratumAI-non-white:gender_binaryMan                  0.864
+trial_stratumAI-white:face_genderman                        0.858
+trial_stratumAI-non-white:face_genderman                    1.126
+gender_binaryMan:face_genderman                             0.461
+trial_stratumAI-white:gender_binaryMan:face_genderman       0.989
+trial_stratumAI-non-white:gender_binaryMan:face_genderman   0.505

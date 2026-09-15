@@ -1,0 +1,13 @@
+model_type,trial_stratum,participant_white_status,stimulus_white_status,congruence,estimate,conf_low,conf_high
+accuracy,FACES,White,White,Same broad status,0.820344674061749,0.7829508970497298,0.8506509601961578
+accuracy,FACES,Non-white,White,Different broad status,0.8083442159861348,0.7678931050565219,0.8408823671656178
+accuracy,AI-white,White,White,Same broad status,0.9059542738903321,0.8735560870308552,0.9284786465770605
+accuracy,AI-white,Non-white,White,Different broad status,0.8950435695624728,0.8582187212056167,0.9219117563974016
+accuracy,AI-non-white,White,Non-white,Different broad status,0.8896773295230458,0.8654705380137389,0.9089586200367431
+accuracy,AI-non-white,Non-white,Non-white,Same broad status,0.8874852245146734,0.8613821169178092,0.9083740926328626
+rt,FACES,White,White,Same broad status,2.624131566678437,2.5428774371363665,2.7110074172782794
+rt,FACES,Non-white,White,Different broad status,2.647775826574822,2.553036988629617,2.7503642348626394
+rt,AI-white,White,White,Same broad status,2.2547996710481883,2.1675236141576266,2.3436989140611475
+rt,AI-white,Non-white,White,Different broad status,2.2748547268854566,2.1695528341300263,2.3802721334278267
+rt,AI-non-white,White,Non-white,Different broad status,2.281383689736215,2.215079998955894,2.3497329759103094
+rt,AI-non-white,Non-white,Non-white,Same broad status,2.314480397384712,2.2284957155571172,2.3996114958316386

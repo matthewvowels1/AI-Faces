@@ -1,0 +1,28 @@
+
+Call:
+glm(formula = completed_80_valid_trials ~ age_z + gender_binary + 
+    participant_white_status + prior_mh_binary, family = binomial(), 
+    data = task_completion_model_data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.3077   0.1028   0.1246   0.1535   0.2658  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                         4.8299     1.1096   4.353 1.34e-05 ***
+age_z                              -0.4381     0.3331  -1.315    0.188    
+gender_binaryMan                    0.4649     0.7150   0.650    0.516    
+participant_white_statusNon-white   0.1610     0.8409   0.191    0.848    
+prior_mh_binaryPrior condition     -0.3213     1.0753  -0.299    0.765    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 102.139  on 968  degrees of freedom
+Residual deviance:  99.259  on 964  degrees of freedom
+AIC: 109.26
+
+Number of Fisher Scoring iterations: 8
+

@@ -1,0 +1,12 @@
+model,formula,participant_n,trial_n,singular,convergence_message,captured_warnings
+primary_accuracy_mixed_model,correct ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1047,77238,FALSE,,
+primary_rt_mixed_model,log_rt ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1046,62167,FALSE,,
+sensitivity_complete_task_accuracy_model,correct ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1029,76406,FALSE,,
+sensitivity_complete_task_rt_model,log_rt ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1029,61550,FALSE,,
+sensitivity_no_happy_accuracy_model,correct ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1047,64354,FALSE,,
+sensitivity_rt_0_3_to_10_model,log_rt ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1046,60968,FALSE,,
+sensitivity_rt_all_positive_model,log_rt ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1046,62468,FALSE,,
+gender_moderation_accuracy_model,correct ~ trial_stratum * gender_binary * face_gender + target_emotion +      trial_position_z + task_position + (1 | participant_id) +      (1 | stimulus_id),978,72464,FALSE,,
+gender_moderation_rt_model,log_rt ~ trial_stratum * gender_binary * face_gender + target_emotion +      trial_position_z + task_position + (1 | participant_id) +      (1 | stimulus_id),978,58396,FALSE,,
+white_status_moderation_accuracy_model,correct ~ trial_stratum * participant_white_status + target_emotion +      trial_position_z + task_position + (1 | participant_id) +      (1 | stimulus_id),999,74064,FALSE,,
+white_status_moderation_rt_model,log_rt ~ trial_stratum * participant_white_status + target_emotion +      trial_position_z + task_position + (1 | participant_id) +      (1 | stimulus_id),999,59674,FALSE,,

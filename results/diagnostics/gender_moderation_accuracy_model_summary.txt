@@ -1,0 +1,70 @@
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+correct ~ trial_stratum * gender_binary * face_gender + target_emotion +  
+    trial_position_z + task_position + (1 | participant_id) +  
+    (1 | stimulus_id)
+   Data: gender_accuracy_data
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  51103.7   51315.1  -25528.9   51057.7     72441 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-19.0802   0.0903   0.2141   0.4023  12.9109 
+
+Random effects:
+ Groups         Name        Variance Std.Dev.
+ participant_id (Intercept) 0.4764   0.6902  
+ stimulus_id    (Intercept) 1.0135   1.0067  
+Number of obs: 72464, groups:  participant_id, 978; stimulus_id, 210
+
+Fixed effects:
+                                                          Estimate Std. Error
+(Intercept)                                                1.54099    0.23801
+trial_stratumAI-white                                      0.84885    0.30555
+trial_stratumAI-non-white                                  0.64034    0.23011
+gender_binaryMan                                          -0.34538    0.05927
+face_genderman                                             0.56097    0.24351
+target_emotiondisgust                                     -0.56470    0.24493
+target_emotionfear                                        -1.34190    0.24450
+target_emotionhappy                                        2.36290    0.25827
+target_emotionneutral                                      0.32428    0.24649
+target_emotionsad                                          0.48091    0.24800
+trial_position_z                                           0.05037    0.01141
+task_positionPosition 2                                   -0.05560    0.06075
+task_positionPosition 3                                   -0.02318    0.06283
+task_positionPosition 4                                   -0.29754    0.15169
+trial_stratumAI-white:gender_binaryMan                     0.05969    0.10622
+trial_stratumAI-non-white:gender_binaryMan                 0.15498    0.06895
+trial_stratumAI-white:face_genderman                      -0.16037    0.41598
+trial_stratumAI-non-white:face_genderman                  -0.13073    0.32772
+gender_binaryMan:face_genderman                            0.06400    0.05983
+trial_stratumAI-white:gender_binaryMan:face_genderman     -0.13529    0.14938
+trial_stratumAI-non-white:gender_binaryMan:face_genderman -0.07668    0.10434
+                                                          z value Pr(>|z|)    
+(Intercept)                                                 6.475 9.51e-11 ***
+trial_stratumAI-white                                       2.778  0.00547 ** 
+trial_stratumAI-non-white                                   2.783  0.00539 ** 
+gender_binaryMan                                           -5.827 5.63e-09 ***
+face_genderman                                              2.304  0.02124 *  
+target_emotiondisgust                                      -2.306  0.02113 *  
+target_emotionfear                                         -5.488 4.05e-08 ***
+target_emotionhappy                                         9.149  < 2e-16 ***
+target_emotionneutral                                       1.316  0.18831    
+target_emotionsad                                           1.939  0.05248 .  
+trial_position_z                                            4.415 1.01e-05 ***
+task_positionPosition 2                                    -0.915  0.36010    
+task_positionPosition 3                                    -0.369  0.71222    
+task_positionPosition 4                                    -1.961  0.04982 *  
+trial_stratumAI-white:gender_binaryMan                      0.562  0.57418    
+trial_stratumAI-non-white:gender_binaryMan                  2.248  0.02458 *  
+trial_stratumAI-white:face_genderman                       -0.386  0.69985    
+trial_stratumAI-non-white:face_genderman                   -0.399  0.68997    
+gender_binaryMan:face_genderman                             1.070  0.28476    
+trial_stratumAI-white:gender_binaryMan:face_genderman      -0.906  0.36510    
+trial_stratumAI-non-white:gender_binaryMan:face_genderman  -0.735  0.46242    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

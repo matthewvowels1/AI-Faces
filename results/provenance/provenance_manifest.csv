@@ -1,0 +1,11 @@
+field,value
+generated,2026-09-15 13:42:48 CEST
+released_data,data/ai_faces_study.csv
+r_version,R version 3.6.3 (2020-02-29)
+random_seed,20260908
+bootstrap_repetitions,500
+coefficient_simulations,2000
+git_commit,d11cbf2eb7fc9fe6cd36321d33560a4ebdcdee57
+git_worktree_dirty,TRUE
+primary_accuracy_formula,correct ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id)
+primary_rt_formula,log_rt ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id)

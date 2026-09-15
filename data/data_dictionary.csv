@@ -1,0 +1,902 @@
+variable,level,description
+participant_id,participant,Synthetic release-only participant identifier
+age,participant,Age in years
+gender,participant,Self-reported gender category
+ethnicity_group,participant,Grouped self-reported ethnicity category
+education,participant,Self-reported education category
+employment,participant,Self-reported employment category
+prior_mental_health,participant,Whether a prior treated mental-health condition was reported
+participant_white_status,participant,White/non-white analysis grouping
+gender_binary,participant,Woman/man analysis grouping; missing for other responses
+emotion_task_position,participant,Position of emotion-recognition task in the wider task battery
+screening_data_available,participant,Any intake-screening response was available
+intake_demographics_available,participant,Required intake demographic responses were available
+emotion_task_attempted,participant,At least one linked emotion-recognition attempt was recorded
+emotion_task_complete_event,participant,The task emitted a completion event
+cape15_score,clinical total,Complete-item total for the named retained instrument
+asrm_score,clinical total,Complete-item total for the named retained instrument
+isi_score,clinical total,Complete-item total for the named retained instrument
+ocir_score,clinical total,Complete-item total for the named retained instrument
+minispin_score,clinical total,Complete-item total for the named retained instrument
+asrs_score,clinical total,Complete-item total for the named retained instrument
+gad7_score,clinical total,Complete-item total for the named retained instrument
+hamd6_score,clinical total,Complete-item total for the named retained instrument
+cape15_item_01,clinical item,Numeric response to the named retained instrument item
+cape15_item_02,clinical item,Numeric response to the named retained instrument item
+cape15_item_03,clinical item,Numeric response to the named retained instrument item
+cape15_item_04,clinical item,Numeric response to the named retained instrument item
+cape15_item_05,clinical item,Numeric response to the named retained instrument item
+cape15_item_06,clinical item,Numeric response to the named retained instrument item
+cape15_item_07,clinical item,Numeric response to the named retained instrument item
+cape15_item_08,clinical item,Numeric response to the named retained instrument item
+cape15_item_09,clinical item,Numeric response to the named retained instrument item
+cape15_item_10,clinical item,Numeric response to the named retained instrument item
+cape15_item_11,clinical item,Numeric response to the named retained instrument item
+cape15_item_12,clinical item,Numeric response to the named retained instrument item
+cape15_item_13,clinical item,Numeric response to the named retained instrument item
+cape15_item_14,clinical item,Numeric response to the named retained instrument item
+cape15_item_15,clinical item,Numeric response to the named retained instrument item
+asrm_item_01,clinical item,Numeric response to the named retained instrument item
+asrm_item_02,clinical item,Numeric response to the named retained instrument item
+asrm_item_03,clinical item,Numeric response to the named retained instrument item
+asrm_item_04,clinical item,Numeric response to the named retained instrument item
+asrm_item_05,clinical item,Numeric response to the named retained instrument item
+isi_item_01,clinical item,Numeric response to the named retained instrument item
+isi_item_02,clinical item,Numeric response to the named retained instrument item
+isi_item_03,clinical item,Numeric response to the named retained instrument item
+isi_item_04,clinical item,Numeric response to the named retained instrument item
+isi_item_05,clinical item,Numeric response to the named retained instrument item
+isi_item_06,clinical item,Numeric response to the named retained instrument item
+isi_item_07,clinical item,Numeric response to the named retained instrument item
+ocir_item_01,clinical item,Numeric response to the named retained instrument item
+ocir_item_02,clinical item,Numeric response to the named retained instrument item
+ocir_item_03,clinical item,Numeric response to the named retained instrument item
+ocir_item_04,clinical item,Numeric response to the named retained instrument item
+ocir_item_05,clinical item,Numeric response to the named retained instrument item
+ocir_item_06,clinical item,Numeric response to the named retained instrument item
+ocir_item_07,clinical item,Numeric response to the named retained instrument item
+ocir_item_08,clinical item,Numeric response to the named retained instrument item
+ocir_item_09,clinical item,Numeric response to the named retained instrument item
+ocir_item_10,clinical item,Numeric response to the named retained instrument item
+ocir_item_11,clinical item,Numeric response to the named retained instrument item
+ocir_item_12,clinical item,Numeric response to the named retained instrument item
+ocir_item_13,clinical item,Numeric response to the named retained instrument item
+ocir_item_14,clinical item,Numeric response to the named retained instrument item
+ocir_item_15,clinical item,Numeric response to the named retained instrument item
+ocir_item_16,clinical item,Numeric response to the named retained instrument item
+ocir_item_17,clinical item,Numeric response to the named retained instrument item
+ocir_item_18,clinical item,Numeric response to the named retained instrument item
+minispin_item_01,clinical item,Numeric response to the named retained instrument item
+minispin_item_02,clinical item,Numeric response to the named retained instrument item
+minispin_item_03,clinical item,Numeric response to the named retained instrument item
+asrs_item_01,clinical item,Numeric response to the named retained instrument item
+asrs_item_02,clinical item,Numeric response to the named retained instrument item
+asrs_item_03,clinical item,Numeric response to the named retained instrument item
+asrs_item_04,clinical item,Numeric response to the named retained instrument item
+asrs_item_05,clinical item,Numeric response to the named retained instrument item
+asrs_item_06,clinical item,Numeric response to the named retained instrument item
+asrs_item_07,clinical item,Numeric response to the named retained instrument item
+asrs_item_08,clinical item,Numeric response to the named retained instrument item
+asrs_item_09,clinical item,Numeric response to the named retained instrument item
+asrs_item_10,clinical item,Numeric response to the named retained instrument item
+asrs_item_11,clinical item,Numeric response to the named retained instrument item
+asrs_item_12,clinical item,Numeric response to the named retained instrument item
+asrs_item_13,clinical item,Numeric response to the named retained instrument item
+asrs_item_14,clinical item,Numeric response to the named retained instrument item
+asrs_item_15,clinical item,Numeric response to the named retained instrument item
+asrs_item_16,clinical item,Numeric response to the named retained instrument item
+asrs_item_17,clinical item,Numeric response to the named retained instrument item
+asrs_item_18,clinical item,Numeric response to the named retained instrument item
+gad7_item_01,clinical item,Numeric response to the named retained instrument item
+gad7_item_02,clinical item,Numeric response to the named retained instrument item
+gad7_item_03,clinical item,Numeric response to the named retained instrument item
+gad7_item_04,clinical item,Numeric response to the named retained instrument item
+gad7_item_05,clinical item,Numeric response to the named retained instrument item
+gad7_item_06,clinical item,Numeric response to the named retained instrument item
+gad7_item_07,clinical item,Numeric response to the named retained instrument item
+hamd6_item_01,clinical item,Numeric response to the named retained instrument item
+hamd6_item_02,clinical item,Numeric response to the named retained instrument item
+hamd6_item_03,clinical item,Numeric response to the named retained instrument item
+hamd6_item_04,clinical item,Numeric response to the named retained instrument item
+hamd6_item_05,clinical item,Numeric response to the named retained instrument item
+hamd6_item_06,clinical item,Numeric response to the named retained instrument item
+trial_001_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_001_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_001_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_001_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_001_response_emotion,emotion-recognition trial,Participant response
+trial_001_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_001_rt_sec,emotion-recognition trial,Response time in seconds
+trial_001_face_age,emotion-recognition trial,Stimulus age category
+trial_001_face_gender,emotion-recognition trial,Stimulus gender category
+trial_001_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_002_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_002_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_002_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_002_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_002_response_emotion,emotion-recognition trial,Participant response
+trial_002_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_002_rt_sec,emotion-recognition trial,Response time in seconds
+trial_002_face_age,emotion-recognition trial,Stimulus age category
+trial_002_face_gender,emotion-recognition trial,Stimulus gender category
+trial_002_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_003_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_003_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_003_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_003_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_003_response_emotion,emotion-recognition trial,Participant response
+trial_003_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_003_rt_sec,emotion-recognition trial,Response time in seconds
+trial_003_face_age,emotion-recognition trial,Stimulus age category
+trial_003_face_gender,emotion-recognition trial,Stimulus gender category
+trial_003_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_004_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_004_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_004_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_004_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_004_response_emotion,emotion-recognition trial,Participant response
+trial_004_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_004_rt_sec,emotion-recognition trial,Response time in seconds
+trial_004_face_age,emotion-recognition trial,Stimulus age category
+trial_004_face_gender,emotion-recognition trial,Stimulus gender category
+trial_004_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_005_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_005_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_005_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_005_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_005_response_emotion,emotion-recognition trial,Participant response
+trial_005_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_005_rt_sec,emotion-recognition trial,Response time in seconds
+trial_005_face_age,emotion-recognition trial,Stimulus age category
+trial_005_face_gender,emotion-recognition trial,Stimulus gender category
+trial_005_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_006_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_006_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_006_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_006_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_006_response_emotion,emotion-recognition trial,Participant response
+trial_006_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_006_rt_sec,emotion-recognition trial,Response time in seconds
+trial_006_face_age,emotion-recognition trial,Stimulus age category
+trial_006_face_gender,emotion-recognition trial,Stimulus gender category
+trial_006_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_007_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_007_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_007_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_007_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_007_response_emotion,emotion-recognition trial,Participant response
+trial_007_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_007_rt_sec,emotion-recognition trial,Response time in seconds
+trial_007_face_age,emotion-recognition trial,Stimulus age category
+trial_007_face_gender,emotion-recognition trial,Stimulus gender category
+trial_007_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_008_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_008_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_008_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_008_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_008_response_emotion,emotion-recognition trial,Participant response
+trial_008_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_008_rt_sec,emotion-recognition trial,Response time in seconds
+trial_008_face_age,emotion-recognition trial,Stimulus age category
+trial_008_face_gender,emotion-recognition trial,Stimulus gender category
+trial_008_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_009_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_009_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_009_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_009_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_009_response_emotion,emotion-recognition trial,Participant response
+trial_009_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_009_rt_sec,emotion-recognition trial,Response time in seconds
+trial_009_face_age,emotion-recognition trial,Stimulus age category
+trial_009_face_gender,emotion-recognition trial,Stimulus gender category
+trial_009_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_010_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_010_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_010_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_010_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_010_response_emotion,emotion-recognition trial,Participant response
+trial_010_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_010_rt_sec,emotion-recognition trial,Response time in seconds
+trial_010_face_age,emotion-recognition trial,Stimulus age category
+trial_010_face_gender,emotion-recognition trial,Stimulus gender category
+trial_010_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_011_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_011_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_011_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_011_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_011_response_emotion,emotion-recognition trial,Participant response
+trial_011_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_011_rt_sec,emotion-recognition trial,Response time in seconds
+trial_011_face_age,emotion-recognition trial,Stimulus age category
+trial_011_face_gender,emotion-recognition trial,Stimulus gender category
+trial_011_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_012_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_012_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_012_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_012_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_012_response_emotion,emotion-recognition trial,Participant response
+trial_012_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_012_rt_sec,emotion-recognition trial,Response time in seconds
+trial_012_face_age,emotion-recognition trial,Stimulus age category
+trial_012_face_gender,emotion-recognition trial,Stimulus gender category
+trial_012_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_013_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_013_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_013_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_013_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_013_response_emotion,emotion-recognition trial,Participant response
+trial_013_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_013_rt_sec,emotion-recognition trial,Response time in seconds
+trial_013_face_age,emotion-recognition trial,Stimulus age category
+trial_013_face_gender,emotion-recognition trial,Stimulus gender category
+trial_013_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_014_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_014_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_014_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_014_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_014_response_emotion,emotion-recognition trial,Participant response
+trial_014_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_014_rt_sec,emotion-recognition trial,Response time in seconds
+trial_014_face_age,emotion-recognition trial,Stimulus age category
+trial_014_face_gender,emotion-recognition trial,Stimulus gender category
+trial_014_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_015_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_015_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_015_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_015_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_015_response_emotion,emotion-recognition trial,Participant response
+trial_015_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_015_rt_sec,emotion-recognition trial,Response time in seconds
+trial_015_face_age,emotion-recognition trial,Stimulus age category
+trial_015_face_gender,emotion-recognition trial,Stimulus gender category
+trial_015_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_016_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_016_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_016_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_016_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_016_response_emotion,emotion-recognition trial,Participant response
+trial_016_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_016_rt_sec,emotion-recognition trial,Response time in seconds
+trial_016_face_age,emotion-recognition trial,Stimulus age category
+trial_016_face_gender,emotion-recognition trial,Stimulus gender category
+trial_016_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_017_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_017_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_017_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_017_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_017_response_emotion,emotion-recognition trial,Participant response
+trial_017_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_017_rt_sec,emotion-recognition trial,Response time in seconds
+trial_017_face_age,emotion-recognition trial,Stimulus age category
+trial_017_face_gender,emotion-recognition trial,Stimulus gender category
+trial_017_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_018_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_018_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_018_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_018_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_018_response_emotion,emotion-recognition trial,Participant response
+trial_018_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_018_rt_sec,emotion-recognition trial,Response time in seconds
+trial_018_face_age,emotion-recognition trial,Stimulus age category
+trial_018_face_gender,emotion-recognition trial,Stimulus gender category
+trial_018_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_019_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_019_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_019_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_019_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_019_response_emotion,emotion-recognition trial,Participant response
+trial_019_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_019_rt_sec,emotion-recognition trial,Response time in seconds
+trial_019_face_age,emotion-recognition trial,Stimulus age category
+trial_019_face_gender,emotion-recognition trial,Stimulus gender category
+trial_019_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_020_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_020_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_020_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_020_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_020_response_emotion,emotion-recognition trial,Participant response
+trial_020_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_020_rt_sec,emotion-recognition trial,Response time in seconds
+trial_020_face_age,emotion-recognition trial,Stimulus age category
+trial_020_face_gender,emotion-recognition trial,Stimulus gender category
+trial_020_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_021_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_021_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_021_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_021_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_021_response_emotion,emotion-recognition trial,Participant response
+trial_021_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_021_rt_sec,emotion-recognition trial,Response time in seconds
+trial_021_face_age,emotion-recognition trial,Stimulus age category
+trial_021_face_gender,emotion-recognition trial,Stimulus gender category
+trial_021_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_022_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_022_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_022_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_022_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_022_response_emotion,emotion-recognition trial,Participant response
+trial_022_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_022_rt_sec,emotion-recognition trial,Response time in seconds
+trial_022_face_age,emotion-recognition trial,Stimulus age category
+trial_022_face_gender,emotion-recognition trial,Stimulus gender category
+trial_022_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_023_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_023_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_023_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_023_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_023_response_emotion,emotion-recognition trial,Participant response
+trial_023_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_023_rt_sec,emotion-recognition trial,Response time in seconds
+trial_023_face_age,emotion-recognition trial,Stimulus age category
+trial_023_face_gender,emotion-recognition trial,Stimulus gender category
+trial_023_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_024_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_024_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_024_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_024_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_024_response_emotion,emotion-recognition trial,Participant response
+trial_024_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_024_rt_sec,emotion-recognition trial,Response time in seconds
+trial_024_face_age,emotion-recognition trial,Stimulus age category
+trial_024_face_gender,emotion-recognition trial,Stimulus gender category
+trial_024_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_025_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_025_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_025_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_025_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_025_response_emotion,emotion-recognition trial,Participant response
+trial_025_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_025_rt_sec,emotion-recognition trial,Response time in seconds
+trial_025_face_age,emotion-recognition trial,Stimulus age category
+trial_025_face_gender,emotion-recognition trial,Stimulus gender category
+trial_025_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_026_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_026_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_026_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_026_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_026_response_emotion,emotion-recognition trial,Participant response
+trial_026_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_026_rt_sec,emotion-recognition trial,Response time in seconds
+trial_026_face_age,emotion-recognition trial,Stimulus age category
+trial_026_face_gender,emotion-recognition trial,Stimulus gender category
+trial_026_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_027_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_027_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_027_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_027_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_027_response_emotion,emotion-recognition trial,Participant response
+trial_027_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_027_rt_sec,emotion-recognition trial,Response time in seconds
+trial_027_face_age,emotion-recognition trial,Stimulus age category
+trial_027_face_gender,emotion-recognition trial,Stimulus gender category
+trial_027_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_028_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_028_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_028_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_028_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_028_response_emotion,emotion-recognition trial,Participant response
+trial_028_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_028_rt_sec,emotion-recognition trial,Response time in seconds
+trial_028_face_age,emotion-recognition trial,Stimulus age category
+trial_028_face_gender,emotion-recognition trial,Stimulus gender category
+trial_028_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_029_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_029_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_029_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_029_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_029_response_emotion,emotion-recognition trial,Participant response
+trial_029_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_029_rt_sec,emotion-recognition trial,Response time in seconds
+trial_029_face_age,emotion-recognition trial,Stimulus age category
+trial_029_face_gender,emotion-recognition trial,Stimulus gender category
+trial_029_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_030_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_030_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_030_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_030_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_030_response_emotion,emotion-recognition trial,Participant response
+trial_030_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_030_rt_sec,emotion-recognition trial,Response time in seconds
+trial_030_face_age,emotion-recognition trial,Stimulus age category
+trial_030_face_gender,emotion-recognition trial,Stimulus gender category
+trial_030_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_031_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_031_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_031_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_031_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_031_response_emotion,emotion-recognition trial,Participant response
+trial_031_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_031_rt_sec,emotion-recognition trial,Response time in seconds
+trial_031_face_age,emotion-recognition trial,Stimulus age category
+trial_031_face_gender,emotion-recognition trial,Stimulus gender category
+trial_031_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_032_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_032_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_032_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_032_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_032_response_emotion,emotion-recognition trial,Participant response
+trial_032_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_032_rt_sec,emotion-recognition trial,Response time in seconds
+trial_032_face_age,emotion-recognition trial,Stimulus age category
+trial_032_face_gender,emotion-recognition trial,Stimulus gender category
+trial_032_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_033_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_033_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_033_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_033_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_033_response_emotion,emotion-recognition trial,Participant response
+trial_033_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_033_rt_sec,emotion-recognition trial,Response time in seconds
+trial_033_face_age,emotion-recognition trial,Stimulus age category
+trial_033_face_gender,emotion-recognition trial,Stimulus gender category
+trial_033_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_034_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_034_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_034_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_034_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_034_response_emotion,emotion-recognition trial,Participant response
+trial_034_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_034_rt_sec,emotion-recognition trial,Response time in seconds
+trial_034_face_age,emotion-recognition trial,Stimulus age category
+trial_034_face_gender,emotion-recognition trial,Stimulus gender category
+trial_034_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_035_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_035_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_035_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_035_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_035_response_emotion,emotion-recognition trial,Participant response
+trial_035_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_035_rt_sec,emotion-recognition trial,Response time in seconds
+trial_035_face_age,emotion-recognition trial,Stimulus age category
+trial_035_face_gender,emotion-recognition trial,Stimulus gender category
+trial_035_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_036_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_036_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_036_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_036_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_036_response_emotion,emotion-recognition trial,Participant response
+trial_036_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_036_rt_sec,emotion-recognition trial,Response time in seconds
+trial_036_face_age,emotion-recognition trial,Stimulus age category
+trial_036_face_gender,emotion-recognition trial,Stimulus gender category
+trial_036_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_037_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_037_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_037_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_037_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_037_response_emotion,emotion-recognition trial,Participant response
+trial_037_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_037_rt_sec,emotion-recognition trial,Response time in seconds
+trial_037_face_age,emotion-recognition trial,Stimulus age category
+trial_037_face_gender,emotion-recognition trial,Stimulus gender category
+trial_037_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_038_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_038_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_038_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_038_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_038_response_emotion,emotion-recognition trial,Participant response
+trial_038_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_038_rt_sec,emotion-recognition trial,Response time in seconds
+trial_038_face_age,emotion-recognition trial,Stimulus age category
+trial_038_face_gender,emotion-recognition trial,Stimulus gender category
+trial_038_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_039_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_039_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_039_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_039_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_039_response_emotion,emotion-recognition trial,Participant response
+trial_039_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_039_rt_sec,emotion-recognition trial,Response time in seconds
+trial_039_face_age,emotion-recognition trial,Stimulus age category
+trial_039_face_gender,emotion-recognition trial,Stimulus gender category
+trial_039_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_040_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_040_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_040_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_040_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_040_response_emotion,emotion-recognition trial,Participant response
+trial_040_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_040_rt_sec,emotion-recognition trial,Response time in seconds
+trial_040_face_age,emotion-recognition trial,Stimulus age category
+trial_040_face_gender,emotion-recognition trial,Stimulus gender category
+trial_040_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_041_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_041_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_041_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_041_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_041_response_emotion,emotion-recognition trial,Participant response
+trial_041_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_041_rt_sec,emotion-recognition trial,Response time in seconds
+trial_041_face_age,emotion-recognition trial,Stimulus age category
+trial_041_face_gender,emotion-recognition trial,Stimulus gender category
+trial_041_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_042_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_042_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_042_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_042_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_042_response_emotion,emotion-recognition trial,Participant response
+trial_042_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_042_rt_sec,emotion-recognition trial,Response time in seconds
+trial_042_face_age,emotion-recognition trial,Stimulus age category
+trial_042_face_gender,emotion-recognition trial,Stimulus gender category
+trial_042_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_043_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_043_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_043_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_043_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_043_response_emotion,emotion-recognition trial,Participant response
+trial_043_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_043_rt_sec,emotion-recognition trial,Response time in seconds
+trial_043_face_age,emotion-recognition trial,Stimulus age category
+trial_043_face_gender,emotion-recognition trial,Stimulus gender category
+trial_043_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_044_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_044_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_044_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_044_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_044_response_emotion,emotion-recognition trial,Participant response
+trial_044_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_044_rt_sec,emotion-recognition trial,Response time in seconds
+trial_044_face_age,emotion-recognition trial,Stimulus age category
+trial_044_face_gender,emotion-recognition trial,Stimulus gender category
+trial_044_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_045_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_045_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_045_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_045_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_045_response_emotion,emotion-recognition trial,Participant response
+trial_045_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_045_rt_sec,emotion-recognition trial,Response time in seconds
+trial_045_face_age,emotion-recognition trial,Stimulus age category
+trial_045_face_gender,emotion-recognition trial,Stimulus gender category
+trial_045_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_046_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_046_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_046_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_046_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_046_response_emotion,emotion-recognition trial,Participant response
+trial_046_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_046_rt_sec,emotion-recognition trial,Response time in seconds
+trial_046_face_age,emotion-recognition trial,Stimulus age category
+trial_046_face_gender,emotion-recognition trial,Stimulus gender category
+trial_046_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_047_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_047_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_047_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_047_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_047_response_emotion,emotion-recognition trial,Participant response
+trial_047_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_047_rt_sec,emotion-recognition trial,Response time in seconds
+trial_047_face_age,emotion-recognition trial,Stimulus age category
+trial_047_face_gender,emotion-recognition trial,Stimulus gender category
+trial_047_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_048_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_048_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_048_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_048_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_048_response_emotion,emotion-recognition trial,Participant response
+trial_048_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_048_rt_sec,emotion-recognition trial,Response time in seconds
+trial_048_face_age,emotion-recognition trial,Stimulus age category
+trial_048_face_gender,emotion-recognition trial,Stimulus gender category
+trial_048_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_049_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_049_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_049_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_049_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_049_response_emotion,emotion-recognition trial,Participant response
+trial_049_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_049_rt_sec,emotion-recognition trial,Response time in seconds
+trial_049_face_age,emotion-recognition trial,Stimulus age category
+trial_049_face_gender,emotion-recognition trial,Stimulus gender category
+trial_049_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_050_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_050_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_050_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_050_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_050_response_emotion,emotion-recognition trial,Participant response
+trial_050_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_050_rt_sec,emotion-recognition trial,Response time in seconds
+trial_050_face_age,emotion-recognition trial,Stimulus age category
+trial_050_face_gender,emotion-recognition trial,Stimulus gender category
+trial_050_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_051_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_051_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_051_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_051_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_051_response_emotion,emotion-recognition trial,Participant response
+trial_051_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_051_rt_sec,emotion-recognition trial,Response time in seconds
+trial_051_face_age,emotion-recognition trial,Stimulus age category
+trial_051_face_gender,emotion-recognition trial,Stimulus gender category
+trial_051_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_052_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_052_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_052_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_052_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_052_response_emotion,emotion-recognition trial,Participant response
+trial_052_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_052_rt_sec,emotion-recognition trial,Response time in seconds
+trial_052_face_age,emotion-recognition trial,Stimulus age category
+trial_052_face_gender,emotion-recognition trial,Stimulus gender category
+trial_052_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_053_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_053_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_053_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_053_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_053_response_emotion,emotion-recognition trial,Participant response
+trial_053_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_053_rt_sec,emotion-recognition trial,Response time in seconds
+trial_053_face_age,emotion-recognition trial,Stimulus age category
+trial_053_face_gender,emotion-recognition trial,Stimulus gender category
+trial_053_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_054_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_054_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_054_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_054_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_054_response_emotion,emotion-recognition trial,Participant response
+trial_054_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_054_rt_sec,emotion-recognition trial,Response time in seconds
+trial_054_face_age,emotion-recognition trial,Stimulus age category
+trial_054_face_gender,emotion-recognition trial,Stimulus gender category
+trial_054_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_055_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_055_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_055_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_055_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_055_response_emotion,emotion-recognition trial,Participant response
+trial_055_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_055_rt_sec,emotion-recognition trial,Response time in seconds
+trial_055_face_age,emotion-recognition trial,Stimulus age category
+trial_055_face_gender,emotion-recognition trial,Stimulus gender category
+trial_055_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_056_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_056_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_056_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_056_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_056_response_emotion,emotion-recognition trial,Participant response
+trial_056_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_056_rt_sec,emotion-recognition trial,Response time in seconds
+trial_056_face_age,emotion-recognition trial,Stimulus age category
+trial_056_face_gender,emotion-recognition trial,Stimulus gender category
+trial_056_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_057_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_057_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_057_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_057_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_057_response_emotion,emotion-recognition trial,Participant response
+trial_057_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_057_rt_sec,emotion-recognition trial,Response time in seconds
+trial_057_face_age,emotion-recognition trial,Stimulus age category
+trial_057_face_gender,emotion-recognition trial,Stimulus gender category
+trial_057_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_058_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_058_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_058_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_058_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_058_response_emotion,emotion-recognition trial,Participant response
+trial_058_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_058_rt_sec,emotion-recognition trial,Response time in seconds
+trial_058_face_age,emotion-recognition trial,Stimulus age category
+trial_058_face_gender,emotion-recognition trial,Stimulus gender category
+trial_058_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_059_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_059_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_059_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_059_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_059_response_emotion,emotion-recognition trial,Participant response
+trial_059_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_059_rt_sec,emotion-recognition trial,Response time in seconds
+trial_059_face_age,emotion-recognition trial,Stimulus age category
+trial_059_face_gender,emotion-recognition trial,Stimulus gender category
+trial_059_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_060_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_060_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_060_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_060_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_060_response_emotion,emotion-recognition trial,Participant response
+trial_060_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_060_rt_sec,emotion-recognition trial,Response time in seconds
+trial_060_face_age,emotion-recognition trial,Stimulus age category
+trial_060_face_gender,emotion-recognition trial,Stimulus gender category
+trial_060_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_061_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_061_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_061_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_061_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_061_response_emotion,emotion-recognition trial,Participant response
+trial_061_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_061_rt_sec,emotion-recognition trial,Response time in seconds
+trial_061_face_age,emotion-recognition trial,Stimulus age category
+trial_061_face_gender,emotion-recognition trial,Stimulus gender category
+trial_061_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_062_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_062_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_062_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_062_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_062_response_emotion,emotion-recognition trial,Participant response
+trial_062_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_062_rt_sec,emotion-recognition trial,Response time in seconds
+trial_062_face_age,emotion-recognition trial,Stimulus age category
+trial_062_face_gender,emotion-recognition trial,Stimulus gender category
+trial_062_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_063_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_063_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_063_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_063_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_063_response_emotion,emotion-recognition trial,Participant response
+trial_063_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_063_rt_sec,emotion-recognition trial,Response time in seconds
+trial_063_face_age,emotion-recognition trial,Stimulus age category
+trial_063_face_gender,emotion-recognition trial,Stimulus gender category
+trial_063_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_064_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_064_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_064_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_064_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_064_response_emotion,emotion-recognition trial,Participant response
+trial_064_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_064_rt_sec,emotion-recognition trial,Response time in seconds
+trial_064_face_age,emotion-recognition trial,Stimulus age category
+trial_064_face_gender,emotion-recognition trial,Stimulus gender category
+trial_064_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_065_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_065_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_065_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_065_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_065_response_emotion,emotion-recognition trial,Participant response
+trial_065_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_065_rt_sec,emotion-recognition trial,Response time in seconds
+trial_065_face_age,emotion-recognition trial,Stimulus age category
+trial_065_face_gender,emotion-recognition trial,Stimulus gender category
+trial_065_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_066_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_066_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_066_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_066_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_066_response_emotion,emotion-recognition trial,Participant response
+trial_066_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_066_rt_sec,emotion-recognition trial,Response time in seconds
+trial_066_face_age,emotion-recognition trial,Stimulus age category
+trial_066_face_gender,emotion-recognition trial,Stimulus gender category
+trial_066_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_067_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_067_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_067_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_067_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_067_response_emotion,emotion-recognition trial,Participant response
+trial_067_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_067_rt_sec,emotion-recognition trial,Response time in seconds
+trial_067_face_age,emotion-recognition trial,Stimulus age category
+trial_067_face_gender,emotion-recognition trial,Stimulus gender category
+trial_067_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_068_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_068_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_068_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_068_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_068_response_emotion,emotion-recognition trial,Participant response
+trial_068_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_068_rt_sec,emotion-recognition trial,Response time in seconds
+trial_068_face_age,emotion-recognition trial,Stimulus age category
+trial_068_face_gender,emotion-recognition trial,Stimulus gender category
+trial_068_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_069_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_069_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_069_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_069_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_069_response_emotion,emotion-recognition trial,Participant response
+trial_069_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_069_rt_sec,emotion-recognition trial,Response time in seconds
+trial_069_face_age,emotion-recognition trial,Stimulus age category
+trial_069_face_gender,emotion-recognition trial,Stimulus gender category
+trial_069_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_070_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_070_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_070_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_070_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_070_response_emotion,emotion-recognition trial,Participant response
+trial_070_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_070_rt_sec,emotion-recognition trial,Response time in seconds
+trial_070_face_age,emotion-recognition trial,Stimulus age category
+trial_070_face_gender,emotion-recognition trial,Stimulus gender category
+trial_070_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_071_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_071_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_071_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_071_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_071_response_emotion,emotion-recognition trial,Participant response
+trial_071_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_071_rt_sec,emotion-recognition trial,Response time in seconds
+trial_071_face_age,emotion-recognition trial,Stimulus age category
+trial_071_face_gender,emotion-recognition trial,Stimulus gender category
+trial_071_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_072_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_072_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_072_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_072_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_072_response_emotion,emotion-recognition trial,Participant response
+trial_072_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_072_rt_sec,emotion-recognition trial,Response time in seconds
+trial_072_face_age,emotion-recognition trial,Stimulus age category
+trial_072_face_gender,emotion-recognition trial,Stimulus gender category
+trial_072_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_073_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_073_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_073_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_073_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_073_response_emotion,emotion-recognition trial,Participant response
+trial_073_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_073_rt_sec,emotion-recognition trial,Response time in seconds
+trial_073_face_age,emotion-recognition trial,Stimulus age category
+trial_073_face_gender,emotion-recognition trial,Stimulus gender category
+trial_073_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_074_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_074_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_074_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_074_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_074_response_emotion,emotion-recognition trial,Participant response
+trial_074_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_074_rt_sec,emotion-recognition trial,Response time in seconds
+trial_074_face_age,emotion-recognition trial,Stimulus age category
+trial_074_face_gender,emotion-recognition trial,Stimulus gender category
+trial_074_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_075_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_075_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_075_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_075_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_075_response_emotion,emotion-recognition trial,Participant response
+trial_075_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_075_rt_sec,emotion-recognition trial,Response time in seconds
+trial_075_face_age,emotion-recognition trial,Stimulus age category
+trial_075_face_gender,emotion-recognition trial,Stimulus gender category
+trial_075_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_076_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_076_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_076_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_076_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_076_response_emotion,emotion-recognition trial,Participant response
+trial_076_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_076_rt_sec,emotion-recognition trial,Response time in seconds
+trial_076_face_age,emotion-recognition trial,Stimulus age category
+trial_076_face_gender,emotion-recognition trial,Stimulus gender category
+trial_076_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_077_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_077_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_077_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_077_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_077_response_emotion,emotion-recognition trial,Participant response
+trial_077_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_077_rt_sec,emotion-recognition trial,Response time in seconds
+trial_077_face_age,emotion-recognition trial,Stimulus age category
+trial_077_face_gender,emotion-recognition trial,Stimulus gender category
+trial_077_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_078_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_078_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_078_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_078_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_078_response_emotion,emotion-recognition trial,Participant response
+trial_078_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_078_rt_sec,emotion-recognition trial,Response time in seconds
+trial_078_face_age,emotion-recognition trial,Stimulus age category
+trial_078_face_gender,emotion-recognition trial,Stimulus gender category
+trial_078_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_079_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_079_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_079_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_079_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_079_response_emotion,emotion-recognition trial,Participant response
+trial_079_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_079_rt_sec,emotion-recognition trial,Response time in seconds
+trial_079_face_age,emotion-recognition trial,Stimulus age category
+trial_079_face_gender,emotion-recognition trial,Stimulus gender category
+trial_079_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label
+trial_080_source,emotion-recognition trial,Stimulus source: AI or FACES
+trial_080_trial_stratum,emotion-recognition trial,"Disjoint analysis stratum: FACES, AI-white, or AI-non-white"
+trial_080_stimulus_id,emotion-recognition trial,Synthetic stimulus identifier linked to stimulus_manifest.csv
+trial_080_target_emotion,emotion-recognition trial,Emotion intended by the stimulus
+trial_080_response_emotion,emotion-recognition trial,Participant response
+trial_080_correct,emotion-recognition trial,Whether the response matched the target emotion
+trial_080_rt_sec,emotion-recognition trial,Response time in seconds
+trial_080_face_age,emotion-recognition trial,Stimulus age category
+trial_080_face_gender,emotion-recognition trial,Stimulus gender category
+trial_080_face_ethnicity,emotion-recognition trial,Stimulus ethnicity label

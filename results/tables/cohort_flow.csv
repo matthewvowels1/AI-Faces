@@ -1,0 +1,10 @@
+stage,n_participants,percent_of_source
+Participant source frame,1277,100
+Screening/intake data available,1064,83.32028191072827
+Any linked emotion-recognition attempt,1069,83.71182458888019
+At least one valid emotion-recognition trial,1047,81.98903680501175
+Completed 80 valid emotion-recognition trials,1029,80.57948316366485
+Included in primary common-emotion accuracy model,1047,81.98903680501175
+Included in primary correct-RT model,1046,81.91072826938137
+Included in gender moderation,978,76.58574784651528
+Included in white-status moderation,999,78.23022709475332

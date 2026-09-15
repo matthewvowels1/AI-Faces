@@ -1,0 +1,1768 @@
+sample,variable,summary_type,level_or_statistic,value,denominator,percent
+Full participant frame,age,numeric,n,1064,1277,
+Full participant frame,age,numeric,missing,213,1277,
+Full participant frame,age,numeric,mean,41.29323308270677,1277,
+Full participant frame,age,numeric,sd,13.593151368889078,1277,
+Full participant frame,age,numeric,median,40,1277,
+Full participant frame,age,numeric,q25,31,1277,
+Full participant frame,age,numeric,q75,51,1277,
+Full participant frame,age,numeric,min,18,1277,
+Full participant frame,age,numeric,max,80,1277,
+Full participant frame,cape15_score,numeric,n,1081,1277,
+Full participant frame,cape15_score,numeric,missing,196,1277,
+Full participant frame,cape15_score,numeric,mean,22.354301572617945,1277,
+Full participant frame,cape15_score,numeric,sd,7.660704354141487,1277,
+Full participant frame,cape15_score,numeric,median,20,1277,
+Full participant frame,cape15_score,numeric,q25,17,1277,
+Full participant frame,cape15_score,numeric,q75,25,1277,
+Full participant frame,cape15_score,numeric,min,15,1277,
+Full participant frame,cape15_score,numeric,max,55,1277,
+Full participant frame,altman_srms_score,numeric,n,1082,1277,
+Full participant frame,altman_srms_score,numeric,missing,195,1277,
+Full participant frame,altman_srms_score,numeric,mean,4.128465804066543,1277,
+Full participant frame,altman_srms_score,numeric,sd,3.49747407904793,1277,
+Full participant frame,altman_srms_score,numeric,median,4,1277,
+Full participant frame,altman_srms_score,numeric,q25,1,1277,
+Full participant frame,altman_srms_score,numeric,q75,6,1277,
+Full participant frame,altman_srms_score,numeric,min,0,1277,
+Full participant frame,altman_srms_score,numeric,max,19,1277,
+Full participant frame,isi_score,numeric,n,1081,1277,
+Full participant frame,isi_score,numeric,missing,196,1277,
+Full participant frame,isi_score,numeric,mean,9.974098057354302,1277,
+Full participant frame,isi_score,numeric,sd,6.474685373852219,1277,
+Full participant frame,isi_score,numeric,median,9,1277,
+Full participant frame,isi_score,numeric,q25,5,1277,
+Full participant frame,isi_score,numeric,q75,14,1277,
+Full participant frame,isi_score,numeric,min,0,1277,
+Full participant frame,isi_score,numeric,max,28,1277,
+Full participant frame,ocir_score,numeric,n,1080,1277,
+Full participant frame,ocir_score,numeric,missing,197,1277,
+Full participant frame,ocir_score,numeric,mean,17.737037037037037,1277,
+Full participant frame,ocir_score,numeric,sd,14.628970663936023,1277,
+Full participant frame,ocir_score,numeric,median,14,1277,
+Full participant frame,ocir_score,numeric,q25,5,1277,
+Full participant frame,ocir_score,numeric,q75,27,1277,
+Full participant frame,ocir_score,numeric,min,0,1277,
+Full participant frame,ocir_score,numeric,max,69,1277,
+Full participant frame,minispin_score,numeric,n,1080,1277,
+Full participant frame,minispin_score,numeric,missing,197,1277,
+Full participant frame,minispin_score,numeric,mean,5.258333333333334,1277,
+Full participant frame,minispin_score,numeric,sd,3.7196625804899215,1277,
+Full participant frame,minispin_score,numeric,median,5,1277,
+Full participant frame,minispin_score,numeric,q25,2,1277,
+Full participant frame,minispin_score,numeric,q75,8,1277,
+Full participant frame,minispin_score,numeric,min,0,1277,
+Full participant frame,minispin_score,numeric,max,12,1277,
+Full participant frame,asrs_score,numeric,n,1081,1277,
+Full participant frame,asrs_score,numeric,missing,196,1277,
+Full participant frame,asrs_score,numeric,mean,27.320074005550417,1277,
+Full participant frame,asrs_score,numeric,sd,15.958779494606757,1277,
+Full participant frame,asrs_score,numeric,median,26,1277,
+Full participant frame,asrs_score,numeric,q25,15,1277,
+Full participant frame,asrs_score,numeric,q75,39,1277,
+Full participant frame,asrs_score,numeric,min,0,1277,
+Full participant frame,asrs_score,numeric,max,72,1277,
+Full participant frame,gad7_score,numeric,n,468,1277,
+Full participant frame,gad7_score,numeric,missing,809,1277,
+Full participant frame,gad7_score,numeric,mean,11.805555555555555,1277,
+Full participant frame,gad7_score,numeric,sd,4.681574790308233,1277,
+Full participant frame,gad7_score,numeric,median,12,1277,
+Full participant frame,gad7_score,numeric,q25,8,1277,
+Full participant frame,gad7_score,numeric,q75,15,1277,
+Full participant frame,gad7_score,numeric,min,0,1277,
+Full participant frame,gad7_score,numeric,max,21,1277,
+Full participant frame,hamd6_score,numeric,n,420,1277,
+Full participant frame,hamd6_score,numeric,missing,857,1277,
+Full participant frame,hamd6_score,numeric,mean,9.876190476190477,1277,
+Full participant frame,hamd6_score,numeric,sd,3.512528515843074,1277,
+Full participant frame,hamd6_score,numeric,median,9,1277,
+Full participant frame,hamd6_score,numeric,q25,8,1277,
+Full participant frame,hamd6_score,numeric,q75,12,1277,
+Full participant frame,hamd6_score,numeric,min,1,1277,
+Full participant frame,hamd6_score,numeric,max,21,1277,
+Full participant frame,gender_original,categorical,Man,497,1277,38.919342208300705
+Full participant frame,gender_original,categorical,Missing,213,1277,16.67971808927173
+Full participant frame,gender_original,categorical,Non-binary,29,1277,2.2709475332811273
+Full participant frame,gender_original,categorical,Other,2,1277,0.15661707126076743
+Full participant frame,gender_original,categorical,Rather not say,1,1277,0.07830853563038372
+Full participant frame,gender_original,categorical,Woman,535,1277,41.89506656225529
+Full participant frame,participant_ethnicity_group,categorical,Asian,66,1277,5.168363351605325
+Full participant frame,participant_ethnicity_group,categorical,Black,130,1277,10.180109631949882
+Full participant frame,participant_ethnicity_group,categorical,Latino,40,1277,3.1323414252153485
+Full participant frame,participant_ethnicity_group,categorical,Missing,214,1277,16.758026624902115
+Full participant frame,participant_ethnicity_group,categorical,Mixed/multiple,48,1277,3.7588097102584186
+Full participant frame,participant_ethnicity_group,categorical,Multiple categories selected,48,1277,3.7588097102584186
+Full participant frame,participant_ethnicity_group,categorical,Other,8,1277,0.6264682850430697
+Full participant frame,participant_ethnicity_group,categorical,Prefer not to answer,9,1277,0.7047768206734534
+Full participant frame,participant_ethnicity_group,categorical,White,714,1277,55.912294440093966
+Full participant frame,education,categorical,Attended college but has not graduated,235,1277,18.402505873140175
+Full participant frame,education,categorical,Attended graduate school,56,1277,4.385277995301488
+Full participant frame,education,categorical,Completed master's or doctoral degree,182,1277,14.252153484729835
+Full participant frame,education,categorical,Graduated college,399,1277,31.245105716523103
+Full participant frame,education,categorical,Graduated high school or completed GED,173,1277,13.547376664056381
+Full participant frame,education,categorical,Has not completed high school,18,1277,1.4095536413469067
+Full participant frame,education,categorical,Missing,214,1277,16.758026624902115
+Full participant frame,employment,categorical,Disabled,66,1277,5.168363351605325
+Full participant frame,employment,categorical,Full Time,509,1277,39.85904463586531
+Full participant frame,employment,categorical,Homemaker,54,1277,4.22866092404072
+Full participant frame,employment,categorical,Missing,215,1277,16.8363351605325
+Full participant frame,employment,categorical,Part Time,199,1277,15.58339859044636
+Full participant frame,employment,categorical,Retired (other than disability),52,1277,4.072043852779953
+Full participant frame,employment,categorical,Seeking work,58,1277,4.541895066562255
+Full participant frame,employment,categorical,Studying,56,1277,4.385277995301488
+Full participant frame,employment,categorical,Unemployed,68,1277,5.324980422866092
+Full participant frame,prior_mh_status,categorical,Missing,218,1277,17.07126076742365
+Full participant frame,prior_mh_status,categorical,No prior condition reported,169,1277,13.234142521534848
+Full participant frame,prior_mh_status,categorical,Prior condition reported,890,1277,69.6945967110415
+Full participant frame,task_position,categorical,Missing,208,1277,16.288175411119813
+Full participant frame,task_position,categorical,Position 1,380,1277,29.757243539545808
+Full participant frame,task_position,categorical,Position 2,351,1277,27.48629600626468
+Full participant frame,task_position,categorical,Position 3,308,1277,24.119028974158184
+Full participant frame,task_position,categorical,Position 4,30,1277,2.3492560689115116
+Any emotion-recognition data,age,numeric,n,1008,1047,
+Any emotion-recognition data,age,numeric,missing,39,1047,
+Any emotion-recognition data,age,numeric,mean,41.2906746031746,1047,
+Any emotion-recognition data,age,numeric,sd,13.685785591281057,1047,
+Any emotion-recognition data,age,numeric,median,40,1047,
+Any emotion-recognition data,age,numeric,q25,30.75,1047,
+Any emotion-recognition data,age,numeric,q75,51,1047,
+Any emotion-recognition data,age,numeric,min,18,1047,
+Any emotion-recognition data,age,numeric,max,80,1047,
+Any emotion-recognition data,cape15_score,numeric,n,1019,1047,
+Any emotion-recognition data,cape15_score,numeric,missing,28,1047,
+Any emotion-recognition data,cape15_score,numeric,mean,22.197252208047104,1047,
+Any emotion-recognition data,cape15_score,numeric,sd,7.493766388266196,1047,
+Any emotion-recognition data,cape15_score,numeric,median,20,1047,
+Any emotion-recognition data,cape15_score,numeric,q25,17,1047,
+Any emotion-recognition data,cape15_score,numeric,q75,25,1047,
+Any emotion-recognition data,cape15_score,numeric,min,15,1047,
+Any emotion-recognition data,cape15_score,numeric,max,55,1047,
+Any emotion-recognition data,altman_srms_score,numeric,n,1020,1047,
+Any emotion-recognition data,altman_srms_score,numeric,missing,27,1047,
+Any emotion-recognition data,altman_srms_score,numeric,mean,4.0588235294117645,1047,
+Any emotion-recognition data,altman_srms_score,numeric,sd,3.487601844019686,1047,
+Any emotion-recognition data,altman_srms_score,numeric,median,3,1047,
+Any emotion-recognition data,altman_srms_score,numeric,q25,1,1047,
+Any emotion-recognition data,altman_srms_score,numeric,q75,6,1047,
+Any emotion-recognition data,altman_srms_score,numeric,min,0,1047,
+Any emotion-recognition data,altman_srms_score,numeric,max,19,1047,
+Any emotion-recognition data,isi_score,numeric,n,1019,1047,
+Any emotion-recognition data,isi_score,numeric,missing,28,1047,
+Any emotion-recognition data,isi_score,numeric,mean,9.944062806673209,1047,
+Any emotion-recognition data,isi_score,numeric,sd,6.543327828911031,1047,
+Any emotion-recognition data,isi_score,numeric,median,9,1047,
+Any emotion-recognition data,isi_score,numeric,q25,5,1047,
+Any emotion-recognition data,isi_score,numeric,q75,14,1047,
+Any emotion-recognition data,isi_score,numeric,min,0,1047,
+Any emotion-recognition data,isi_score,numeric,max,28,1047,
+Any emotion-recognition data,ocir_score,numeric,n,1018,1047,
+Any emotion-recognition data,ocir_score,numeric,missing,29,1047,
+Any emotion-recognition data,ocir_score,numeric,mean,17.55500982318271,1047,
+Any emotion-recognition data,ocir_score,numeric,sd,14.515153965459845,1047,
+Any emotion-recognition data,ocir_score,numeric,median,14,1047,
+Any emotion-recognition data,ocir_score,numeric,q25,5,1047,
+Any emotion-recognition data,ocir_score,numeric,q75,26.75,1047,
+Any emotion-recognition data,ocir_score,numeric,min,0,1047,
+Any emotion-recognition data,ocir_score,numeric,max,69,1047,
+Any emotion-recognition data,minispin_score,numeric,n,1018,1047,
+Any emotion-recognition data,minispin_score,numeric,missing,29,1047,
+Any emotion-recognition data,minispin_score,numeric,mean,5.274066797642436,1047,
+Any emotion-recognition data,minispin_score,numeric,sd,3.746979821293109,1047,
+Any emotion-recognition data,minispin_score,numeric,median,5,1047,
+Any emotion-recognition data,minispin_score,numeric,q25,2,1047,
+Any emotion-recognition data,minispin_score,numeric,q75,8,1047,
+Any emotion-recognition data,minispin_score,numeric,min,0,1047,
+Any emotion-recognition data,minispin_score,numeric,max,12,1047,
+Any emotion-recognition data,asrs_score,numeric,n,1019,1047,
+Any emotion-recognition data,asrs_score,numeric,missing,28,1047,
+Any emotion-recognition data,asrs_score,numeric,mean,27.048086359175663,1047,
+Any emotion-recognition data,asrs_score,numeric,sd,15.900372651611605,1047,
+Any emotion-recognition data,asrs_score,numeric,median,26,1047,
+Any emotion-recognition data,asrs_score,numeric,q25,15,1047,
+Any emotion-recognition data,asrs_score,numeric,q75,38,1047,
+Any emotion-recognition data,asrs_score,numeric,min,0,1047,
+Any emotion-recognition data,asrs_score,numeric,max,72,1047,
+Any emotion-recognition data,gad7_score,numeric,n,444,1047,
+Any emotion-recognition data,gad7_score,numeric,missing,603,1047,
+Any emotion-recognition data,gad7_score,numeric,mean,11.801801801801801,1047,
+Any emotion-recognition data,gad7_score,numeric,sd,4.715508862701666,1047,
+Any emotion-recognition data,gad7_score,numeric,median,12,1047,
+Any emotion-recognition data,gad7_score,numeric,q25,8,1047,
+Any emotion-recognition data,gad7_score,numeric,q75,15,1047,
+Any emotion-recognition data,gad7_score,numeric,min,0,1047,
+Any emotion-recognition data,gad7_score,numeric,max,21,1047,
+Any emotion-recognition data,hamd6_score,numeric,n,399,1047,
+Any emotion-recognition data,hamd6_score,numeric,missing,648,1047,
+Any emotion-recognition data,hamd6_score,numeric,mean,9.859649122807017,1047,
+Any emotion-recognition data,hamd6_score,numeric,sd,3.5202716428409233,1047,
+Any emotion-recognition data,hamd6_score,numeric,median,9,1047,
+Any emotion-recognition data,hamd6_score,numeric,q25,8,1047,
+Any emotion-recognition data,hamd6_score,numeric,q75,12,1047,
+Any emotion-recognition data,hamd6_score,numeric,min,1,1047,
+Any emotion-recognition data,hamd6_score,numeric,max,21,1047,
+Any emotion-recognition data,gender_original,categorical,Man,464,1047,44.3170964660936
+Any emotion-recognition data,gender_original,categorical,Missing,39,1047,3.7249283667621778
+Any emotion-recognition data,gender_original,categorical,Non-binary,27,1047,2.5787965616045847
+Any emotion-recognition data,gender_original,categorical,Other,2,1047,0.19102196752626552
+Any emotion-recognition data,gender_original,categorical,Rather not say,1,1047,0.09551098376313276
+Any emotion-recognition data,gender_original,categorical,Woman,514,1047,49.09264565425024
+Any emotion-recognition data,participant_ethnicity_group,categorical,Asian,62,1047,5.921680993314231
+Any emotion-recognition data,participant_ethnicity_group,categorical,Black,122,1047,11.652340019102196
+Any emotion-recognition data,participant_ethnicity_group,categorical,Latino,38,1047,3.629417382999045
+Any emotion-recognition data,participant_ethnicity_group,categorical,Missing,40,1047,3.8204393505253105
+Any emotion-recognition data,participant_ethnicity_group,categorical,Mixed/multiple,47,1047,4.48901623686724
+Any emotion-recognition data,participant_ethnicity_group,categorical,Multiple categories selected,48,1047,4.584527220630372
+Any emotion-recognition data,participant_ethnicity_group,categorical,Other,7,1047,0.6685768863419294
+Any emotion-recognition data,participant_ethnicity_group,categorical,Prefer not to answer,8,1047,0.7640878701050621
+Any emotion-recognition data,participant_ethnicity_group,categorical,White,675,1047,64.46991404011462
+Any emotion-recognition data,education,categorical,Attended college but has not graduated,226,1047,21.585482330468004
+Any emotion-recognition data,education,categorical,Attended graduate school,52,1047,4.966571155682904
+Any emotion-recognition data,education,categorical,Completed master's or doctoral degree,172,1047,16.427889207258833
+Any emotion-recognition data,education,categorical,Graduated college,376,1047,35.91212989493792
+Any emotion-recognition data,education,categorical,Graduated high school or completed GED,164,1047,15.663801337153775
+Any emotion-recognition data,education,categorical,Has not completed high school,17,1047,1.6236867239732569
+Any emotion-recognition data,education,categorical,Missing,40,1047,3.8204393505253105
+Any emotion-recognition data,employment,categorical,Disabled,64,1047,6.112702960840497
+Any emotion-recognition data,employment,categorical,Full Time,480,1047,45.845272206303726
+Any emotion-recognition data,employment,categorical,Homemaker,52,1047,4.966571155682904
+Any emotion-recognition data,employment,categorical,Missing,40,1047,3.8204393505253105
+Any emotion-recognition data,employment,categorical,Part Time,185,1047,17.66953199617956
+Any emotion-recognition data,employment,categorical,Retired (other than disability),50,1047,4.775549188156638
+Any emotion-recognition data,employment,categorical,Seeking work,56,1047,5.348615090735435
+Any emotion-recognition data,employment,categorical,Studying,54,1047,5.157593123209169
+Any emotion-recognition data,employment,categorical,Unemployed,66,1047,6.303724928366762
+Any emotion-recognition data,prior_mh_status,categorical,Missing,41,1047,3.9159503342884436
+Any emotion-recognition data,prior_mh_status,categorical,No prior condition reported,161,1047,15.377268385864372
+Any emotion-recognition data,prior_mh_status,categorical,Prior condition reported,845,1047,80.70678127984718
+Any emotion-recognition data,task_position,categorical,Position 1,372,1047,35.53008595988539
+Any emotion-recognition data,task_position,categorical,Position 2,345,1047,32.95128939828081
+Any emotion-recognition data,task_position,categorical,Position 3,301,1047,28.74880611270296
+Any emotion-recognition data,task_position,categorical,Position 4,29,1047,2.76981852913085
+Complete 80-trial task,age,numeric,n,997,1029,
+Complete 80-trial task,age,numeric,missing,32,1029,
+Complete 80-trial task,age,numeric,mean,41.17552657973922,1029,
+Complete 80-trial task,age,numeric,sd,13.647391252563539,1029,
+Complete 80-trial task,age,numeric,median,40,1029,
+Complete 80-trial task,age,numeric,q25,30,1029,
+Complete 80-trial task,age,numeric,q75,51,1029,
+Complete 80-trial task,age,numeric,min,18,1029,
+Complete 80-trial task,age,numeric,max,80,1029,
+Complete 80-trial task,cape15_score,numeric,n,1006,1029,
+Complete 80-trial task,cape15_score,numeric,missing,23,1029,
+Complete 80-trial task,cape15_score,numeric,mean,22.168986083499007,1029,
+Complete 80-trial task,cape15_score,numeric,sd,7.456892525384117,1029,
+Complete 80-trial task,cape15_score,numeric,median,20,1029,
+Complete 80-trial task,cape15_score,numeric,q25,17,1029,
+Complete 80-trial task,cape15_score,numeric,q75,25,1029,
+Complete 80-trial task,cape15_score,numeric,min,15,1029,
+Complete 80-trial task,cape15_score,numeric,max,55,1029,
+Complete 80-trial task,altman_srms_score,numeric,n,1007,1029,
+Complete 80-trial task,altman_srms_score,numeric,missing,22,1029,
+Complete 80-trial task,altman_srms_score,numeric,mean,4.05759682224429,1029,
+Complete 80-trial task,altman_srms_score,numeric,sd,3.4779423352016496,1029,
+Complete 80-trial task,altman_srms_score,numeric,median,3,1029,
+Complete 80-trial task,altman_srms_score,numeric,q25,1,1029,
+Complete 80-trial task,altman_srms_score,numeric,q75,6,1029,
+Complete 80-trial task,altman_srms_score,numeric,min,0,1029,
+Complete 80-trial task,altman_srms_score,numeric,max,19,1029,
+Complete 80-trial task,isi_score,numeric,n,1006,1029,
+Complete 80-trial task,isi_score,numeric,missing,23,1029,
+Complete 80-trial task,isi_score,numeric,mean,9.93638170974155,1029,
+Complete 80-trial task,isi_score,numeric,sd,6.5249561809720555,1029,
+Complete 80-trial task,isi_score,numeric,median,9,1029,
+Complete 80-trial task,isi_score,numeric,q25,5,1029,
+Complete 80-trial task,isi_score,numeric,q75,14,1029,
+Complete 80-trial task,isi_score,numeric,min,0,1029,
+Complete 80-trial task,isi_score,numeric,max,28,1029,
+Complete 80-trial task,ocir_score,numeric,n,1005,1029,
+Complete 80-trial task,ocir_score,numeric,missing,24,1029,
+Complete 80-trial task,ocir_score,numeric,mean,17.5044776119403,1029,
+Complete 80-trial task,ocir_score,numeric,sd,14.472849627677503,1029,
+Complete 80-trial task,ocir_score,numeric,median,14,1029,
+Complete 80-trial task,ocir_score,numeric,q25,5,1029,
+Complete 80-trial task,ocir_score,numeric,q75,26,1029,
+Complete 80-trial task,ocir_score,numeric,min,0,1029,
+Complete 80-trial task,ocir_score,numeric,max,69,1029,
+Complete 80-trial task,minispin_score,numeric,n,1005,1029,
+Complete 80-trial task,minispin_score,numeric,missing,24,1029,
+Complete 80-trial task,minispin_score,numeric,mean,5.268656716417911,1029,
+Complete 80-trial task,minispin_score,numeric,sd,3.7386565069100053,1029,
+Complete 80-trial task,minispin_score,numeric,median,5,1029,
+Complete 80-trial task,minispin_score,numeric,q25,2,1029,
+Complete 80-trial task,minispin_score,numeric,q75,8,1029,
+Complete 80-trial task,minispin_score,numeric,min,0,1029,
+Complete 80-trial task,minispin_score,numeric,max,12,1029,
+Complete 80-trial task,asrs_score,numeric,n,1006,1029,
+Complete 80-trial task,asrs_score,numeric,missing,23,1029,
+Complete 80-trial task,asrs_score,numeric,mean,27.001988071570576,1029,
+Complete 80-trial task,asrs_score,numeric,sd,15.891172054869632,1029,
+Complete 80-trial task,asrs_score,numeric,median,25.5,1029,
+Complete 80-trial task,asrs_score,numeric,q25,15,1029,
+Complete 80-trial task,asrs_score,numeric,q75,38,1029,
+Complete 80-trial task,asrs_score,numeric,min,0,1029,
+Complete 80-trial task,asrs_score,numeric,max,72,1029,
+Complete 80-trial task,gad7_score,numeric,n,440,1029,
+Complete 80-trial task,gad7_score,numeric,missing,589,1029,
+Complete 80-trial task,gad7_score,numeric,mean,11.779545454545454,1029,
+Complete 80-trial task,gad7_score,numeric,sd,4.719372161317437,1029,
+Complete 80-trial task,gad7_score,numeric,median,12,1029,
+Complete 80-trial task,gad7_score,numeric,q25,8,1029,
+Complete 80-trial task,gad7_score,numeric,q75,15,1029,
+Complete 80-trial task,gad7_score,numeric,min,0,1029,
+Complete 80-trial task,gad7_score,numeric,max,21,1029,
+Complete 80-trial task,hamd6_score,numeric,n,395,1029,
+Complete 80-trial task,hamd6_score,numeric,missing,634,1029,
+Complete 80-trial task,hamd6_score,numeric,mean,9.843037974683543,1029,
+Complete 80-trial task,hamd6_score,numeric,sd,3.528084694310695,1029,
+Complete 80-trial task,hamd6_score,numeric,median,9,1029,
+Complete 80-trial task,hamd6_score,numeric,q25,8,1029,
+Complete 80-trial task,hamd6_score,numeric,q75,12,1029,
+Complete 80-trial task,hamd6_score,numeric,min,1,1029,
+Complete 80-trial task,hamd6_score,numeric,max,21,1029,
+Complete 80-trial task,gender_original,categorical,Man,461,1029,44.80077745383868
+Complete 80-trial task,gender_original,categorical,Missing,32,1029,3.1098153547133136
+Complete 80-trial task,gender_original,categorical,Non-binary,26,1029,2.5267249757045676
+Complete 80-trial task,gender_original,categorical,Other,2,1029,0.1943634596695821
+Complete 80-trial task,gender_original,categorical,Rather not say,1,1029,0.09718172983479105
+Complete 80-trial task,gender_original,categorical,Woman,507,1029,49.27113702623907
+Complete 80-trial task,participant_ethnicity_group,categorical,Asian,61,1029,5.928085519922255
+Complete 80-trial task,participant_ethnicity_group,categorical,Black,122,1029,11.85617103984451
+Complete 80-trial task,participant_ethnicity_group,categorical,Latino,38,1029,3.69290573372206
+Complete 80-trial task,participant_ethnicity_group,categorical,Missing,33,1029,3.206997084548105
+Complete 80-trial task,participant_ethnicity_group,categorical,Mixed/multiple,46,1029,4.470359572400389
+Complete 80-trial task,participant_ethnicity_group,categorical,Multiple categories selected,48,1029,4.664723032069971
+Complete 80-trial task,participant_ethnicity_group,categorical,Other,7,1029,0.6802721088435374
+Complete 80-trial task,participant_ethnicity_group,categorical,Prefer not to answer,7,1029,0.6802721088435374
+Complete 80-trial task,participant_ethnicity_group,categorical,White,667,1029,64.82021379980564
+Complete 80-trial task,education,categorical,Attended college but has not graduated,224,1029,21.768707482993197
+Complete 80-trial task,education,categorical,Attended graduate school,52,1029,5.053449951409135
+Complete 80-trial task,education,categorical,Completed master's or doctoral degree,171,1029,16.61807580174927
+Complete 80-trial task,education,categorical,Graduated college,368,1029,35.76287657920311
+Complete 80-trial task,education,categorical,Graduated high school or completed GED,164,1029,15.937803692905733
+Complete 80-trial task,education,categorical,Has not completed high school,17,1029,1.6520894071914478
+Complete 80-trial task,education,categorical,Missing,33,1029,3.206997084548105
+Complete 80-trial task,employment,categorical,Disabled,63,1029,6.122448979591836
+Complete 80-trial task,employment,categorical,Full Time,474,1029,46.06413994169096
+Complete 80-trial task,employment,categorical,Homemaker,52,1029,5.053449951409135
+Complete 80-trial task,employment,categorical,Missing,33,1029,3.206997084548105
+Complete 80-trial task,employment,categorical,Part Time,184,1029,17.881438289601554
+Complete 80-trial task,employment,categorical,Retired (other than disability),47,1029,4.56754130223518
+Complete 80-trial task,employment,categorical,Seeking work,56,1029,5.442176870748299
+Complete 80-trial task,employment,categorical,Studying,54,1029,5.247813411078718
+Complete 80-trial task,employment,categorical,Unemployed,66,1029,6.41399416909621
+Complete 80-trial task,prior_mh_status,categorical,Missing,34,1029,3.3041788143828956
+Complete 80-trial task,prior_mh_status,categorical,No prior condition reported,160,1029,15.54907677356657
+Complete 80-trial task,prior_mh_status,categorical,Prior condition reported,835,1029,81.14674441205054
+Complete 80-trial task,task_position,categorical,Position 1,364,1029,35.374149659863946
+Complete 80-trial task,task_position,categorical,Position 2,342,1029,33.23615160349854
+Complete 80-trial task,task_position,categorical,Position 3,296,1029,28.765792031098155
+Complete 80-trial task,task_position,categorical,Position 4,27,1029,2.623906705539359
+Primary accuracy,age,numeric,n,1008,1047,
+Primary accuracy,age,numeric,missing,39,1047,
+Primary accuracy,age,numeric,mean,41.2906746031746,1047,
+Primary accuracy,age,numeric,sd,13.685785591281057,1047,
+Primary accuracy,age,numeric,median,40,1047,
+Primary accuracy,age,numeric,q25,30.75,1047,
+Primary accuracy,age,numeric,q75,51,1047,
+Primary accuracy,age,numeric,min,18,1047,
+Primary accuracy,age,numeric,max,80,1047,
+Primary accuracy,cape15_score,numeric,n,1019,1047,
+Primary accuracy,cape15_score,numeric,missing,28,1047,
+Primary accuracy,cape15_score,numeric,mean,22.197252208047104,1047,
+Primary accuracy,cape15_score,numeric,sd,7.493766388266196,1047,
+Primary accuracy,cape15_score,numeric,median,20,1047,
+Primary accuracy,cape15_score,numeric,q25,17,1047,
+Primary accuracy,cape15_score,numeric,q75,25,1047,
+Primary accuracy,cape15_score,numeric,min,15,1047,
+Primary accuracy,cape15_score,numeric,max,55,1047,
+Primary accuracy,altman_srms_score,numeric,n,1020,1047,
+Primary accuracy,altman_srms_score,numeric,missing,27,1047,
+Primary accuracy,altman_srms_score,numeric,mean,4.0588235294117645,1047,
+Primary accuracy,altman_srms_score,numeric,sd,3.487601844019686,1047,
+Primary accuracy,altman_srms_score,numeric,median,3,1047,
+Primary accuracy,altman_srms_score,numeric,q25,1,1047,
+Primary accuracy,altman_srms_score,numeric,q75,6,1047,
+Primary accuracy,altman_srms_score,numeric,min,0,1047,
+Primary accuracy,altman_srms_score,numeric,max,19,1047,
+Primary accuracy,isi_score,numeric,n,1019,1047,
+Primary accuracy,isi_score,numeric,missing,28,1047,
+Primary accuracy,isi_score,numeric,mean,9.944062806673209,1047,
+Primary accuracy,isi_score,numeric,sd,6.543327828911031,1047,
+Primary accuracy,isi_score,numeric,median,9,1047,
+Primary accuracy,isi_score,numeric,q25,5,1047,
+Primary accuracy,isi_score,numeric,q75,14,1047,
+Primary accuracy,isi_score,numeric,min,0,1047,
+Primary accuracy,isi_score,numeric,max,28,1047,
+Primary accuracy,ocir_score,numeric,n,1018,1047,
+Primary accuracy,ocir_score,numeric,missing,29,1047,
+Primary accuracy,ocir_score,numeric,mean,17.55500982318271,1047,
+Primary accuracy,ocir_score,numeric,sd,14.515153965459845,1047,
+Primary accuracy,ocir_score,numeric,median,14,1047,
+Primary accuracy,ocir_score,numeric,q25,5,1047,
+Primary accuracy,ocir_score,numeric,q75,26.75,1047,
+Primary accuracy,ocir_score,numeric,min,0,1047,
+Primary accuracy,ocir_score,numeric,max,69,1047,
+Primary accuracy,minispin_score,numeric,n,1018,1047,
+Primary accuracy,minispin_score,numeric,missing,29,1047,
+Primary accuracy,minispin_score,numeric,mean,5.274066797642436,1047,
+Primary accuracy,minispin_score,numeric,sd,3.746979821293109,1047,
+Primary accuracy,minispin_score,numeric,median,5,1047,
+Primary accuracy,minispin_score,numeric,q25,2,1047,
+Primary accuracy,minispin_score,numeric,q75,8,1047,
+Primary accuracy,minispin_score,numeric,min,0,1047,
+Primary accuracy,minispin_score,numeric,max,12,1047,
+Primary accuracy,asrs_score,numeric,n,1019,1047,
+Primary accuracy,asrs_score,numeric,missing,28,1047,
+Primary accuracy,asrs_score,numeric,mean,27.048086359175663,1047,
+Primary accuracy,asrs_score,numeric,sd,15.900372651611605,1047,
+Primary accuracy,asrs_score,numeric,median,26,1047,
+Primary accuracy,asrs_score,numeric,q25,15,1047,
+Primary accuracy,asrs_score,numeric,q75,38,1047,
+Primary accuracy,asrs_score,numeric,min,0,1047,
+Primary accuracy,asrs_score,numeric,max,72,1047,
+Primary accuracy,gad7_score,numeric,n,444,1047,
+Primary accuracy,gad7_score,numeric,missing,603,1047,
+Primary accuracy,gad7_score,numeric,mean,11.801801801801801,1047,
+Primary accuracy,gad7_score,numeric,sd,4.715508862701666,1047,
+Primary accuracy,gad7_score,numeric,median,12,1047,
+Primary accuracy,gad7_score,numeric,q25,8,1047,
+Primary accuracy,gad7_score,numeric,q75,15,1047,
+Primary accuracy,gad7_score,numeric,min,0,1047,
+Primary accuracy,gad7_score,numeric,max,21,1047,
+Primary accuracy,hamd6_score,numeric,n,399,1047,
+Primary accuracy,hamd6_score,numeric,missing,648,1047,
+Primary accuracy,hamd6_score,numeric,mean,9.859649122807017,1047,
+Primary accuracy,hamd6_score,numeric,sd,3.5202716428409233,1047,
+Primary accuracy,hamd6_score,numeric,median,9,1047,
+Primary accuracy,hamd6_score,numeric,q25,8,1047,
+Primary accuracy,hamd6_score,numeric,q75,12,1047,
+Primary accuracy,hamd6_score,numeric,min,1,1047,
+Primary accuracy,hamd6_score,numeric,max,21,1047,
+Primary accuracy,gender_original,categorical,Man,464,1047,44.3170964660936
+Primary accuracy,gender_original,categorical,Missing,39,1047,3.7249283667621778
+Primary accuracy,gender_original,categorical,Non-binary,27,1047,2.5787965616045847
+Primary accuracy,gender_original,categorical,Other,2,1047,0.19102196752626552
+Primary accuracy,gender_original,categorical,Rather not say,1,1047,0.09551098376313276
+Primary accuracy,gender_original,categorical,Woman,514,1047,49.09264565425024
+Primary accuracy,participant_ethnicity_group,categorical,Asian,62,1047,5.921680993314231
+Primary accuracy,participant_ethnicity_group,categorical,Black,122,1047,11.652340019102196
+Primary accuracy,participant_ethnicity_group,categorical,Latino,38,1047,3.629417382999045
+Primary accuracy,participant_ethnicity_group,categorical,Missing,40,1047,3.8204393505253105
+Primary accuracy,participant_ethnicity_group,categorical,Mixed/multiple,47,1047,4.48901623686724
+Primary accuracy,participant_ethnicity_group,categorical,Multiple categories selected,48,1047,4.584527220630372
+Primary accuracy,participant_ethnicity_group,categorical,Other,7,1047,0.6685768863419294
+Primary accuracy,participant_ethnicity_group,categorical,Prefer not to answer,8,1047,0.7640878701050621
+Primary accuracy,participant_ethnicity_group,categorical,White,675,1047,64.46991404011462
+Primary accuracy,education,categorical,Attended college but has not graduated,226,1047,21.585482330468004
+Primary accuracy,education,categorical,Attended graduate school,52,1047,4.966571155682904
+Primary accuracy,education,categorical,Completed master's or doctoral degree,172,1047,16.427889207258833
+Primary accuracy,education,categorical,Graduated college,376,1047,35.91212989493792
+Primary accuracy,education,categorical,Graduated high school or completed GED,164,1047,15.663801337153775
+Primary accuracy,education,categorical,Has not completed high school,17,1047,1.6236867239732569
+Primary accuracy,education,categorical,Missing,40,1047,3.8204393505253105
+Primary accuracy,employment,categorical,Disabled,64,1047,6.112702960840497
+Primary accuracy,employment,categorical,Full Time,480,1047,45.845272206303726
+Primary accuracy,employment,categorical,Homemaker,52,1047,4.966571155682904
+Primary accuracy,employment,categorical,Missing,40,1047,3.8204393505253105
+Primary accuracy,employment,categorical,Part Time,185,1047,17.66953199617956
+Primary accuracy,employment,categorical,Retired (other than disability),50,1047,4.775549188156638
+Primary accuracy,employment,categorical,Seeking work,56,1047,5.348615090735435
+Primary accuracy,employment,categorical,Studying,54,1047,5.157593123209169
+Primary accuracy,employment,categorical,Unemployed,66,1047,6.303724928366762
+Primary accuracy,prior_mh_status,categorical,Missing,41,1047,3.9159503342884436
+Primary accuracy,prior_mh_status,categorical,No prior condition reported,161,1047,15.377268385864372
+Primary accuracy,prior_mh_status,categorical,Prior condition reported,845,1047,80.70678127984718
+Primary accuracy,task_position,categorical,Position 1,372,1047,35.53008595988539
+Primary accuracy,task_position,categorical,Position 2,345,1047,32.95128939828081
+Primary accuracy,task_position,categorical,Position 3,301,1047,28.74880611270296
+Primary accuracy,task_position,categorical,Position 4,29,1047,2.76981852913085
+Primary RT,age,numeric,n,1008,1046,
+Primary RT,age,numeric,missing,38,1046,
+Primary RT,age,numeric,mean,41.2906746031746,1046,
+Primary RT,age,numeric,sd,13.685785591281057,1046,
+Primary RT,age,numeric,median,40,1046,
+Primary RT,age,numeric,q25,30.75,1046,
+Primary RT,age,numeric,q75,51,1046,
+Primary RT,age,numeric,min,18,1046,
+Primary RT,age,numeric,max,80,1046,
+Primary RT,cape15_score,numeric,n,1019,1046,
+Primary RT,cape15_score,numeric,missing,27,1046,
+Primary RT,cape15_score,numeric,mean,22.197252208047104,1046,
+Primary RT,cape15_score,numeric,sd,7.493766388266196,1046,
+Primary RT,cape15_score,numeric,median,20,1046,
+Primary RT,cape15_score,numeric,q25,17,1046,
+Primary RT,cape15_score,numeric,q75,25,1046,
+Primary RT,cape15_score,numeric,min,15,1046,
+Primary RT,cape15_score,numeric,max,55,1046,
+Primary RT,altman_srms_score,numeric,n,1020,1046,
+Primary RT,altman_srms_score,numeric,missing,26,1046,
+Primary RT,altman_srms_score,numeric,mean,4.0588235294117645,1046,
+Primary RT,altman_srms_score,numeric,sd,3.487601844019686,1046,
+Primary RT,altman_srms_score,numeric,median,3,1046,
+Primary RT,altman_srms_score,numeric,q25,1,1046,
+Primary RT,altman_srms_score,numeric,q75,6,1046,
+Primary RT,altman_srms_score,numeric,min,0,1046,
+Primary RT,altman_srms_score,numeric,max,19,1046,
+Primary RT,isi_score,numeric,n,1019,1046,
+Primary RT,isi_score,numeric,missing,27,1046,
+Primary RT,isi_score,numeric,mean,9.944062806673209,1046,
+Primary RT,isi_score,numeric,sd,6.543327828911031,1046,
+Primary RT,isi_score,numeric,median,9,1046,
+Primary RT,isi_score,numeric,q25,5,1046,
+Primary RT,isi_score,numeric,q75,14,1046,
+Primary RT,isi_score,numeric,min,0,1046,
+Primary RT,isi_score,numeric,max,28,1046,
+Primary RT,ocir_score,numeric,n,1018,1046,
+Primary RT,ocir_score,numeric,missing,28,1046,
+Primary RT,ocir_score,numeric,mean,17.55500982318271,1046,
+Primary RT,ocir_score,numeric,sd,14.515153965459845,1046,
+Primary RT,ocir_score,numeric,median,14,1046,
+Primary RT,ocir_score,numeric,q25,5,1046,
+Primary RT,ocir_score,numeric,q75,26.75,1046,
+Primary RT,ocir_score,numeric,min,0,1046,
+Primary RT,ocir_score,numeric,max,69,1046,
+Primary RT,minispin_score,numeric,n,1018,1046,
+Primary RT,minispin_score,numeric,missing,28,1046,
+Primary RT,minispin_score,numeric,mean,5.274066797642436,1046,
+Primary RT,minispin_score,numeric,sd,3.746979821293109,1046,
+Primary RT,minispin_score,numeric,median,5,1046,
+Primary RT,minispin_score,numeric,q25,2,1046,
+Primary RT,minispin_score,numeric,q75,8,1046,
+Primary RT,minispin_score,numeric,min,0,1046,
+Primary RT,minispin_score,numeric,max,12,1046,
+Primary RT,asrs_score,numeric,n,1019,1046,
+Primary RT,asrs_score,numeric,missing,27,1046,
+Primary RT,asrs_score,numeric,mean,27.048086359175663,1046,
+Primary RT,asrs_score,numeric,sd,15.900372651611605,1046,
+Primary RT,asrs_score,numeric,median,26,1046,
+Primary RT,asrs_score,numeric,q25,15,1046,
+Primary RT,asrs_score,numeric,q75,38,1046,
+Primary RT,asrs_score,numeric,min,0,1046,
+Primary RT,asrs_score,numeric,max,72,1046,
+Primary RT,gad7_score,numeric,n,444,1046,
+Primary RT,gad7_score,numeric,missing,602,1046,
+Primary RT,gad7_score,numeric,mean,11.801801801801801,1046,
+Primary RT,gad7_score,numeric,sd,4.715508862701666,1046,
+Primary RT,gad7_score,numeric,median,12,1046,
+Primary RT,gad7_score,numeric,q25,8,1046,
+Primary RT,gad7_score,numeric,q75,15,1046,
+Primary RT,gad7_score,numeric,min,0,1046,
+Primary RT,gad7_score,numeric,max,21,1046,
+Primary RT,hamd6_score,numeric,n,399,1046,
+Primary RT,hamd6_score,numeric,missing,647,1046,
+Primary RT,hamd6_score,numeric,mean,9.859649122807017,1046,
+Primary RT,hamd6_score,numeric,sd,3.5202716428409233,1046,
+Primary RT,hamd6_score,numeric,median,9,1046,
+Primary RT,hamd6_score,numeric,q25,8,1046,
+Primary RT,hamd6_score,numeric,q75,12,1046,
+Primary RT,hamd6_score,numeric,min,1,1046,
+Primary RT,hamd6_score,numeric,max,21,1046,
+Primary RT,gender_original,categorical,Man,464,1046,44.35946462715105
+Primary RT,gender_original,categorical,Missing,38,1046,3.632887189292543
+Primary RT,gender_original,categorical,Non-binary,27,1046,2.581261950286807
+Primary RT,gender_original,categorical,Other,2,1046,0.19120458891013384
+Primary RT,gender_original,categorical,Rather not say,1,1046,0.09560229445506692
+Primary RT,gender_original,categorical,Woman,514,1046,49.1395793499044
+Primary RT,participant_ethnicity_group,categorical,Asian,62,1046,5.927342256214149
+Primary RT,participant_ethnicity_group,categorical,Black,122,1046,11.663479923518166
+Primary RT,participant_ethnicity_group,categorical,Latino,38,1046,3.632887189292543
+Primary RT,participant_ethnicity_group,categorical,Missing,39,1046,3.72848948374761
+Primary RT,participant_ethnicity_group,categorical,Mixed/multiple,47,1046,4.493307839388145
+Primary RT,participant_ethnicity_group,categorical,Multiple categories selected,48,1046,4.588910133843212
+Primary RT,participant_ethnicity_group,categorical,Other,7,1046,0.6692160611854685
+Primary RT,participant_ethnicity_group,categorical,Prefer not to answer,8,1046,0.7648183556405354
+Primary RT,participant_ethnicity_group,categorical,White,675,1046,64.53154875717017
+Primary RT,education,categorical,Attended college but has not graduated,226,1046,21.606118546845124
+Primary RT,education,categorical,Attended graduate school,52,1046,4.97131931166348
+Primary RT,education,categorical,Completed master's or doctoral degree,172,1046,16.44359464627151
+Primary RT,education,categorical,Graduated college,376,1046,35.94646271510516
+Primary RT,education,categorical,Graduated high school or completed GED,164,1046,15.678776290630974
+Primary RT,education,categorical,Has not completed high school,17,1046,1.6252390057361379
+Primary RT,education,categorical,Missing,39,1046,3.72848948374761
+Primary RT,employment,categorical,Disabled,64,1046,6.118546845124283
+Primary RT,employment,categorical,Full Time,480,1046,45.88910133843212
+Primary RT,employment,categorical,Homemaker,52,1046,4.97131931166348
+Primary RT,employment,categorical,Missing,39,1046,3.72848948374761
+Primary RT,employment,categorical,Part Time,185,1046,17.686424474187383
+Primary RT,employment,categorical,Retired (other than disability),50,1046,4.780114722753346
+Primary RT,employment,categorical,Seeking work,56,1046,5.353728489483748
+Primary RT,employment,categorical,Studying,54,1046,5.162523900573614
+Primary RT,employment,categorical,Unemployed,66,1046,6.309751434034416
+Primary RT,prior_mh_status,categorical,Missing,40,1046,3.824091778202677
+Primary RT,prior_mh_status,categorical,No prior condition reported,161,1046,15.391969407265774
+Primary RT,prior_mh_status,categorical,Prior condition reported,845,1046,80.78393881453155
+Primary RT,task_position,categorical,Position 1,372,1046,35.5640535372849
+Primary RT,task_position,categorical,Position 2,344,1046,32.88718929254302
+Primary RT,task_position,categorical,Position 3,301,1046,28.776290630975144
+Primary RT,task_position,categorical,Position 4,29,1046,2.7724665391969405
+Gender moderation,age,numeric,n,978,978,
+Gender moderation,age,numeric,missing,0,978,
+Gender moderation,age,numeric,mean,41.422290388548056,978,
+Gender moderation,age,numeric,sd,13.692506825350195,978,
+Gender moderation,age,numeric,median,40,978,
+Gender moderation,age,numeric,q25,31,978,
+Gender moderation,age,numeric,q75,51,978,
+Gender moderation,age,numeric,min,18,978,
+Gender moderation,age,numeric,max,80,978,
+Gender moderation,cape15_score,numeric,n,967,978,
+Gender moderation,cape15_score,numeric,missing,11,978,
+Gender moderation,cape15_score,numeric,mean,22,978,
+Gender moderation,cape15_score,numeric,sd,7.345510311689068,978,
+Gender moderation,cape15_score,numeric,median,20,978,
+Gender moderation,cape15_score,numeric,q25,17,978,
+Gender moderation,cape15_score,numeric,q75,24,978,
+Gender moderation,cape15_score,numeric,min,15,978,
+Gender moderation,cape15_score,numeric,max,55,978,
+Gender moderation,altman_srms_score,numeric,n,968,978,
+Gender moderation,altman_srms_score,numeric,missing,10,978,
+Gender moderation,altman_srms_score,numeric,mean,4.0309917355371905,978,
+Gender moderation,altman_srms_score,numeric,sd,3.47974940080209,978,
+Gender moderation,altman_srms_score,numeric,median,3,978,
+Gender moderation,altman_srms_score,numeric,q25,1,978,
+Gender moderation,altman_srms_score,numeric,q75,6,978,
+Gender moderation,altman_srms_score,numeric,min,0,978,
+Gender moderation,altman_srms_score,numeric,max,19,978,
+Gender moderation,isi_score,numeric,n,967,978,
+Gender moderation,isi_score,numeric,missing,11,978,
+Gender moderation,isi_score,numeric,mean,9.92450879007239,978,
+Gender moderation,isi_score,numeric,sd,6.503979442915449,978,
+Gender moderation,isi_score,numeric,median,9,978,
+Gender moderation,isi_score,numeric,q25,5,978,
+Gender moderation,isi_score,numeric,q75,14,978,
+Gender moderation,isi_score,numeric,min,0,978,
+Gender moderation,isi_score,numeric,max,28,978,
+Gender moderation,ocir_score,numeric,n,966,978,
+Gender moderation,ocir_score,numeric,missing,12,978,
+Gender moderation,ocir_score,numeric,mean,17.400621118012424,978,
+Gender moderation,ocir_score,numeric,sd,14.416238671638549,978,
+Gender moderation,ocir_score,numeric,median,14,978,
+Gender moderation,ocir_score,numeric,q25,5,978,
+Gender moderation,ocir_score,numeric,q75,26,978,
+Gender moderation,ocir_score,numeric,min,0,978,
+Gender moderation,ocir_score,numeric,max,69,978,
+Gender moderation,minispin_score,numeric,n,966,978,
+Gender moderation,minispin_score,numeric,missing,12,978,
+Gender moderation,minispin_score,numeric,mean,5.296066252587992,978,
+Gender moderation,minispin_score,numeric,sd,3.7589720030825418,978,
+Gender moderation,minispin_score,numeric,median,5,978,
+Gender moderation,minispin_score,numeric,q25,2,978,
+Gender moderation,minispin_score,numeric,q75,8,978,
+Gender moderation,minispin_score,numeric,min,0,978,
+Gender moderation,minispin_score,numeric,max,12,978,
+Gender moderation,asrs_score,numeric,n,967,978,
+Gender moderation,asrs_score,numeric,missing,11,978,
+Gender moderation,asrs_score,numeric,mean,26.699069286452946,978,
+Gender moderation,asrs_score,numeric,sd,15.654573186732224,978,
+Gender moderation,asrs_score,numeric,median,25,978,
+Gender moderation,asrs_score,numeric,q25,14,978,
+Gender moderation,asrs_score,numeric,q75,38,978,
+Gender moderation,asrs_score,numeric,min,0,978,
+Gender moderation,asrs_score,numeric,max,72,978,
+Gender moderation,gad7_score,numeric,n,428,978,
+Gender moderation,gad7_score,numeric,missing,550,978,
+Gender moderation,gad7_score,numeric,mean,11.682242990654206,978,
+Gender moderation,gad7_score,numeric,sd,4.676110256954669,978,
+Gender moderation,gad7_score,numeric,median,12,978,
+Gender moderation,gad7_score,numeric,q25,8,978,
+Gender moderation,gad7_score,numeric,q75,15,978,
+Gender moderation,gad7_score,numeric,min,0,978,
+Gender moderation,gad7_score,numeric,max,21,978,
+Gender moderation,hamd6_score,numeric,n,382,978,
+Gender moderation,hamd6_score,numeric,missing,596,978,
+Gender moderation,hamd6_score,numeric,mean,9.790575916230367,978,
+Gender moderation,hamd6_score,numeric,sd,3.490236127238441,978,
+Gender moderation,hamd6_score,numeric,median,9,978,
+Gender moderation,hamd6_score,numeric,q25,8,978,
+Gender moderation,hamd6_score,numeric,q75,12,978,
+Gender moderation,hamd6_score,numeric,min,1,978,
+Gender moderation,hamd6_score,numeric,max,21,978,
+Gender moderation,gender_original,categorical,Man,464,978,47.443762781186095
+Gender moderation,gender_original,categorical,Woman,514,978,52.556237218813905
+Gender moderation,participant_ethnicity_group,categorical,Asian,60,978,6.134969325153374
+Gender moderation,participant_ethnicity_group,categorical,Black,118,978,12.065439672801636
+Gender moderation,participant_ethnicity_group,categorical,Latino,37,978,3.783231083844581
+Gender moderation,participant_ethnicity_group,categorical,Missing,1,978,0.10224948875255625
+Gender moderation,participant_ethnicity_group,categorical,Mixed/multiple,46,978,4.703476482617587
+Gender moderation,participant_ethnicity_group,categorical,Multiple categories selected,45,978,4.601226993865031
+Gender moderation,participant_ethnicity_group,categorical,Other,7,978,0.7157464212678937
+Gender moderation,participant_ethnicity_group,categorical,Prefer not to answer,7,978,0.7157464212678937
+Gender moderation,participant_ethnicity_group,categorical,White,657,978,67.17791411042946
+Gender moderation,education,categorical,Attended college but has not graduated,217,978,22.188139059304703
+Gender moderation,education,categorical,Attended graduate school,48,978,4.9079754601226995
+Gender moderation,education,categorical,Completed master's or doctoral degree,169,978,17.280163599182004
+Gender moderation,education,categorical,Graduated college,367,978,37.52556237218813
+Gender moderation,education,categorical,Graduated high school or completed GED,159,978,16.257668711656443
+Gender moderation,education,categorical,Has not completed high school,17,978,1.738241308793456
+Gender moderation,education,categorical,Missing,1,978,0.10224948875255625
+Gender moderation,employment,categorical,Disabled,60,978,6.134969325153374
+Gender moderation,employment,categorical,Full Time,469,978,47.95501022494887
+Gender moderation,employment,categorical,Homemaker,52,978,5.316973415132924
+Gender moderation,employment,categorical,Missing,1,978,0.10224948875255625
+Gender moderation,employment,categorical,Part Time,175,978,17.893660531697343
+Gender moderation,employment,categorical,Retired (other than disability),48,978,4.9079754601226995
+Gender moderation,employment,categorical,Seeking work,54,978,5.521472392638037
+Gender moderation,employment,categorical,Studying,54,978,5.521472392638037
+Gender moderation,employment,categorical,Unemployed,65,978,6.646216768916155
+Gender moderation,prior_mh_status,categorical,Missing,2,978,0.2044989775051125
+Gender moderation,prior_mh_status,categorical,No prior condition reported,160,978,16.359918200409
+Gender moderation,prior_mh_status,categorical,Prior condition reported,816,978,83.43558282208589
+Gender moderation,task_position,categorical,Position 1,333,978,34.04907975460122
+Gender moderation,task_position,categorical,Position 2,328,978,33.537832310838446
+Gender moderation,task_position,categorical,Position 3,288,978,29.447852760736197
+Gender moderation,task_position,categorical,Position 4,29,978,2.965235173824131
+White-status moderation,age,numeric,n,999,999,
+White-status moderation,age,numeric,missing,0,999,
+White-status moderation,age,numeric,mean,41.268268268268265,999,
+White-status moderation,age,numeric,sd,13.654192691632288,999,
+White-status moderation,age,numeric,median,40,999,
+White-status moderation,age,numeric,q25,30.5,999,
+White-status moderation,age,numeric,q75,51,999,
+White-status moderation,age,numeric,min,18,999,
+White-status moderation,age,numeric,max,80,999,
+White-status moderation,cape15_score,numeric,n,988,999,
+White-status moderation,cape15_score,numeric,missing,11,999,
+White-status moderation,cape15_score,numeric,mean,22.152834008097166,999,
+White-status moderation,cape15_score,numeric,sd,7.461208160788666,999,
+White-status moderation,cape15_score,numeric,median,20,999,
+White-status moderation,cape15_score,numeric,q25,17,999,
+White-status moderation,cape15_score,numeric,q75,25,999,
+White-status moderation,cape15_score,numeric,min,15,999,
+White-status moderation,cape15_score,numeric,max,55,999,
+White-status moderation,altman_srms_score,numeric,n,989,999,
+White-status moderation,altman_srms_score,numeric,missing,10,999,
+White-status moderation,altman_srms_score,numeric,mean,4.018200202224469,999,
+White-status moderation,altman_srms_score,numeric,sd,3.4634693349836994,999,
+White-status moderation,altman_srms_score,numeric,median,3,999,
+White-status moderation,altman_srms_score,numeric,q25,1,999,
+White-status moderation,altman_srms_score,numeric,q75,6,999,
+White-status moderation,altman_srms_score,numeric,min,0,999,
+White-status moderation,altman_srms_score,numeric,max,19,999,
+White-status moderation,isi_score,numeric,n,988,999,
+White-status moderation,isi_score,numeric,missing,11,999,
+White-status moderation,isi_score,numeric,mean,9.989878542510121,999,
+White-status moderation,isi_score,numeric,sd,6.528706681072628,999,
+White-status moderation,isi_score,numeric,median,9,999,
+White-status moderation,isi_score,numeric,q25,5,999,
+White-status moderation,isi_score,numeric,q75,14,999,
+White-status moderation,isi_score,numeric,min,0,999,
+White-status moderation,isi_score,numeric,max,28,999,
+White-status moderation,ocir_score,numeric,n,987,999,
+White-status moderation,ocir_score,numeric,missing,12,999,
+White-status moderation,ocir_score,numeric,mean,17.534954407294833,999,
+White-status moderation,ocir_score,numeric,sd,14.49178070441085,999,
+White-status moderation,ocir_score,numeric,median,14,999,
+White-status moderation,ocir_score,numeric,q25,5.5,999,
+White-status moderation,ocir_score,numeric,q75,26,999,
+White-status moderation,ocir_score,numeric,min,0,999,
+White-status moderation,ocir_score,numeric,max,69,999,
+White-status moderation,minispin_score,numeric,n,987,999,
+White-status moderation,minispin_score,numeric,missing,12,999,
+White-status moderation,minispin_score,numeric,mean,5.288753799392097,999,
+White-status moderation,minispin_score,numeric,sd,3.750686910335806,999,
+White-status moderation,minispin_score,numeric,median,5,999,
+White-status moderation,minispin_score,numeric,q25,2,999,
+White-status moderation,minispin_score,numeric,q75,8,999,
+White-status moderation,minispin_score,numeric,min,0,999,
+White-status moderation,minispin_score,numeric,max,12,999,
+White-status moderation,asrs_score,numeric,n,988,999,
+White-status moderation,asrs_score,numeric,missing,11,999,
+White-status moderation,asrs_score,numeric,mean,26.996963562753038,999,
+White-status moderation,asrs_score,numeric,sd,15.826855419597258,999,
+White-status moderation,asrs_score,numeric,median,26,999,
+White-status moderation,asrs_score,numeric,q25,15,999,
+White-status moderation,asrs_score,numeric,q75,38,999,
+White-status moderation,asrs_score,numeric,min,0,999,
+White-status moderation,asrs_score,numeric,max,72,999,
+White-status moderation,gad7_score,numeric,n,439,999,
+White-status moderation,gad7_score,numeric,missing,560,999,
+White-status moderation,gad7_score,numeric,mean,11.790432801822323,999,
+White-status moderation,gad7_score,numeric,sd,4.710020363160582,999,
+White-status moderation,gad7_score,numeric,median,12,999,
+White-status moderation,gad7_score,numeric,q25,8,999,
+White-status moderation,gad7_score,numeric,q75,15,999,
+White-status moderation,gad7_score,numeric,min,0,999,
+White-status moderation,gad7_score,numeric,max,21,999,
+White-status moderation,hamd6_score,numeric,n,394,999,
+White-status moderation,hamd6_score,numeric,missing,605,999,
+White-status moderation,hamd6_score,numeric,mean,9.83502538071066,999,
+White-status moderation,hamd6_score,numeric,sd,3.4839788351147036,999,
+White-status moderation,hamd6_score,numeric,median,9,999,
+White-status moderation,hamd6_score,numeric,q25,8,999,
+White-status moderation,hamd6_score,numeric,q75,12,999,
+White-status moderation,hamd6_score,numeric,min,1,999,
+White-status moderation,hamd6_score,numeric,max,21,999,
+White-status moderation,gender_original,categorical,Man,459,999,45.94594594594595
+White-status moderation,gender_original,categorical,Non-binary,26,999,2.6026026026026026
+White-status moderation,gender_original,categorical,Other,2,999,0.20020020020020018
+White-status moderation,gender_original,categorical,Rather not say,1,999,0.10010010010010009
+White-status moderation,gender_original,categorical,Woman,511,999,51.151151151151154
+White-status moderation,participant_ethnicity_group,categorical,Asian,62,999,6.206206206206207
+White-status moderation,participant_ethnicity_group,categorical,Black,122,999,12.212212212212211
+White-status moderation,participant_ethnicity_group,categorical,Latino,38,999,3.8038038038038042
+White-status moderation,participant_ethnicity_group,categorical,Mixed/multiple,47,999,4.704704704704705
+White-status moderation,participant_ethnicity_group,categorical,Multiple categories selected,48,999,4.804804804804805
+White-status moderation,participant_ethnicity_group,categorical,Other,7,999,0.7007007007007007
+White-status moderation,participant_ethnicity_group,categorical,White,675,999,67.56756756756756
+White-status moderation,education,categorical,Attended college but has not graduated,223,999,22.32232232232232
+White-status moderation,education,categorical,Attended graduate school,51,999,5.105105105105105
+White-status moderation,education,categorical,Completed master's or doctoral degree,172,999,17.217217217217218
+White-status moderation,education,categorical,Graduated college,372,999,37.23723723723724
+White-status moderation,education,categorical,Graduated high school or completed GED,164,999,16.416416416416414
+White-status moderation,education,categorical,Has not completed high school,17,999,1.7017017017017018
+White-status moderation,employment,categorical,Disabled,64,999,6.406406406406406
+White-status moderation,employment,categorical,Full Time,476,999,47.647647647647645
+White-status moderation,employment,categorical,Homemaker,52,999,5.205205205205205
+White-status moderation,employment,categorical,Part Time,183,999,18.31831831831832
+White-status moderation,employment,categorical,Retired (other than disability),49,999,4.904904904904905
+White-status moderation,employment,categorical,Seeking work,56,999,5.605605605605605
+White-status moderation,employment,categorical,Studying,54,999,5.405405405405405
+White-status moderation,employment,categorical,Unemployed,65,999,6.506506506506507
+White-status moderation,prior_mh_status,categorical,Missing,1,999,0.10010010010010009
+White-status moderation,prior_mh_status,categorical,No prior condition reported,160,999,16.016016016016017
+White-status moderation,prior_mh_status,categorical,Prior condition reported,838,999,83.88388388388388
+White-status moderation,task_position,categorical,Position 1,342,999,34.234234234234236
+White-status moderation,task_position,categorical,Position 2,332,999,33.233233233233236
+White-status moderation,task_position,categorical,Position 3,297,999,29.72972972972973
+White-status moderation,task_position,categorical,Position 4,28,999,2.8028028028028027
+Clinical: cape15_score,age,numeric,n,997,1019,
+Clinical: cape15_score,age,numeric,missing,22,1019,
+Clinical: cape15_score,age,numeric,mean,41.23470411233701,1019,
+Clinical: cape15_score,age,numeric,sd,13.67439341905995,1019,
+Clinical: cape15_score,age,numeric,median,40,1019,
+Clinical: cape15_score,age,numeric,q25,30,1019,
+Clinical: cape15_score,age,numeric,q75,51,1019,
+Clinical: cape15_score,age,numeric,min,18,1019,
+Clinical: cape15_score,age,numeric,max,80,1019,
+Clinical: cape15_score,cape15_score,numeric,n,1019,1019,
+Clinical: cape15_score,cape15_score,numeric,missing,0,1019,
+Clinical: cape15_score,cape15_score,numeric,mean,22.197252208047104,1019,
+Clinical: cape15_score,cape15_score,numeric,sd,7.493766388266196,1019,
+Clinical: cape15_score,cape15_score,numeric,median,20,1019,
+Clinical: cape15_score,cape15_score,numeric,q25,17,1019,
+Clinical: cape15_score,cape15_score,numeric,q75,25,1019,
+Clinical: cape15_score,cape15_score,numeric,min,15,1019,
+Clinical: cape15_score,cape15_score,numeric,max,55,1019,
+Clinical: cape15_score,altman_srms_score,numeric,n,1019,1019,
+Clinical: cape15_score,altman_srms_score,numeric,missing,0,1019,
+Clinical: cape15_score,altman_srms_score,numeric,mean,4.058881256133464,1019,
+Clinical: cape15_score,altman_srms_score,numeric,sd,3.489313903523188,1019,
+Clinical: cape15_score,altman_srms_score,numeric,median,3,1019,
+Clinical: cape15_score,altman_srms_score,numeric,q25,1,1019,
+Clinical: cape15_score,altman_srms_score,numeric,q75,6,1019,
+Clinical: cape15_score,altman_srms_score,numeric,min,0,1019,
+Clinical: cape15_score,altman_srms_score,numeric,max,19,1019,
+Clinical: cape15_score,isi_score,numeric,n,1018,1019,
+Clinical: cape15_score,isi_score,numeric,missing,1,1019,
+Clinical: cape15_score,isi_score,numeric,mean,9.953831041257367,1019,
+Clinical: cape15_score,isi_score,numeric,sd,6.53910632750215,1019,
+Clinical: cape15_score,isi_score,numeric,median,9,1019,
+Clinical: cape15_score,isi_score,numeric,q25,5,1019,
+Clinical: cape15_score,isi_score,numeric,q75,14,1019,
+Clinical: cape15_score,isi_score,numeric,min,0,1019,
+Clinical: cape15_score,isi_score,numeric,max,28,1019,
+Clinical: cape15_score,ocir_score,numeric,n,1017,1019,
+Clinical: cape15_score,ocir_score,numeric,missing,2,1019,
+Clinical: cape15_score,ocir_score,numeric,mean,17.563421828908556,1019,
+Clinical: cape15_score,ocir_score,numeric,sd,14.519812668664349,1019,
+Clinical: cape15_score,ocir_score,numeric,median,14,1019,
+Clinical: cape15_score,ocir_score,numeric,q25,5,1019,
+Clinical: cape15_score,ocir_score,numeric,q75,27,1019,
+Clinical: cape15_score,ocir_score,numeric,min,0,1019,
+Clinical: cape15_score,ocir_score,numeric,max,69,1019,
+Clinical: cape15_score,minispin_score,numeric,n,1017,1019,
+Clinical: cape15_score,minispin_score,numeric,missing,2,1019,
+Clinical: cape15_score,minispin_score,numeric,mean,5.279252704031465,1019,
+Clinical: cape15_score,minispin_score,numeric,sd,3.745166469189849,1019,
+Clinical: cape15_score,minispin_score,numeric,median,5,1019,
+Clinical: cape15_score,minispin_score,numeric,q25,2,1019,
+Clinical: cape15_score,minispin_score,numeric,q75,8,1019,
+Clinical: cape15_score,minispin_score,numeric,min,0,1019,
+Clinical: cape15_score,minispin_score,numeric,max,12,1019,
+Clinical: cape15_score,asrs_score,numeric,n,1018,1019,
+Clinical: cape15_score,asrs_score,numeric,missing,1,1019,
+Clinical: cape15_score,asrs_score,numeric,mean,27.06679764243615,1019,
+Clinical: cape15_score,asrs_score,numeric,sd,15.89695980780872,1019,
+Clinical: cape15_score,asrs_score,numeric,median,26,1019,
+Clinical: cape15_score,asrs_score,numeric,q25,15,1019,
+Clinical: cape15_score,asrs_score,numeric,q75,38,1019,
+Clinical: cape15_score,asrs_score,numeric,min,0,1019,
+Clinical: cape15_score,asrs_score,numeric,max,72,1019,
+Clinical: cape15_score,gad7_score,numeric,n,438,1019,
+Clinical: cape15_score,gad7_score,numeric,missing,581,1019,
+Clinical: cape15_score,gad7_score,numeric,mean,11.771689497716896,1019,
+Clinical: cape15_score,gad7_score,numeric,sd,4.714059246141969,1019,
+Clinical: cape15_score,gad7_score,numeric,median,12,1019,
+Clinical: cape15_score,gad7_score,numeric,q25,8,1019,
+Clinical: cape15_score,gad7_score,numeric,q75,15,1019,
+Clinical: cape15_score,gad7_score,numeric,min,0,1019,
+Clinical: cape15_score,gad7_score,numeric,max,21,1019,
+Clinical: cape15_score,hamd6_score,numeric,n,393,1019,
+Clinical: cape15_score,hamd6_score,numeric,missing,626,1019,
+Clinical: cape15_score,hamd6_score,numeric,mean,9.8269720101781175,1019,
+Clinical: cape15_score,hamd6_score,numeric,sd,3.5175341028952225,1019,
+Clinical: cape15_score,hamd6_score,numeric,median,9,1019,
+Clinical: cape15_score,hamd6_score,numeric,q25,8,1019,
+Clinical: cape15_score,hamd6_score,numeric,q75,12,1019,
+Clinical: cape15_score,hamd6_score,numeric,min,1,1019,
+Clinical: cape15_score,hamd6_score,numeric,max,21,1019,
+Clinical: cape15_score,gender_original,categorical,Man,461,1019,45.24043179587831
+Clinical: cape15_score,gender_original,categorical,Missing,22,1019,2.1589793915603535
+Clinical: cape15_score,gender_original,categorical,Non-binary,27,1019,2.649656526005888
+Clinical: cape15_score,gender_original,categorical,Other,2,1019,0.19627085377821393
+Clinical: cape15_score,gender_original,categorical,Rather not say,1,1019,0.09813542688910697
+Clinical: cape15_score,gender_original,categorical,Woman,506,1019,49.656526005888125
+Clinical: cape15_score,participant_ethnicity_group,categorical,Asian,61,1019,5.986261040235525
+Clinical: cape15_score,participant_ethnicity_group,categorical,Black,119,1019,11.678115799803729
+Clinical: cape15_score,participant_ethnicity_group,categorical,Latino,38,1019,3.729146221786065
+Clinical: cape15_score,participant_ethnicity_group,categorical,Missing,23,1019,2.2571148184494603
+Clinical: cape15_score,participant_ethnicity_group,categorical,Mixed/multiple,47,1019,4.612365063788027
+Clinical: cape15_score,participant_ethnicity_group,categorical,Multiple categories selected,47,1019,4.612365063788027
+Clinical: cape15_score,participant_ethnicity_group,categorical,Other,7,1019,0.6869479882237487
+Clinical: cape15_score,participant_ethnicity_group,categorical,Prefer not to answer,8,1019,0.7850834151128557
+Clinical: cape15_score,participant_ethnicity_group,categorical,White,669,1019,65.65260058881256
+Clinical: cape15_score,education,categorical,Attended college but has not graduated,224,1019,21.98233562315996
+Clinical: cape15_score,education,categorical,Attended graduate school,52,1019,5.103042198233562
+Clinical: cape15_score,education,categorical,Completed master's or doctoral degree,170,1019,16.683022571148186
+Clinical: cape15_score,education,categorical,Graduated college,371,1019,36.40824337585868
+Clinical: cape15_score,education,categorical,Graduated high school or completed GED,162,1019,15.89793915603533
+Clinical: cape15_score,education,categorical,Has not completed high school,17,1019,1.6683022571148183
+Clinical: cape15_score,education,categorical,Missing,23,1019,2.2571148184494603
+Clinical: cape15_score,employment,categorical,Disabled,64,1019,6.280667320902846
+Clinical: cape15_score,employment,categorical,Full Time,472,1019,46.31992149165849
+Clinical: cape15_score,employment,categorical,Homemaker,52,1019,5.103042198233562
+Clinical: cape15_score,employment,categorical,Missing,23,1019,2.2571148184494603
+Clinical: cape15_score,employment,categorical,Part Time,183,1019,17.958783120706574
+Clinical: cape15_score,employment,categorical,Retired (other than disability),50,1019,4.906771344455349
+Clinical: cape15_score,employment,categorical,Seeking work,56,1019,5.49558390578999
+Clinical: cape15_score,employment,categorical,Studying,54,1019,5.299313052011776
+Clinical: cape15_score,employment,categorical,Unemployed,65,1019,6.378802747791953
+Clinical: cape15_score,prior_mh_status,categorical,Missing,24,1019,2.355250245338567
+Clinical: cape15_score,prior_mh_status,categorical,No prior condition reported,159,1019,15.603532875368009
+Clinical: cape15_score,prior_mh_status,categorical,Prior condition reported,836,1019,82.04121687929342
+Clinical: cape15_score,task_position,categorical,Position 1,353,1019,34.64180569185476
+Clinical: cape15_score,task_position,categorical,Position 2,339,1019,33.267909715407264
+Clinical: cape15_score,task_position,categorical,Position 3,298,1019,29.244357212953876
+Clinical: cape15_score,task_position,categorical,Position 4,29,1019,2.845927379784102
+Clinical: altman_srms_score,age,numeric,n,998,1020,
+Clinical: altman_srms_score,age,numeric,missing,22,1020,
+Clinical: altman_srms_score,age,numeric,mean,41.23547094188377,1020,
+Clinical: altman_srms_score,age,numeric,sd,13.66755539737367,1020,
+Clinical: altman_srms_score,age,numeric,median,40,1020,
+Clinical: altman_srms_score,age,numeric,q25,30.25,1020,
+Clinical: altman_srms_score,age,numeric,q75,51,1020,
+Clinical: altman_srms_score,age,numeric,min,18,1020,
+Clinical: altman_srms_score,age,numeric,max,80,1020,
+Clinical: altman_srms_score,cape15_score,numeric,n,1019,1020,
+Clinical: altman_srms_score,cape15_score,numeric,missing,1,1020,
+Clinical: altman_srms_score,cape15_score,numeric,mean,22.197252208047104,1020,
+Clinical: altman_srms_score,cape15_score,numeric,sd,7.493766388266196,1020,
+Clinical: altman_srms_score,cape15_score,numeric,median,20,1020,
+Clinical: altman_srms_score,cape15_score,numeric,q25,17,1020,
+Clinical: altman_srms_score,cape15_score,numeric,q75,25,1020,
+Clinical: altman_srms_score,cape15_score,numeric,min,15,1020,
+Clinical: altman_srms_score,cape15_score,numeric,max,55,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,n,1020,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,missing,0,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,mean,4.0588235294117645,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,sd,3.487601844019686,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,median,3,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,q25,1,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,q75,6,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,min,0,1020,
+Clinical: altman_srms_score,altman_srms_score,numeric,max,19,1020,
+Clinical: altman_srms_score,isi_score,numeric,n,1019,1020,
+Clinical: altman_srms_score,isi_score,numeric,missing,1,1020,
+Clinical: altman_srms_score,isi_score,numeric,mean,9.944062806673209,1020,
+Clinical: altman_srms_score,isi_score,numeric,sd,6.543327828911031,1020,
+Clinical: altman_srms_score,isi_score,numeric,median,9,1020,
+Clinical: altman_srms_score,isi_score,numeric,q25,5,1020,
+Clinical: altman_srms_score,isi_score,numeric,q75,14,1020,
+Clinical: altman_srms_score,isi_score,numeric,min,0,1020,
+Clinical: altman_srms_score,isi_score,numeric,max,28,1020,
+Clinical: altman_srms_score,ocir_score,numeric,n,1018,1020,
+Clinical: altman_srms_score,ocir_score,numeric,missing,2,1020,
+Clinical: altman_srms_score,ocir_score,numeric,mean,17.55500982318271,1020,
+Clinical: altman_srms_score,ocir_score,numeric,sd,14.515153965459845,1020,
+Clinical: altman_srms_score,ocir_score,numeric,median,14,1020,
+Clinical: altman_srms_score,ocir_score,numeric,q25,5,1020,
+Clinical: altman_srms_score,ocir_score,numeric,q75,26.75,1020,
+Clinical: altman_srms_score,ocir_score,numeric,min,0,1020,
+Clinical: altman_srms_score,ocir_score,numeric,max,69,1020,
+Clinical: altman_srms_score,minispin_score,numeric,n,1018,1020,
+Clinical: altman_srms_score,minispin_score,numeric,missing,2,1020,
+Clinical: altman_srms_score,minispin_score,numeric,mean,5.274066797642436,1020,
+Clinical: altman_srms_score,minispin_score,numeric,sd,3.746979821293109,1020,
+Clinical: altman_srms_score,minispin_score,numeric,median,5,1020,
+Clinical: altman_srms_score,minispin_score,numeric,q25,2,1020,
+Clinical: altman_srms_score,minispin_score,numeric,q75,8,1020,
+Clinical: altman_srms_score,minispin_score,numeric,min,0,1020,
+Clinical: altman_srms_score,minispin_score,numeric,max,12,1020,
+Clinical: altman_srms_score,asrs_score,numeric,n,1019,1020,
+Clinical: altman_srms_score,asrs_score,numeric,missing,1,1020,
+Clinical: altman_srms_score,asrs_score,numeric,mean,27.048086359175663,1020,
+Clinical: altman_srms_score,asrs_score,numeric,sd,15.900372651611605,1020,
+Clinical: altman_srms_score,asrs_score,numeric,median,26,1020,
+Clinical: altman_srms_score,asrs_score,numeric,q25,15,1020,
+Clinical: altman_srms_score,asrs_score,numeric,q75,38,1020,
+Clinical: altman_srms_score,asrs_score,numeric,min,0,1020,
+Clinical: altman_srms_score,asrs_score,numeric,max,72,1020,
+Clinical: altman_srms_score,gad7_score,numeric,n,438,1020,
+Clinical: altman_srms_score,gad7_score,numeric,missing,582,1020,
+Clinical: altman_srms_score,gad7_score,numeric,mean,11.771689497716896,1020,
+Clinical: altman_srms_score,gad7_score,numeric,sd,4.714059246141969,1020,
+Clinical: altman_srms_score,gad7_score,numeric,median,12,1020,
+Clinical: altman_srms_score,gad7_score,numeric,q25,8,1020,
+Clinical: altman_srms_score,gad7_score,numeric,q75,15,1020,
+Clinical: altman_srms_score,gad7_score,numeric,min,0,1020,
+Clinical: altman_srms_score,gad7_score,numeric,max,21,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,n,393,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,missing,627,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,mean,9.8269720101781175,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,sd,3.5175341028952225,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,median,9,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,q25,8,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,q75,12,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,min,1,1020,
+Clinical: altman_srms_score,hamd6_score,numeric,max,21,1020,
+Clinical: altman_srms_score,gender_original,categorical,Man,462,1020,45.294117647058826
+Clinical: altman_srms_score,gender_original,categorical,Missing,22,1020,2.156862745098039
+Clinical: altman_srms_score,gender_original,categorical,Non-binary,27,1020,2.6470588235294117
+Clinical: altman_srms_score,gender_original,categorical,Other,2,1020,0.19607843137254902
+Clinical: altman_srms_score,gender_original,categorical,Rather not say,1,1020,0.09803921568627451
+Clinical: altman_srms_score,gender_original,categorical,Woman,506,1020,49.6078431372549
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Asian,61,1020,5.980392156862745
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Black,120,1020,11.76470588235294
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Latino,38,1020,3.7254901960784315
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Missing,23,1020,2.2549019607843137
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Mixed/multiple,47,1020,4.6078431372549025
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Multiple categories selected,47,1020,4.6078431372549025
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Other,7,1020,0.6862745098039216
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,Prefer not to answer,8,1020,0.7843137254901961
+Clinical: altman_srms_score,participant_ethnicity_group,categorical,White,669,1020,65.58823529411765
+Clinical: altman_srms_score,education,categorical,Attended college but has not graduated,225,1020,22.058823529411764
+Clinical: altman_srms_score,education,categorical,Attended graduate school,52,1020,5.098039215686274
+Clinical: altman_srms_score,education,categorical,Completed master's or doctoral degree,170,1020,16.666666666666664
+Clinical: altman_srms_score,education,categorical,Graduated college,371,1020,36.37254901960784
+Clinical: altman_srms_score,education,categorical,Graduated high school or completed GED,162,1020,15.88235294117647
+Clinical: altman_srms_score,education,categorical,Has not completed high school,17,1020,1.6666666666666667
+Clinical: altman_srms_score,education,categorical,Missing,23,1020,2.2549019607843137
+Clinical: altman_srms_score,employment,categorical,Disabled,64,1020,6.2745098039215685
+Clinical: altman_srms_score,employment,categorical,Full Time,473,1020,46.372549019607845
+Clinical: altman_srms_score,employment,categorical,Homemaker,52,1020,5.098039215686274
+Clinical: altman_srms_score,employment,categorical,Missing,23,1020,2.2549019607843137
+Clinical: altman_srms_score,employment,categorical,Part Time,183,1020,17.941176470588236
+Clinical: altman_srms_score,employment,categorical,Retired (other than disability),50,1020,4.901960784313726
+Clinical: altman_srms_score,employment,categorical,Seeking work,56,1020,5.490196078431373
+Clinical: altman_srms_score,employment,categorical,Studying,54,1020,5.294117647058823
+Clinical: altman_srms_score,employment,categorical,Unemployed,65,1020,6.372549019607843
+Clinical: altman_srms_score,prior_mh_status,categorical,Missing,24,1020,2.3529411764705883
+Clinical: altman_srms_score,prior_mh_status,categorical,No prior condition reported,160,1020,15.686274509803921
+Clinical: altman_srms_score,prior_mh_status,categorical,Prior condition reported,836,1020,81.96078431372548
+Clinical: altman_srms_score,task_position,categorical,Position 1,353,1020,34.6078431372549
+Clinical: altman_srms_score,task_position,categorical,Position 2,340,1020,33.33333333333333
+Clinical: altman_srms_score,task_position,categorical,Position 3,298,1020,29.215686274509807
+Clinical: altman_srms_score,task_position,categorical,Position 4,29,1020,2.843137254901961
+Clinical: isi_score,age,numeric,n,997,1019,
+Clinical: isi_score,age,numeric,missing,22,1019,
+Clinical: isi_score,age,numeric,mean,41.246740220661984,1019,
+Clinical: isi_score,age,numeric,sd,13.669775159723246,1019,
+Clinical: isi_score,age,numeric,median,40,1019,
+Clinical: isi_score,age,numeric,q25,31,1019,
+Clinical: isi_score,age,numeric,q75,51,1019,
+Clinical: isi_score,age,numeric,min,18,1019,
+Clinical: isi_score,age,numeric,max,80,1019,
+Clinical: isi_score,cape15_score,numeric,n,1018,1019,
+Clinical: isi_score,cape15_score,numeric,missing,1,1019,
+Clinical: isi_score,cape15_score,numeric,mean,22.18271119842829,1019,
+Clinical: isi_score,cape15_score,numeric,sd,7.483053007809819,1019,
+Clinical: isi_score,cape15_score,numeric,median,20,1019,
+Clinical: isi_score,cape15_score,numeric,q25,17,1019,
+Clinical: isi_score,cape15_score,numeric,q75,25,1019,
+Clinical: isi_score,cape15_score,numeric,min,15,1019,
+Clinical: isi_score,cape15_score,numeric,max,55,1019,
+Clinical: isi_score,altman_srms_score,numeric,n,1019,1019,
+Clinical: isi_score,altman_srms_score,numeric,missing,0,1019,
+Clinical: isi_score,altman_srms_score,numeric,mean,4.055937193326791,1019,
+Clinical: isi_score,altman_srms_score,numeric,sd,3.488095328064078,1019,
+Clinical: isi_score,altman_srms_score,numeric,median,3,1019,
+Clinical: isi_score,altman_srms_score,numeric,q25,1,1019,
+Clinical: isi_score,altman_srms_score,numeric,q75,6,1019,
+Clinical: isi_score,altman_srms_score,numeric,min,0,1019,
+Clinical: isi_score,altman_srms_score,numeric,max,19,1019,
+Clinical: isi_score,isi_score,numeric,n,1019,1019,
+Clinical: isi_score,isi_score,numeric,missing,0,1019,
+Clinical: isi_score,isi_score,numeric,mean,9.944062806673209,1019,
+Clinical: isi_score,isi_score,numeric,sd,6.543327828911031,1019,
+Clinical: isi_score,isi_score,numeric,median,9,1019,
+Clinical: isi_score,isi_score,numeric,q25,5,1019,
+Clinical: isi_score,isi_score,numeric,q75,14,1019,
+Clinical: isi_score,isi_score,numeric,min,0,1019,
+Clinical: isi_score,isi_score,numeric,max,28,1019,
+Clinical: isi_score,ocir_score,numeric,n,1017,1019,
+Clinical: isi_score,ocir_score,numeric,missing,2,1019,
+Clinical: isi_score,ocir_score,numeric,mean,17.534906588003935,1019,
+Clinical: isi_score,ocir_score,numeric,sd,14.508109693073926,1019,
+Clinical: isi_score,ocir_score,numeric,median,14,1019,
+Clinical: isi_score,ocir_score,numeric,q25,5,1019,
+Clinical: isi_score,ocir_score,numeric,q75,26,1019,
+Clinical: isi_score,ocir_score,numeric,min,0,1019,
+Clinical: isi_score,ocir_score,numeric,max,69,1019,
+Clinical: isi_score,minispin_score,numeric,n,1017,1019,
+Clinical: isi_score,minispin_score,numeric,missing,2,1019,
+Clinical: isi_score,minispin_score,numeric,mean,5.274336283185841,1019,
+Clinical: isi_score,minispin_score,numeric,sd,3.7488134838117264,1019,
+Clinical: isi_score,minispin_score,numeric,median,5,1019,
+Clinical: isi_score,minispin_score,numeric,q25,2,1019,
+Clinical: isi_score,minispin_score,numeric,q75,8,1019,
+Clinical: isi_score,minispin_score,numeric,min,0,1019,
+Clinical: isi_score,minispin_score,numeric,max,12,1019,
+Clinical: isi_score,asrs_score,numeric,n,1019,1019,
+Clinical: isi_score,asrs_score,numeric,missing,0,1019,
+Clinical: isi_score,asrs_score,numeric,mean,27.048086359175663,1019,
+Clinical: isi_score,asrs_score,numeric,sd,15.900372651611605,1019,
+Clinical: isi_score,asrs_score,numeric,median,26,1019,
+Clinical: isi_score,asrs_score,numeric,q25,15,1019,
+Clinical: isi_score,asrs_score,numeric,q75,38,1019,
+Clinical: isi_score,asrs_score,numeric,min,0,1019,
+Clinical: isi_score,asrs_score,numeric,max,72,1019,
+Clinical: isi_score,gad7_score,numeric,n,437,1019,
+Clinical: isi_score,gad7_score,numeric,missing,582,1019,
+Clinical: isi_score,gad7_score,numeric,mean,11.77345537757437,1019,
+Clinical: isi_score,gad7_score,numeric,sd,4.71931714524305,1019,
+Clinical: isi_score,gad7_score,numeric,median,12,1019,
+Clinical: isi_score,gad7_score,numeric,q25,8,1019,
+Clinical: isi_score,gad7_score,numeric,q75,15,1019,
+Clinical: isi_score,gad7_score,numeric,min,0,1019,
+Clinical: isi_score,gad7_score,numeric,max,21,1019,
+Clinical: isi_score,hamd6_score,numeric,n,393,1019,
+Clinical: isi_score,hamd6_score,numeric,missing,626,1019,
+Clinical: isi_score,hamd6_score,numeric,mean,9.8269720101781175,1019,
+Clinical: isi_score,hamd6_score,numeric,sd,3.5175341028952225,1019,
+Clinical: isi_score,hamd6_score,numeric,median,9,1019,
+Clinical: isi_score,hamd6_score,numeric,q25,8,1019,
+Clinical: isi_score,hamd6_score,numeric,q75,12,1019,
+Clinical: isi_score,hamd6_score,numeric,min,1,1019,
+Clinical: isi_score,hamd6_score,numeric,max,21,1019,
+Clinical: isi_score,gender_original,categorical,Man,461,1019,45.24043179587831
+Clinical: isi_score,gender_original,categorical,Missing,22,1019,2.1589793915603535
+Clinical: isi_score,gender_original,categorical,Non-binary,27,1019,2.649656526005888
+Clinical: isi_score,gender_original,categorical,Other,2,1019,0.19627085377821393
+Clinical: isi_score,gender_original,categorical,Rather not say,1,1019,0.09813542688910697
+Clinical: isi_score,gender_original,categorical,Woman,506,1019,49.656526005888125
+Clinical: isi_score,participant_ethnicity_group,categorical,Asian,61,1019,5.986261040235525
+Clinical: isi_score,participant_ethnicity_group,categorical,Black,119,1019,11.678115799803729
+Clinical: isi_score,participant_ethnicity_group,categorical,Latino,38,1019,3.729146221786065
+Clinical: isi_score,participant_ethnicity_group,categorical,Missing,23,1019,2.2571148184494603
+Clinical: isi_score,participant_ethnicity_group,categorical,Mixed/multiple,47,1019,4.612365063788027
+Clinical: isi_score,participant_ethnicity_group,categorical,Multiple categories selected,47,1019,4.612365063788027
+Clinical: isi_score,participant_ethnicity_group,categorical,Other,7,1019,0.6869479882237487
+Clinical: isi_score,participant_ethnicity_group,categorical,Prefer not to answer,8,1019,0.7850834151128557
+Clinical: isi_score,participant_ethnicity_group,categorical,White,669,1019,65.65260058881256
+Clinical: isi_score,education,categorical,Attended college but has not graduated,225,1019,22.080471050049066
+Clinical: isi_score,education,categorical,Attended graduate school,52,1019,5.103042198233562
+Clinical: isi_score,education,categorical,Completed master's or doctoral degree,169,1019,16.584887144259078
+Clinical: isi_score,education,categorical,Graduated college,371,1019,36.40824337585868
+Clinical: isi_score,education,categorical,Graduated high school or completed GED,162,1019,15.89793915603533
+Clinical: isi_score,education,categorical,Has not completed high school,17,1019,1.6683022571148183
+Clinical: isi_score,education,categorical,Missing,23,1019,2.2571148184494603
+Clinical: isi_score,employment,categorical,Disabled,64,1019,6.280667320902846
+Clinical: isi_score,employment,categorical,Full Time,472,1019,46.31992149165849
+Clinical: isi_score,employment,categorical,Homemaker,52,1019,5.103042198233562
+Clinical: isi_score,employment,categorical,Missing,23,1019,2.2571148184494603
+Clinical: isi_score,employment,categorical,Part Time,183,1019,17.958783120706574
+Clinical: isi_score,employment,categorical,Retired (other than disability),50,1019,4.906771344455349
+Clinical: isi_score,employment,categorical,Seeking work,56,1019,5.49558390578999
+Clinical: isi_score,employment,categorical,Studying,54,1019,5.299313052011776
+Clinical: isi_score,employment,categorical,Unemployed,65,1019,6.378802747791953
+Clinical: isi_score,prior_mh_status,categorical,Missing,24,1019,2.355250245338567
+Clinical: isi_score,prior_mh_status,categorical,No prior condition reported,159,1019,15.603532875368009
+Clinical: isi_score,prior_mh_status,categorical,Prior condition reported,836,1019,82.04121687929342
+Clinical: isi_score,task_position,categorical,Position 1,352,1019,34.543670264965655
+Clinical: isi_score,task_position,categorical,Position 2,340,1019,33.36604514229637
+Clinical: isi_score,task_position,categorical,Position 3,298,1019,29.244357212953876
+Clinical: isi_score,task_position,categorical,Position 4,29,1019,2.845927379784102
+Clinical: ocir_score,age,numeric,n,996,1018,
+Clinical: ocir_score,age,numeric,missing,22,1018,
+Clinical: ocir_score,age,numeric,mean,41.21686746987952,1018,
+Clinical: ocir_score,age,numeric,sd,13.673477118460077,1018,
+Clinical: ocir_score,age,numeric,median,40,1018,
+Clinical: ocir_score,age,numeric,q25,30,1018,
+Clinical: ocir_score,age,numeric,q75,51,1018,
+Clinical: ocir_score,age,numeric,min,18,1018,
+Clinical: ocir_score,age,numeric,max,80,1018,
+Clinical: ocir_score,cape15_score,numeric,n,1017,1018,
+Clinical: ocir_score,cape15_score,numeric,missing,1,1018,
+Clinical: ocir_score,cape15_score,numeric,mean,22.192723697148477,1018,
+Clinical: ocir_score,cape15_score,numeric,sd,7.494894991947111,1018,
+Clinical: ocir_score,cape15_score,numeric,median,20,1018,
+Clinical: ocir_score,cape15_score,numeric,q25,17,1018,
+Clinical: ocir_score,cape15_score,numeric,q75,25,1018,
+Clinical: ocir_score,cape15_score,numeric,min,15,1018,
+Clinical: ocir_score,cape15_score,numeric,max,55,1018,
+Clinical: ocir_score,altman_srms_score,numeric,n,1018,1018,
+Clinical: ocir_score,altman_srms_score,numeric,missing,0,1018,
+Clinical: ocir_score,altman_srms_score,numeric,mean,4.06188605108055,1018,
+Clinical: ocir_score,altman_srms_score,numeric,sd,3.4885824698225383,1018,
+Clinical: ocir_score,altman_srms_score,numeric,median,3,1018,
+Clinical: ocir_score,altman_srms_score,numeric,q25,1,1018,
+Clinical: ocir_score,altman_srms_score,numeric,q75,6,1018,
+Clinical: ocir_score,altman_srms_score,numeric,min,0,1018,
+Clinical: ocir_score,altman_srms_score,numeric,max,19,1018,
+Clinical: ocir_score,isi_score,numeric,n,1017,1018,
+Clinical: ocir_score,isi_score,numeric,missing,1,1018,
+Clinical: ocir_score,isi_score,numeric,mean,9.933136676499508,1018,
+Clinical: ocir_score,isi_score,numeric,sd,6.536651157912448,1018,
+Clinical: ocir_score,isi_score,numeric,median,9,1018,
+Clinical: ocir_score,isi_score,numeric,q25,5,1018,
+Clinical: ocir_score,isi_score,numeric,q75,14,1018,
+Clinical: ocir_score,isi_score,numeric,min,0,1018,
+Clinical: ocir_score,isi_score,numeric,max,28,1018,
+Clinical: ocir_score,ocir_score,numeric,n,1018,1018,
+Clinical: ocir_score,ocir_score,numeric,missing,0,1018,
+Clinical: ocir_score,ocir_score,numeric,mean,17.55500982318271,1018,
+Clinical: ocir_score,ocir_score,numeric,sd,14.515153965459845,1018,
+Clinical: ocir_score,ocir_score,numeric,median,14,1018,
+Clinical: ocir_score,ocir_score,numeric,q25,5,1018,
+Clinical: ocir_score,ocir_score,numeric,q75,26.75,1018,
+Clinical: ocir_score,ocir_score,numeric,min,0,1018,
+Clinical: ocir_score,ocir_score,numeric,max,69,1018,
+Clinical: ocir_score,minispin_score,numeric,n,1016,1018,
+Clinical: ocir_score,minispin_score,numeric,missing,2,1018,
+Clinical: ocir_score,minispin_score,numeric,mean,5.272637795275591,1018,
+Clinical: ocir_score,minispin_score,numeric,sd,3.750530908980801,1018,
+Clinical: ocir_score,minispin_score,numeric,median,5,1018,
+Clinical: ocir_score,minispin_score,numeric,q25,2,1018,
+Clinical: ocir_score,minispin_score,numeric,q75,8,1018,
+Clinical: ocir_score,minispin_score,numeric,min,0,1018,
+Clinical: ocir_score,minispin_score,numeric,max,12,1018,
+Clinical: ocir_score,asrs_score,numeric,n,1017,1018,
+Clinical: ocir_score,asrs_score,numeric,missing,1,1018,
+Clinical: ocir_score,asrs_score,numeric,mean,27.00983284169125,1018,
+Clinical: ocir_score,asrs_score,numeric,sd,15.875682813500188,1018,
+Clinical: ocir_score,asrs_score,numeric,median,26,1018,
+Clinical: ocir_score,asrs_score,numeric,q25,15,1018,
+Clinical: ocir_score,asrs_score,numeric,q75,38,1018,
+Clinical: ocir_score,asrs_score,numeric,min,0,1018,
+Clinical: ocir_score,asrs_score,numeric,max,72,1018,
+Clinical: ocir_score,gad7_score,numeric,n,437,1018,
+Clinical: ocir_score,gad7_score,numeric,missing,581,1018,
+Clinical: ocir_score,gad7_score,numeric,mean,11.766590389016018,1018,
+Clinical: ocir_score,gad7_score,numeric,sd,4.718252723279361,1018,
+Clinical: ocir_score,gad7_score,numeric,median,12,1018,
+Clinical: ocir_score,gad7_score,numeric,q25,8,1018,
+Clinical: ocir_score,gad7_score,numeric,q75,15,1018,
+Clinical: ocir_score,gad7_score,numeric,min,0,1018,
+Clinical: ocir_score,gad7_score,numeric,max,21,1018,
+Clinical: ocir_score,hamd6_score,numeric,n,392,1018,
+Clinical: ocir_score,hamd6_score,numeric,missing,626,1018,
+Clinical: ocir_score,hamd6_score,numeric,mean,9.821428571428571,1018,
+Clinical: ocir_score,hamd6_score,numeric,sd,3.520310088643414,1018,
+Clinical: ocir_score,hamd6_score,numeric,median,9,1018,
+Clinical: ocir_score,hamd6_score,numeric,q25,8,1018,
+Clinical: ocir_score,hamd6_score,numeric,q75,12,1018,
+Clinical: ocir_score,hamd6_score,numeric,min,1,1018,
+Clinical: ocir_score,hamd6_score,numeric,max,21,1018,
+Clinical: ocir_score,gender_original,categorical,Man,462,1018,45.383104125736736
+Clinical: ocir_score,gender_original,categorical,Missing,22,1018,2.161100196463654
+Clinical: ocir_score,gender_original,categorical,Non-binary,27,1018,2.6522593320235757
+Clinical: ocir_score,gender_original,categorical,Other,2,1018,0.19646365422396855
+Clinical: ocir_score,gender_original,categorical,Rather not say,1,1018,0.09823182711198428
+Clinical: ocir_score,gender_original,categorical,Woman,504,1018,49.50884086444008
+Clinical: ocir_score,participant_ethnicity_group,categorical,Asian,60,1018,5.893909626719057
+Clinical: ocir_score,participant_ethnicity_group,categorical,Black,120,1018,11.787819253438114
+Clinical: ocir_score,participant_ethnicity_group,categorical,Latino,38,1018,3.732809430255403
+Clinical: ocir_score,participant_ethnicity_group,categorical,Missing,23,1018,2.259332023575639
+Clinical: ocir_score,participant_ethnicity_group,categorical,Mixed/multiple,47,1018,4.616895874263261
+Clinical: ocir_score,participant_ethnicity_group,categorical,Multiple categories selected,47,1018,4.616895874263261
+Clinical: ocir_score,participant_ethnicity_group,categorical,Other,7,1018,0.68762278978389
+Clinical: ocir_score,participant_ethnicity_group,categorical,Prefer not to answer,8,1018,0.7858546168958742
+Clinical: ocir_score,participant_ethnicity_group,categorical,White,668,1018,65.6188605108055
+Clinical: ocir_score,education,categorical,Attended college but has not graduated,225,1018,22.10216110019646
+Clinical: ocir_score,education,categorical,Attended graduate school,51,1018,5.009823182711198
+Clinical: ocir_score,education,categorical,Completed master's or doctoral degree,170,1018,16.699410609037326
+Clinical: ocir_score,education,categorical,Graduated college,370,1018,36.345776031434184
+Clinical: ocir_score,education,categorical,Graduated high school or completed GED,162,1018,15.913555992141454
+Clinical: ocir_score,education,categorical,Has not completed high school,17,1018,1.6699410609037328
+Clinical: ocir_score,education,categorical,Missing,23,1018,2.259332023575639
+Clinical: ocir_score,employment,categorical,Disabled,63,1018,6.18860510805501
+Clinical: ocir_score,employment,categorical,Full Time,472,1018,46.36542239685658
+Clinical: ocir_score,employment,categorical,Homemaker,52,1018,5.1080550098231825
+Clinical: ocir_score,employment,categorical,Missing,23,1018,2.259332023575639
+Clinical: ocir_score,employment,categorical,Part Time,183,1018,17.976424361493123
+Clinical: ocir_score,employment,categorical,Retired (other than disability),50,1018,4.911591355599214
+Clinical: ocir_score,employment,categorical,Seeking work,56,1018,5.50098231827112
+Clinical: ocir_score,employment,categorical,Studying,54,1018,5.304518664047151
+Clinical: ocir_score,employment,categorical,Unemployed,65,1018,6.385068762278978
+Clinical: ocir_score,prior_mh_status,categorical,Missing,24,1018,2.357563850687623
+Clinical: ocir_score,prior_mh_status,categorical,No prior condition reported,160,1018,15.717092337917485
+Clinical: ocir_score,prior_mh_status,categorical,Prior condition reported,834,1018,81.9253438113949
+Clinical: ocir_score,task_position,categorical,Position 1,353,1018,34.67583497053045
+Clinical: ocir_score,task_position,categorical,Position 2,339,1018,33.30058939096267
+Clinical: ocir_score,task_position,categorical,Position 3,298,1018,29.273084479371313
+Clinical: ocir_score,task_position,categorical,Position 4,28,1018,2.75049115913556
+Clinical: minispin_score,age,numeric,n,996,1018,
+Clinical: minispin_score,age,numeric,missing,22,1018,
+Clinical: minispin_score,age,numeric,mean,41.247991967871485,1018,
+Clinical: minispin_score,age,numeric,sd,13.67658549999337,1018,
+Clinical: minispin_score,age,numeric,median,40,1018,
+Clinical: minispin_score,age,numeric,q25,30.75,1018,
+Clinical: minispin_score,age,numeric,q75,51,1018,
+Clinical: minispin_score,age,numeric,min,18,1018,
+Clinical: minispin_score,age,numeric,max,80,1018,
+Clinical: minispin_score,cape15_score,numeric,n,1017,1018,
+Clinical: minispin_score,cape15_score,numeric,missing,1,1018,
+Clinical: minispin_score,cape15_score,numeric,mean,22.17502458210423,1018,
+Clinical: minispin_score,cape15_score,numeric,sd,7.452662000261594,1018,
+Clinical: minispin_score,cape15_score,numeric,median,20,1018,
+Clinical: minispin_score,cape15_score,numeric,q25,17,1018,
+Clinical: minispin_score,cape15_score,numeric,q75,25,1018,
+Clinical: minispin_score,cape15_score,numeric,min,15,1018,
+Clinical: minispin_score,cape15_score,numeric,max,55,1018,
+Clinical: minispin_score,altman_srms_score,numeric,n,1018,1018,
+Clinical: minispin_score,altman_srms_score,numeric,missing,0,1018,
+Clinical: minispin_score,altman_srms_score,numeric,mean,4.056974459724951,1018,
+Clinical: minispin_score,altman_srms_score,numeric,sd,3.483730338462895,1018,
+Clinical: minispin_score,altman_srms_score,numeric,median,3,1018,
+Clinical: minispin_score,altman_srms_score,numeric,q25,1,1018,
+Clinical: minispin_score,altman_srms_score,numeric,q75,6,1018,
+Clinical: minispin_score,altman_srms_score,numeric,min,0,1018,
+Clinical: minispin_score,altman_srms_score,numeric,max,19,1018,
+Clinical: minispin_score,isi_score,numeric,n,1017,1018,
+Clinical: minispin_score,isi_score,numeric,missing,1,1018,
+Clinical: minispin_score,isi_score,numeric,mean,9.934119960668633,1018,
+Clinical: minispin_score,isi_score,numeric,sd,6.5421547984479185,1018,
+Clinical: minispin_score,isi_score,numeric,median,9,1018,
+Clinical: minispin_score,isi_score,numeric,q25,5,1018,
+Clinical: minispin_score,isi_score,numeric,q75,14,1018,
+Clinical: minispin_score,isi_score,numeric,min,0,1018,
+Clinical: minispin_score,isi_score,numeric,max,28,1018,
+Clinical: minispin_score,ocir_score,numeric,n,1016,1018,
+Clinical: minispin_score,ocir_score,numeric,missing,2,1018,
+Clinical: minispin_score,ocir_score,numeric,mean,17.52263779527559,1018,
+Clinical: minispin_score,ocir_score,numeric,sd,14.491427033549128,1018,
+Clinical: minispin_score,ocir_score,numeric,median,14,1018,
+Clinical: minispin_score,ocir_score,numeric,q25,5,1018,
+Clinical: minispin_score,ocir_score,numeric,q75,26.25,1018,
+Clinical: minispin_score,ocir_score,numeric,min,0,1018,
+Clinical: minispin_score,ocir_score,numeric,max,69,1018,
+Clinical: minispin_score,minispin_score,numeric,n,1018,1018,
+Clinical: minispin_score,minispin_score,numeric,missing,0,1018,
+Clinical: minispin_score,minispin_score,numeric,mean,5.274066797642436,1018,
+Clinical: minispin_score,minispin_score,numeric,sd,3.746979821293109,1018,
+Clinical: minispin_score,minispin_score,numeric,median,5,1018,
+Clinical: minispin_score,minispin_score,numeric,q25,2,1018,
+Clinical: minispin_score,minispin_score,numeric,q75,8,1018,
+Clinical: minispin_score,minispin_score,numeric,min,0,1018,
+Clinical: minispin_score,minispin_score,numeric,max,12,1018,
+Clinical: minispin_score,asrs_score,numeric,n,1017,1018,
+Clinical: minispin_score,asrs_score,numeric,missing,1,1018,
+Clinical: minispin_score,asrs_score,numeric,mean,27.03638151425762,1018,
+Clinical: minispin_score,asrs_score,numeric,sd,15.895935382883993,1018,
+Clinical: minispin_score,asrs_score,numeric,median,26,1018,
+Clinical: minispin_score,asrs_score,numeric,q25,15,1018,
+Clinical: minispin_score,asrs_score,numeric,q75,38,1018,
+Clinical: minispin_score,asrs_score,numeric,min,0,1018,
+Clinical: minispin_score,asrs_score,numeric,max,72,1018,
+Clinical: minispin_score,gad7_score,numeric,n,437,1018,
+Clinical: minispin_score,gad7_score,numeric,missing,581,1018,
+Clinical: minispin_score,gad7_score,numeric,mean,11.782608695652174,1018,
+Clinical: minispin_score,gad7_score,numeric,sd,4.713913581356049,1018,
+Clinical: minispin_score,gad7_score,numeric,median,12,1018,
+Clinical: minispin_score,gad7_score,numeric,q25,8,1018,
+Clinical: minispin_score,gad7_score,numeric,q75,15,1018,
+Clinical: minispin_score,gad7_score,numeric,min,0,1018,
+Clinical: minispin_score,gad7_score,numeric,max,21,1018,
+Clinical: minispin_score,hamd6_score,numeric,n,391,1018,
+Clinical: minispin_score,hamd6_score,numeric,missing,627,1018,
+Clinical: minispin_score,hamd6_score,numeric,mean,9.828644501278772,1018,
+Clinical: minispin_score,hamd6_score,numeric,sd,3.5262819751359085,1018,
+Clinical: minispin_score,hamd6_score,numeric,median,9,1018,
+Clinical: minispin_score,hamd6_score,numeric,q25,8,1018,
+Clinical: minispin_score,hamd6_score,numeric,q75,12,1018,
+Clinical: minispin_score,hamd6_score,numeric,min,1,1018,
+Clinical: minispin_score,hamd6_score,numeric,max,21,1018,
+Clinical: minispin_score,gender_original,categorical,Man,461,1018,45.284872298624755
+Clinical: minispin_score,gender_original,categorical,Missing,22,1018,2.161100196463654
+Clinical: minispin_score,gender_original,categorical,Non-binary,27,1018,2.6522593320235757
+Clinical: minispin_score,gender_original,categorical,Other,2,1018,0.19646365422396855
+Clinical: minispin_score,gender_original,categorical,Rather not say,1,1018,0.09823182711198428
+Clinical: minispin_score,gender_original,categorical,Woman,505,1018,49.60707269155206
+Clinical: minispin_score,participant_ethnicity_group,categorical,Asian,60,1018,5.893909626719057
+Clinical: minispin_score,participant_ethnicity_group,categorical,Black,120,1018,11.787819253438114
+Clinical: minispin_score,participant_ethnicity_group,categorical,Latino,38,1018,3.732809430255403
+Clinical: minispin_score,participant_ethnicity_group,categorical,Missing,23,1018,2.259332023575639
+Clinical: minispin_score,participant_ethnicity_group,categorical,Mixed/multiple,47,1018,4.616895874263261
+Clinical: minispin_score,participant_ethnicity_group,categorical,Multiple categories selected,47,1018,4.616895874263261
+Clinical: minispin_score,participant_ethnicity_group,categorical,Other,7,1018,0.68762278978389
+Clinical: minispin_score,participant_ethnicity_group,categorical,Prefer not to answer,8,1018,0.7858546168958742
+Clinical: minispin_score,participant_ethnicity_group,categorical,White,668,1018,65.6188605108055
+Clinical: minispin_score,education,categorical,Attended college but has not graduated,225,1018,22.10216110019646
+Clinical: minispin_score,education,categorical,Attended graduate school,52,1018,5.1080550098231825
+Clinical: minispin_score,education,categorical,Completed master's or doctoral degree,169,1018,16.601178781925345
+Clinical: minispin_score,education,categorical,Graduated college,370,1018,36.345776031434184
+Clinical: minispin_score,education,categorical,Graduated high school or completed GED,162,1018,15.913555992141454
+Clinical: minispin_score,education,categorical,Has not completed high school,17,1018,1.6699410609037328
+Clinical: minispin_score,education,categorical,Missing,23,1018,2.259332023575639
+Clinical: minispin_score,employment,categorical,Disabled,64,1018,6.286836935166994
+Clinical: minispin_score,employment,categorical,Full Time,472,1018,46.36542239685658
+Clinical: minispin_score,employment,categorical,Homemaker,52,1018,5.1080550098231825
+Clinical: minispin_score,employment,categorical,Missing,23,1018,2.259332023575639
+Clinical: minispin_score,employment,categorical,Part Time,182,1018,17.87819253438114
+Clinical: minispin_score,employment,categorical,Retired (other than disability),50,1018,4.911591355599214
+Clinical: minispin_score,employment,categorical,Seeking work,56,1018,5.50098231827112
+Clinical: minispin_score,employment,categorical,Studying,54,1018,5.304518664047151
+Clinical: minispin_score,employment,categorical,Unemployed,65,1018,6.385068762278978
+Clinical: minispin_score,prior_mh_status,categorical,Missing,24,1018,2.357563850687623
+Clinical: minispin_score,prior_mh_status,categorical,No prior condition reported,160,1018,15.717092337917485
+Clinical: minispin_score,prior_mh_status,categorical,Prior condition reported,834,1018,81.9253438113949
+Clinical: minispin_score,task_position,categorical,Position 1,353,1018,34.67583497053045
+Clinical: minispin_score,task_position,categorical,Position 2,340,1018,33.39882121807465
+Clinical: minispin_score,task_position,categorical,Position 3,296,1018,29.076620825147348
+Clinical: minispin_score,task_position,categorical,Position 4,29,1018,2.848722986247544
+Clinical: asrs_score,age,numeric,n,997,1019,
+Clinical: asrs_score,age,numeric,missing,22,1019,
+Clinical: asrs_score,age,numeric,mean,41.246740220661984,1019,
+Clinical: asrs_score,age,numeric,sd,13.669775159723246,1019,
+Clinical: asrs_score,age,numeric,median,40,1019,
+Clinical: asrs_score,age,numeric,q25,31,1019,
+Clinical: asrs_score,age,numeric,q75,51,1019,
+Clinical: asrs_score,age,numeric,min,18,1019,
+Clinical: asrs_score,age,numeric,max,80,1019,
+Clinical: asrs_score,cape15_score,numeric,n,1018,1019,
+Clinical: asrs_score,cape15_score,numeric,missing,1,1019,
+Clinical: asrs_score,cape15_score,numeric,mean,22.18271119842829,1019,
+Clinical: asrs_score,cape15_score,numeric,sd,7.483053007809819,1019,
+Clinical: asrs_score,cape15_score,numeric,median,20,1019,
+Clinical: asrs_score,cape15_score,numeric,q25,17,1019,
+Clinical: asrs_score,cape15_score,numeric,q75,25,1019,
+Clinical: asrs_score,cape15_score,numeric,min,15,1019,
+Clinical: asrs_score,cape15_score,numeric,max,55,1019,
+Clinical: asrs_score,altman_srms_score,numeric,n,1019,1019,
+Clinical: asrs_score,altman_srms_score,numeric,missing,0,1019,
+Clinical: asrs_score,altman_srms_score,numeric,mean,4.055937193326791,1019,
+Clinical: asrs_score,altman_srms_score,numeric,sd,3.488095328064078,1019,
+Clinical: asrs_score,altman_srms_score,numeric,median,3,1019,
+Clinical: asrs_score,altman_srms_score,numeric,q25,1,1019,
+Clinical: asrs_score,altman_srms_score,numeric,q75,6,1019,
+Clinical: asrs_score,altman_srms_score,numeric,min,0,1019,
+Clinical: asrs_score,altman_srms_score,numeric,max,19,1019,
+Clinical: asrs_score,isi_score,numeric,n,1019,1019,
+Clinical: asrs_score,isi_score,numeric,missing,0,1019,
+Clinical: asrs_score,isi_score,numeric,mean,9.944062806673209,1019,
+Clinical: asrs_score,isi_score,numeric,sd,6.543327828911031,1019,
+Clinical: asrs_score,isi_score,numeric,median,9,1019,
+Clinical: asrs_score,isi_score,numeric,q25,5,1019,
+Clinical: asrs_score,isi_score,numeric,q75,14,1019,
+Clinical: asrs_score,isi_score,numeric,min,0,1019,
+Clinical: asrs_score,isi_score,numeric,max,28,1019,
+Clinical: asrs_score,ocir_score,numeric,n,1017,1019,
+Clinical: asrs_score,ocir_score,numeric,missing,2,1019,
+Clinical: asrs_score,ocir_score,numeric,mean,17.534906588003935,1019,
+Clinical: asrs_score,ocir_score,numeric,sd,14.508109693073926,1019,
+Clinical: asrs_score,ocir_score,numeric,median,14,1019,
+Clinical: asrs_score,ocir_score,numeric,q25,5,1019,
+Clinical: asrs_score,ocir_score,numeric,q75,26,1019,
+Clinical: asrs_score,ocir_score,numeric,min,0,1019,
+Clinical: asrs_score,ocir_score,numeric,max,69,1019,
+Clinical: asrs_score,minispin_score,numeric,n,1017,1019,
+Clinical: asrs_score,minispin_score,numeric,missing,2,1019,
+Clinical: asrs_score,minispin_score,numeric,mean,5.274336283185841,1019,
+Clinical: asrs_score,minispin_score,numeric,sd,3.7488134838117264,1019,
+Clinical: asrs_score,minispin_score,numeric,median,5,1019,
+Clinical: asrs_score,minispin_score,numeric,q25,2,1019,
+Clinical: asrs_score,minispin_score,numeric,q75,8,1019,
+Clinical: asrs_score,minispin_score,numeric,min,0,1019,
+Clinical: asrs_score,minispin_score,numeric,max,12,1019,
+Clinical: asrs_score,asrs_score,numeric,n,1019,1019,
+Clinical: asrs_score,asrs_score,numeric,missing,0,1019,
+Clinical: asrs_score,asrs_score,numeric,mean,27.048086359175663,1019,
+Clinical: asrs_score,asrs_score,numeric,sd,15.900372651611605,1019,
+Clinical: asrs_score,asrs_score,numeric,median,26,1019,
+Clinical: asrs_score,asrs_score,numeric,q25,15,1019,
+Clinical: asrs_score,asrs_score,numeric,q75,38,1019,
+Clinical: asrs_score,asrs_score,numeric,min,0,1019,
+Clinical: asrs_score,asrs_score,numeric,max,72,1019,
+Clinical: asrs_score,gad7_score,numeric,n,437,1019,
+Clinical: asrs_score,gad7_score,numeric,missing,582,1019,
+Clinical: asrs_score,gad7_score,numeric,mean,11.77345537757437,1019,
+Clinical: asrs_score,gad7_score,numeric,sd,4.71931714524305,1019,
+Clinical: asrs_score,gad7_score,numeric,median,12,1019,
+Clinical: asrs_score,gad7_score,numeric,q25,8,1019,
+Clinical: asrs_score,gad7_score,numeric,q75,15,1019,
+Clinical: asrs_score,gad7_score,numeric,min,0,1019,
+Clinical: asrs_score,gad7_score,numeric,max,21,1019,
+Clinical: asrs_score,hamd6_score,numeric,n,393,1019,
+Clinical: asrs_score,hamd6_score,numeric,missing,626,1019,
+Clinical: asrs_score,hamd6_score,numeric,mean,9.8269720101781175,1019,
+Clinical: asrs_score,hamd6_score,numeric,sd,3.5175341028952225,1019,
+Clinical: asrs_score,hamd6_score,numeric,median,9,1019,
+Clinical: asrs_score,hamd6_score,numeric,q25,8,1019,
+Clinical: asrs_score,hamd6_score,numeric,q75,12,1019,
+Clinical: asrs_score,hamd6_score,numeric,min,1,1019,
+Clinical: asrs_score,hamd6_score,numeric,max,21,1019,
+Clinical: asrs_score,gender_original,categorical,Man,461,1019,45.24043179587831
+Clinical: asrs_score,gender_original,categorical,Missing,22,1019,2.1589793915603535
+Clinical: asrs_score,gender_original,categorical,Non-binary,27,1019,2.649656526005888
+Clinical: asrs_score,gender_original,categorical,Other,2,1019,0.19627085377821393
+Clinical: asrs_score,gender_original,categorical,Rather not say,1,1019,0.09813542688910697
+Clinical: asrs_score,gender_original,categorical,Woman,506,1019,49.656526005888125
+Clinical: asrs_score,participant_ethnicity_group,categorical,Asian,61,1019,5.986261040235525
+Clinical: asrs_score,participant_ethnicity_group,categorical,Black,119,1019,11.678115799803729
+Clinical: asrs_score,participant_ethnicity_group,categorical,Latino,38,1019,3.729146221786065
+Clinical: asrs_score,participant_ethnicity_group,categorical,Missing,23,1019,2.2571148184494603
+Clinical: asrs_score,participant_ethnicity_group,categorical,Mixed/multiple,47,1019,4.612365063788027
+Clinical: asrs_score,participant_ethnicity_group,categorical,Multiple categories selected,47,1019,4.612365063788027
+Clinical: asrs_score,participant_ethnicity_group,categorical,Other,7,1019,0.6869479882237487
+Clinical: asrs_score,participant_ethnicity_group,categorical,Prefer not to answer,8,1019,0.7850834151128557
+Clinical: asrs_score,participant_ethnicity_group,categorical,White,669,1019,65.65260058881256
+Clinical: asrs_score,education,categorical,Attended college but has not graduated,225,1019,22.080471050049066
+Clinical: asrs_score,education,categorical,Attended graduate school,52,1019,5.103042198233562
+Clinical: asrs_score,education,categorical,Completed master's or doctoral degree,169,1019,16.584887144259078
+Clinical: asrs_score,education,categorical,Graduated college,371,1019,36.40824337585868
+Clinical: asrs_score,education,categorical,Graduated high school or completed GED,162,1019,15.89793915603533
+Clinical: asrs_score,education,categorical,Has not completed high school,17,1019,1.6683022571148183
+Clinical: asrs_score,education,categorical,Missing,23,1019,2.2571148184494603
+Clinical: asrs_score,employment,categorical,Disabled,64,1019,6.280667320902846
+Clinical: asrs_score,employment,categorical,Full Time,472,1019,46.31992149165849
+Clinical: asrs_score,employment,categorical,Homemaker,52,1019,5.103042198233562
+Clinical: asrs_score,employment,categorical,Missing,23,1019,2.2571148184494603
+Clinical: asrs_score,employment,categorical,Part Time,183,1019,17.958783120706574
+Clinical: asrs_score,employment,categorical,Retired (other than disability),50,1019,4.906771344455349
+Clinical: asrs_score,employment,categorical,Seeking work,56,1019,5.49558390578999
+Clinical: asrs_score,employment,categorical,Studying,54,1019,5.299313052011776
+Clinical: asrs_score,employment,categorical,Unemployed,65,1019,6.378802747791953
+Clinical: asrs_score,prior_mh_status,categorical,Missing,24,1019,2.355250245338567
+Clinical: asrs_score,prior_mh_status,categorical,No prior condition reported,159,1019,15.603532875368009
+Clinical: asrs_score,prior_mh_status,categorical,Prior condition reported,836,1019,82.04121687929342
+Clinical: asrs_score,task_position,categorical,Position 1,352,1019,34.543670264965655
+Clinical: asrs_score,task_position,categorical,Position 2,340,1019,33.36604514229637
+Clinical: asrs_score,task_position,categorical,Position 3,298,1019,29.244357212953876
+Clinical: asrs_score,task_position,categorical,Position 4,29,1019,2.845927379784102
+Clinical: gad7_score,age,numeric,n,444,444,
+Clinical: gad7_score,age,numeric,missing,0,444,
+Clinical: gad7_score,age,numeric,mean,39.15765765765766,444,
+Clinical: gad7_score,age,numeric,sd,12.39174012780096,444,
+Clinical: gad7_score,age,numeric,median,38,444,
+Clinical: gad7_score,age,numeric,q25,30,444,
+Clinical: gad7_score,age,numeric,q75,48,444,
+Clinical: gad7_score,age,numeric,min,18,444,
+Clinical: gad7_score,age,numeric,max,78,444,
+Clinical: gad7_score,cape15_score,numeric,n,438,444,
+Clinical: gad7_score,cape15_score,numeric,missing,6,444,
+Clinical: gad7_score,cape15_score,numeric,mean,24.025114155251142,444,
+Clinical: gad7_score,cape15_score,numeric,sd,7.797306896499415,444,
+Clinical: gad7_score,cape15_score,numeric,median,22,444,
+Clinical: gad7_score,cape15_score,numeric,q25,18,444,
+Clinical: gad7_score,cape15_score,numeric,q75,27,444,
+Clinical: gad7_score,cape15_score,numeric,min,15,444,
+Clinical: gad7_score,cape15_score,numeric,max,53,444,
+Clinical: gad7_score,altman_srms_score,numeric,n,438,444,
+Clinical: gad7_score,altman_srms_score,numeric,missing,6,444,
+Clinical: gad7_score,altman_srms_score,numeric,mean,3.7260273972602738,444,
+Clinical: gad7_score,altman_srms_score,numeric,sd,3.160512691830269,444,
+Clinical: gad7_score,altman_srms_score,numeric,median,3,444,
+Clinical: gad7_score,altman_srms_score,numeric,q25,1,444,
+Clinical: gad7_score,altman_srms_score,numeric,q75,5.75,444,
+Clinical: gad7_score,altman_srms_score,numeric,min,0,444,
+Clinical: gad7_score,altman_srms_score,numeric,max,15,444,
+Clinical: gad7_score,isi_score,numeric,n,437,444,
+Clinical: gad7_score,isi_score,numeric,missing,7,444,
+Clinical: gad7_score,isi_score,numeric,mean,13.102974828375286,444,
+Clinical: gad7_score,isi_score,numeric,sd,6.530866397404029,444,
+Clinical: gad7_score,isi_score,numeric,median,13,444,
+Clinical: gad7_score,isi_score,numeric,q25,8,444,
+Clinical: gad7_score,isi_score,numeric,q75,17,444,
+Clinical: gad7_score,isi_score,numeric,min,0,444,
+Clinical: gad7_score,isi_score,numeric,max,28,444,
+Clinical: gad7_score,ocir_score,numeric,n,437,444,
+Clinical: gad7_score,ocir_score,numeric,missing,7,444,
+Clinical: gad7_score,ocir_score,numeric,mean,23.356979405034323,444,
+Clinical: gad7_score,ocir_score,numeric,sd,14.577089540746215,444,
+Clinical: gad7_score,ocir_score,numeric,median,22,444,
+Clinical: gad7_score,ocir_score,numeric,q25,12,444,
+Clinical: gad7_score,ocir_score,numeric,q75,34,444,
+Clinical: gad7_score,ocir_score,numeric,min,0,444,
+Clinical: gad7_score,ocir_score,numeric,max,62,444,
+Clinical: gad7_score,minispin_score,numeric,n,437,444,
+Clinical: gad7_score,minispin_score,numeric,missing,7,444,
+Clinical: gad7_score,minispin_score,numeric,mean,6.97025171624714,444,
+Clinical: gad7_score,minispin_score,numeric,sd,3.5285900686072087,444,
+Clinical: gad7_score,minispin_score,numeric,median,7,444,
+Clinical: gad7_score,minispin_score,numeric,q25,4,444,
+Clinical: gad7_score,minispin_score,numeric,q75,10,444,
+Clinical: gad7_score,minispin_score,numeric,min,0,444,
+Clinical: gad7_score,minispin_score,numeric,max,12,444,
+Clinical: gad7_score,asrs_score,numeric,n,437,444,
+Clinical: gad7_score,asrs_score,numeric,missing,7,444,
+Clinical: gad7_score,asrs_score,numeric,mean,34.13729977116705,444,
+Clinical: gad7_score,asrs_score,numeric,sd,14.734793281855492,444,
+Clinical: gad7_score,asrs_score,numeric,median,34,444,
+Clinical: gad7_score,asrs_score,numeric,q25,23,444,
+Clinical: gad7_score,asrs_score,numeric,q75,45,444,
+Clinical: gad7_score,asrs_score,numeric,min,1,444,
+Clinical: gad7_score,asrs_score,numeric,max,72,444,
+Clinical: gad7_score,gad7_score,numeric,n,444,444,
+Clinical: gad7_score,gad7_score,numeric,missing,0,444,
+Clinical: gad7_score,gad7_score,numeric,mean,11.801801801801801,444,
+Clinical: gad7_score,gad7_score,numeric,sd,4.715508862701666,444,
+Clinical: gad7_score,gad7_score,numeric,median,12,444,
+Clinical: gad7_score,gad7_score,numeric,q25,8,444,
+Clinical: gad7_score,gad7_score,numeric,q75,15,444,
+Clinical: gad7_score,gad7_score,numeric,min,0,444,
+Clinical: gad7_score,gad7_score,numeric,max,21,444,
+Clinical: gad7_score,hamd6_score,numeric,n,318,444,
+Clinical: gad7_score,hamd6_score,numeric,missing,126,444,
+Clinical: gad7_score,hamd6_score,numeric,mean,10.449685534591195,444,
+Clinical: gad7_score,hamd6_score,numeric,sd,3.3870671495503246,444,
+Clinical: gad7_score,hamd6_score,numeric,median,10,444,
+Clinical: gad7_score,hamd6_score,numeric,q25,8,444,
+Clinical: gad7_score,hamd6_score,numeric,q75,12,444,
+Clinical: gad7_score,hamd6_score,numeric,min,3,444,
+Clinical: gad7_score,hamd6_score,numeric,max,21,444,
+Clinical: gad7_score,gender_original,categorical,Man,194,444,43.69369369369369
+Clinical: gad7_score,gender_original,categorical,Non-binary,14,444,3.153153153153153
+Clinical: gad7_score,gender_original,categorical,Other,1,444,0.22522522522522523
+Clinical: gad7_score,gender_original,categorical,Rather not say,1,444,0.22522522522522523
+Clinical: gad7_score,gender_original,categorical,Woman,234,444,52.702702702702695
+Clinical: gad7_score,participant_ethnicity_group,categorical,Asian,23,444,5.18018018018018
+Clinical: gad7_score,participant_ethnicity_group,categorical,Black,39,444,8.783783783783784
+Clinical: gad7_score,participant_ethnicity_group,categorical,Latino,23,444,5.18018018018018
+Clinical: gad7_score,participant_ethnicity_group,categorical,Mixed/multiple,20,444,4.504504504504505
+Clinical: gad7_score,participant_ethnicity_group,categorical,Multiple categories selected,21,444,4.72972972972973
+Clinical: gad7_score,participant_ethnicity_group,categorical,Other,2,444,0.45045045045045046
+Clinical: gad7_score,participant_ethnicity_group,categorical,Prefer not to answer,5,444,1.1261261261261262
+Clinical: gad7_score,participant_ethnicity_group,categorical,White,311,444,70.04504504504504
+Clinical: gad7_score,education,categorical,Attended college but has not graduated,108,444,24.324324324324326
+Clinical: gad7_score,education,categorical,Attended graduate school,24,444,5.405405405405405
+Clinical: gad7_score,education,categorical,Completed master's or doctoral degree,73,444,16.441441441441444
+Clinical: gad7_score,education,categorical,Graduated college,152,444,34.234234234234236
+Clinical: gad7_score,education,categorical,Graduated high school or completed GED,76,444,17.117117117117118
+Clinical: gad7_score,education,categorical,Has not completed high school,11,444,2.4774774774774775
+Clinical: gad7_score,employment,categorical,Disabled,43,444,9.684684684684685
+Clinical: gad7_score,employment,categorical,Full Time,186,444,41.891891891891895
+Clinical: gad7_score,employment,categorical,Homemaker,24,444,5.405405405405405
+Clinical: gad7_score,employment,categorical,Part Time,81,444,18.243243243243242
+Clinical: gad7_score,employment,categorical,Retired (other than disability),6,444,1.3513513513513513
+Clinical: gad7_score,employment,categorical,Seeking work,39,444,8.783783783783784
+Clinical: gad7_score,employment,categorical,Studying,29,444,6.531531531531531
+Clinical: gad7_score,employment,categorical,Unemployed,36,444,8.108108108108109
+Clinical: gad7_score,prior_mh_status,categorical,No prior condition reported,35,444,7.882882882882883
+Clinical: gad7_score,prior_mh_status,categorical,Prior condition reported,409,444,92.11711711711712
+Clinical: gad7_score,task_position,categorical,Position 1,167,444,37.61261261261261
+Clinical: gad7_score,task_position,categorical,Position 2,136,444,30.630630630630627
+Clinical: gad7_score,task_position,categorical,Position 3,124,444,27.927927927927925
+Clinical: gad7_score,task_position,categorical,Position 4,17,444,3.8288288288288284
+Clinical: hamd6_score,age,numeric,n,399,399,
+Clinical: hamd6_score,age,numeric,missing,0,399,
+Clinical: hamd6_score,age,numeric,mean,39.17293233082707,399,
+Clinical: hamd6_score,age,numeric,sd,12.347264631990129,399,
+Clinical: hamd6_score,age,numeric,median,38,399,
+Clinical: hamd6_score,age,numeric,q25,30,399,
+Clinical: hamd6_score,age,numeric,q75,48,399,
+Clinical: hamd6_score,age,numeric,min,18,399,
+Clinical: hamd6_score,age,numeric,max,78,399,
+Clinical: hamd6_score,cape15_score,numeric,n,393,399,
+Clinical: hamd6_score,cape15_score,numeric,missing,6,399,
+Clinical: hamd6_score,cape15_score,numeric,mean,25.17557251908397,399,
+Clinical: hamd6_score,cape15_score,numeric,sd,8.490223293406125,399,
+Clinical: hamd6_score,cape15_score,numeric,median,23,399,
+Clinical: hamd6_score,cape15_score,numeric,q25,19,399,
+Clinical: hamd6_score,cape15_score,numeric,q75,30,399,
+Clinical: hamd6_score,cape15_score,numeric,min,15,399,
+Clinical: hamd6_score,cape15_score,numeric,max,55,399,
+Clinical: hamd6_score,altman_srms_score,numeric,n,393,399,
+Clinical: hamd6_score,altman_srms_score,numeric,missing,6,399,
+Clinical: hamd6_score,altman_srms_score,numeric,mean,3.7302798982188294,399,
+Clinical: hamd6_score,altman_srms_score,numeric,sd,3.3531167610588613,399,
+Clinical: hamd6_score,altman_srms_score,numeric,median,3,399,
+Clinical: hamd6_score,altman_srms_score,numeric,q25,1,399,
+Clinical: hamd6_score,altman_srms_score,numeric,q75,5,399,
+Clinical: hamd6_score,altman_srms_score,numeric,min,0,399,
+Clinical: hamd6_score,altman_srms_score,numeric,max,15,399,
+Clinical: hamd6_score,isi_score,numeric,n,393,399,
+Clinical: hamd6_score,isi_score,numeric,missing,6,399,
+Clinical: hamd6_score,isi_score,numeric,mean,13.483460559796438,399,
+Clinical: hamd6_score,isi_score,numeric,sd,6.447223436084137,399,
+Clinical: hamd6_score,isi_score,numeric,median,14,399,
+Clinical: hamd6_score,isi_score,numeric,q25,8,399,
+Clinical: hamd6_score,isi_score,numeric,q75,18,399,
+Clinical: hamd6_score,isi_score,numeric,min,0,399,
+Clinical: hamd6_score,isi_score,numeric,max,28,399,
+Clinical: hamd6_score,ocir_score,numeric,n,392,399,
+Clinical: hamd6_score,ocir_score,numeric,missing,7,399,
+Clinical: hamd6_score,ocir_score,numeric,mean,24.102040816326532,399,
+Clinical: hamd6_score,ocir_score,numeric,sd,15.283168480101521,399,
+Clinical: hamd6_score,ocir_score,numeric,median,22,399,
+Clinical: hamd6_score,ocir_score,numeric,q25,12,399,
+Clinical: hamd6_score,ocir_score,numeric,q75,35,399,
+Clinical: hamd6_score,ocir_score,numeric,min,0,399,
+Clinical: hamd6_score,ocir_score,numeric,max,69,399,
+Clinical: hamd6_score,minispin_score,numeric,n,391,399,
+Clinical: hamd6_score,minispin_score,numeric,missing,8,399,
+Clinical: hamd6_score,minispin_score,numeric,mean,7.020460358056266,399,
+Clinical: hamd6_score,minispin_score,numeric,sd,3.5256700825682477,399,
+Clinical: hamd6_score,minispin_score,numeric,median,7,399,
+Clinical: hamd6_score,minispin_score,numeric,q25,4,399,
+Clinical: hamd6_score,minispin_score,numeric,q75,10,399,
+Clinical: hamd6_score,minispin_score,numeric,min,0,399,
+Clinical: hamd6_score,minispin_score,numeric,max,12,399,
+Clinical: hamd6_score,asrs_score,numeric,n,393,399,
+Clinical: hamd6_score,asrs_score,numeric,missing,6,399,
+Clinical: hamd6_score,asrs_score,numeric,mean,34.99236641221374,399,
+Clinical: hamd6_score,asrs_score,numeric,sd,14.498326530738995,399,
+Clinical: hamd6_score,asrs_score,numeric,median,35,399,
+Clinical: hamd6_score,asrs_score,numeric,q25,25,399,
+Clinical: hamd6_score,asrs_score,numeric,q75,44,399,
+Clinical: hamd6_score,asrs_score,numeric,min,1,399,
+Clinical: hamd6_score,asrs_score,numeric,max,72,399,
+Clinical: hamd6_score,gad7_score,numeric,n,318,399,
+Clinical: hamd6_score,gad7_score,numeric,missing,81,399,
+Clinical: hamd6_score,gad7_score,numeric,mean,12.820754716981131,399,
+Clinical: hamd6_score,gad7_score,numeric,sd,4.602421190701483,399,
+Clinical: hamd6_score,gad7_score,numeric,median,13,399,
+Clinical: hamd6_score,gad7_score,numeric,q25,9,399,
+Clinical: hamd6_score,gad7_score,numeric,q75,16,399,
+Clinical: hamd6_score,gad7_score,numeric,min,1,399,
+Clinical: hamd6_score,gad7_score,numeric,max,21,399,
+Clinical: hamd6_score,hamd6_score,numeric,n,399,399,
+Clinical: hamd6_score,hamd6_score,numeric,missing,0,399,
+Clinical: hamd6_score,hamd6_score,numeric,mean,9.859649122807017,399,
+Clinical: hamd6_score,hamd6_score,numeric,sd,3.5202716428409233,399,
+Clinical: hamd6_score,hamd6_score,numeric,median,9,399,
+Clinical: hamd6_score,hamd6_score,numeric,q25,8,399,
+Clinical: hamd6_score,hamd6_score,numeric,q75,12,399,
+Clinical: hamd6_score,hamd6_score,numeric,min,1,399,
+Clinical: hamd6_score,hamd6_score,numeric,max,21,399,
+Clinical: hamd6_score,gender_original,categorical,Man,189,399,47.368421052631575
+Clinical: hamd6_score,gender_original,categorical,Non-binary,15,399,3.7593984962406015
+Clinical: hamd6_score,gender_original,categorical,Other,1,399,0.2506265664160401
+Clinical: hamd6_score,gender_original,categorical,Rather not say,1,399,0.2506265664160401
+Clinical: hamd6_score,gender_original,categorical,Woman,193,399,48.370927318295735
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Asian,21,399,5.263157894736842
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Black,43,399,10.776942355889723
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Latino,21,399,5.263157894736842
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Mixed/multiple,17,399,4.260651629072681
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Multiple categories selected,19,399,4.761904761904762
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Other,2,399,0.5012531328320802
+Clinical: hamd6_score,participant_ethnicity_group,categorical,Prefer not to answer,5,399,1.2531328320802004
+Clinical: hamd6_score,participant_ethnicity_group,categorical,White,271,399,67.91979949874687
+Clinical: hamd6_score,education,categorical,Attended college but has not graduated,101,399,25.31328320802005
+Clinical: hamd6_score,education,categorical,Attended graduate school,23,399,5.764411027568922
+Clinical: hamd6_score,education,categorical,Completed master's or doctoral degree,63,399,15.789473684210526
+Clinical: hamd6_score,education,categorical,Graduated college,130,399,32.581453634085214
+Clinical: hamd6_score,education,categorical,Graduated high school or completed GED,76,399,19.047619047619047
+Clinical: hamd6_score,education,categorical,Has not completed high school,6,399,1.5037593984962405
+Clinical: hamd6_score,employment,categorical,Disabled,40,399,10.025062656641603
+Clinical: hamd6_score,employment,categorical,Full Time,174,399,43.609022556390975
+Clinical: hamd6_score,employment,categorical,Homemaker,15,399,3.7593984962406015
+Clinical: hamd6_score,employment,categorical,Part Time,72,399,18.045112781954884
+Clinical: hamd6_score,employment,categorical,Retired (other than disability),8,399,2.0050125313283207
+Clinical: hamd6_score,employment,categorical,Seeking work,33,399,8.270676691729323
+Clinical: hamd6_score,employment,categorical,Studying,22,399,5.513784461152882
+Clinical: hamd6_score,employment,categorical,Unemployed,35,399,8.771929824561402
+Clinical: hamd6_score,prior_mh_status,categorical,No prior condition reported,31,399,7.769423558897243
+Clinical: hamd6_score,prior_mh_status,categorical,Prior condition reported,368,399,92.23057644110276
+Clinical: hamd6_score,task_position,categorical,Position 1,147,399,36.84210526315789
+Clinical: hamd6_score,task_position,categorical,Position 2,124,399,31.07769423558897
+Clinical: hamd6_score,task_position,categorical,Position 3,113,399,28.32080200501253
+Clinical: hamd6_score,task_position,categorical,Position 4,15,399,3.7593984962406015

@@ -1,0 +1,2 @@
+model,formula,participant_n,trial_n,singular,convergence_message,captured_warnings
+sensitivity_no_happy_accuracy_model,correct ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1047,64354,FALSE,,

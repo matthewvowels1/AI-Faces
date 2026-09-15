@@ -1,0 +1,2 @@
+comparison,odds_ratio,conf_low,conf_high,p_value,interpretation
+Emotion-recognition inclusion by intake-demographic availability,79.42262387224604,50.70108722772829,128.2016577529037,8.343486652101984e-124,Odds of emotion-recognition inclusion when intake demographics were available versus unavailable

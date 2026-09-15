@@ -1,0 +1,27 @@
+
+Call:
+glm(formula = included_any_emorec ~ age_z + gender_binary + participant_white_status + 
+    prior_mh_binary, family = binomial(), data = inclusion_model_data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.6764   0.2757   0.2811   0.3580   0.3855  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                        3.44621    0.46375   7.431 1.08e-13 ***
+age_z                             -0.01751    0.15119  -0.116   0.9078    
+gender_binaryMan                  -0.62054    0.30160  -2.057   0.0396 *  
+participant_white_statusNon-white  0.12483    0.33405   0.374   0.7086    
+prior_mh_binaryPrior condition    -0.21340    0.42439  -0.503   0.6151    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 398.96  on 1018  degrees of freedom
+Residual deviance: 394.31  on 1014  degrees of freedom
+AIC: 404.31
+
+Number of Fisher Scoring iterations: 6
+

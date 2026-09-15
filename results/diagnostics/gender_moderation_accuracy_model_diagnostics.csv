@@ -1,0 +1,2 @@
+model,formula,participant_n,trial_n,singular,convergence_message,captured_warnings
+gender_moderation_accuracy_model,correct ~ trial_stratum * gender_binary * face_gender + target_emotion +      trial_position_z + task_position + (1 | participant_id) +      (1 | stimulus_id),978,72464,FALSE,,

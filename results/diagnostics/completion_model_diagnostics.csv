@@ -1,0 +1,3 @@
+model,n,events,non_events,converged,apparent_auc,brier_score,warning
+Any valid emotion-recognition data,1019,969,50,TRUE,0.5820123839009288,0.04643386766040671,
+Completed 80 valid trials among starters,969,960,9,TRUE,0.6777199074074074,0.00918232569023968,

@@ -1,0 +1,73 @@
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: binomial  ( logit )
+Formula: correct ~ trial_stratum * participant_white_status + target_emotion +  
+    trial_position_z + task_position + (1 | participant_id) +  
+    (1 | stimulus_id)
+   Data: race_accuracy_data
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  52208.5   52365.1  -26087.3   52174.5     74047 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-16.5379   0.0896   0.2138   0.4018  12.7461 
+
+Random effects:
+ Groups         Name        Variance Std.Dev.
+ participant_id (Intercept) 0.4896   0.6997  
+ stimulus_id    (Intercept) 1.0792   1.0388  
+Number of obs: 74064, groups:  participant_id, 999; stimulus_id, 210
+
+Fixed effects:
+                                                            Estimate Std. Error
+(Intercept)                                                  1.70718    0.21031
+trial_stratumAI-white                                        0.82082    0.21076
+trial_stratumAI-non-white                                    0.62899    0.16756
+participant_white_statusNon-white                           -0.08986    0.05677
+target_emotiondisgust                                       -0.57877    0.25245
+target_emotionfear                                          -1.35717    0.25202
+target_emotionhappy                                          2.36967    0.26559
+target_emotionneutral                                        0.30986    0.25391
+target_emotionsad                                            0.48031    0.25545
+trial_position_z                                             0.04406    0.01129
+task_positionPosition 2                                     -0.07269    0.06075
+task_positionPosition 3                                     -0.02717    0.06260
+task_positionPosition 4                                     -0.28075    0.15373
+trial_stratumAI-white:participant_white_statusNon-white     -0.04145    0.07800
+trial_stratumAI-non-white:participant_white_statusNon-white  0.06582    0.05449
+                                                            z value Pr(>|z|)
+(Intercept)                                                   8.118 4.75e-16
+trial_stratumAI-white                                         3.895 9.83e-05
+trial_stratumAI-non-white                                     3.754 0.000174
+participant_white_statusNon-white                            -1.583 0.113434
+target_emotiondisgust                                        -2.293 0.021868
+target_emotionfear                                           -5.385 7.24e-08
+target_emotionhappy                                           8.922  < 2e-16
+target_emotionneutral                                         1.220 0.222334
+target_emotionsad                                             1.880 0.060071
+trial_position_z                                              3.904 9.48e-05
+task_positionPosition 2                                      -1.197 0.231498
+task_positionPosition 3                                      -0.434 0.664342
+task_positionPosition 4                                      -1.826 0.067814
+trial_stratumAI-white:participant_white_statusNon-white      -0.531 0.595121
+trial_stratumAI-non-white:participant_white_statusNon-white   1.208 0.227086
+                                                               
+(Intercept)                                                 ***
+trial_stratumAI-white                                       ***
+trial_stratumAI-non-white                                   ***
+participant_white_statusNon-white                              
+target_emotiondisgust                                       *  
+target_emotionfear                                          ***
+target_emotionhappy                                         ***
+target_emotionneutral                                          
+target_emotionsad                                           .  
+trial_position_z                                            ***
+task_positionPosition 2                                        
+task_positionPosition 3                                        
+task_positionPosition 4                                     .  
+trial_stratumAI-white:participant_white_statusNon-white        
+trial_stratumAI-non-white:participant_white_statusNon-white    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

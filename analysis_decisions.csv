@@ -1,0 +1,19 @@
+decision,value,status
+Released data,data/ai_faces_study.csv,fixed_for_run
+Stimulus metadata,data/stimulus_manifest.csv,fixed_for_run
+Expected emotion-recognition trials,80,fixed_for_run
+Primary emotion set,anger; disgust; fear; happy; neutral; sad,fixed_for_run
+Accuracy outcome,binary correctness per valid trial,fixed_for_run
+Primary RT outcome,"correct-trial RT, log transformed in models",fixed_for_run
+RT lower bound seconds,0.2,fixed_for_run
+RT upper bound seconds,30,fixed_for_run
+AI-diverse definition,all AI trials including AI-white,fixed_for_run
+AI-diverse weighting,observed mix primary; equal ethnicity weighting sensitivity,fixed_for_run
+FACES minimum common-emotion trials,20,fixed_for_run
+AI-white minimum common-emotion trials,5,fixed_for_run
+AI-non-white minimum common-emotion trials,10,fixed_for_run
+AI-diverse minimum common-emotion trials,20,fixed_for_run
+All-stimuli minimum common-emotion trials,40,fixed_for_run
+Clinical score completeness,all required items answered; partial sums retained only for audit,fixed_for_run
+Primary clinical scale family,UNRESOLVED - validated scales reported as a secondary family,requires_study_team_decision
+Non-inferiority margin,UNRESOLVED - no confirmatory non-inferiority conclusion,requires_study_team_decision

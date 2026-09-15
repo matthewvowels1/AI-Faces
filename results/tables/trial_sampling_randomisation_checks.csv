@@ -1,0 +1,4 @@
+check,levels,observed_counts,chi_square,df,p_value
+FACES versus AI source frequency,AI; FACES,41714; 41492,0.5923130543470423,1,0.4415260662738615
+FACES emotion frequency,anger; disgust; fear; happy; neutral; sad,6773; 6914; 7075; 6991; 6904; 6835,8.39602815000482,5,0.13571817168976977
+AI emotion frequency,anger; disgust; fear; happy; neutral; sad; surprise,6079; 5844; 5919; 5893; 5952; 6059; 5968,7.335091336242029,6,0.2909664526016086

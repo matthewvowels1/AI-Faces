@@ -1,0 +1,54 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: log_rt ~ trial_stratum * participant_white_status + target_emotion +  
+    trial_position_z + task_position + (1 | participant_id) +  
+    (1 | stimulus_id)
+   Data: race_rt_data
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  74556.9   74718.9  -37260.5   74520.9     59656 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.2651 -0.6138 -0.1470  0.4382  6.6656 
+
+Random effects:
+ Groups         Name        Variance Std.Dev.
+ participant_id (Intercept) 0.05969  0.2443  
+ stimulus_id    (Intercept) 0.01225  0.1107  
+ Residual                   0.19230  0.4385  
+Number of obs: 59674, groups:  participant_id, 999; stimulus_id, 210
+
+Fixed effects:
+                                                              Estimate
+(Intercept)                                                  1.0186622
+trial_stratumAI-white                                       -0.1516889
+trial_stratumAI-non-white                                   -0.1399679
+participant_white_statusNon-white                            0.0089700
+target_emotiondisgust                                        0.0472362
+target_emotionfear                                           0.1974216
+target_emotionhappy                                         -0.3252226
+target_emotionneutral                                       -0.1608317
+target_emotionsad                                           -0.0711588
+trial_position_z                                            -0.0824677
+task_positionPosition 2                                     -0.0041786
+task_positionPosition 3                                     -0.0394094
+task_positionPosition 4                                     -0.0821685
+trial_stratumAI-white:participant_white_statusNon-white     -0.0001149
+trial_stratumAI-non-white:participant_white_statusNon-white  0.0054331
+                                                            Std. Error t value
+(Intercept)                                                  0.0264245  38.550
+trial_stratumAI-white                                        0.0224763  -6.749
+trial_stratumAI-non-white                                    0.0179763  -7.786
+participant_white_statusNon-white                            0.0174163   0.515
+target_emotiondisgust                                        0.0273478   1.727
+target_emotionfear                                           0.0274039   7.204
+target_emotionhappy                                          0.0272070 -11.954
+target_emotionneutral                                        0.0272529  -5.901
+target_emotionsad                                            0.0272693  -2.609
+trial_position_z                                             0.0018047 -45.696
+task_positionPosition 2                                      0.0193420  -0.216
+task_positionPosition 3                                      0.0199123  -1.979
+task_positionPosition 4                                      0.0493972  -1.663
+trial_stratumAI-white:participant_white_statusNon-white      0.0113963  -0.010
+trial_stratumAI-non-white:participant_white_statusNon-white  0.0085691   0.634

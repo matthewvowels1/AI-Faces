@@ -1,0 +1,63 @@
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: binomial  ( logit )
+Formula: correct ~ trial_stratum + target_emotion + trial_position_z +  
+    task_position + (1 | participant_id) + (1 | stimulus_id)
+   Data: accuracy_data
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  54551.7   54681.2  -27261.8   54523.7     77224 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-17.3240   0.0893   0.2147   0.4012  13.2226 
+
+Random effects:
+ Groups         Name        Variance Std.Dev.
+ participant_id (Intercept) 0.5158   0.7182  
+ stimulus_id    (Intercept) 1.0595   1.0293  
+Number of obs: 77238, groups:  participant_id, 1047; stimulus_id, 210
+
+Fixed effects:
+                           Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                1.675618   0.207386   8.080 6.49e-16 ***
+trial_stratumAI-white      0.778414   0.206922   3.762 0.000169 ***
+trial_stratumAI-non-white  0.623958   0.164832   3.785 0.000153 ***
+target_emotiondisgust     -0.586002   0.249994  -2.344 0.019075 *  
+target_emotionfear        -1.366561   0.249593  -5.475 4.37e-08 ***
+target_emotionhappy        2.364080   0.262409   9.009  < 2e-16 ***
+target_emotionneutral      0.297734   0.251375   1.184 0.236246    
+target_emotionsad          0.435574   0.252621   1.724 0.084669 .  
+trial_position_z           0.050044   0.011048   4.530 5.91e-06 ***
+task_positionPosition 2   -0.047500   0.060252  -0.788 0.430491    
+task_positionPosition 3    0.004368   0.062521   0.070 0.944295    
+task_positionPosition 4   -0.231691   0.155826  -1.487 0.137053    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) tr_AI- t_AI-- trgt_mtnd trgt_mtnf trgt_mtnh trgt_mtnn
+trl_strtAI- -0.358                                                      
+trl_strAI-- -0.446  0.446                                               
+trgt_mtndsg -0.605 -0.001 -0.004                                        
+targt_mtnfr -0.606 -0.001 -0.003  0.504                                 
+trgt_mtnhpp -0.585  0.016  0.012  0.479     0.480                       
+trgt_mtnntr -0.603  0.001 -0.002  0.500     0.501     0.477             
+targt_mtnsd -0.603  0.005  0.005  0.498     0.499     0.475     0.495   
+tril_pstn_z  0.002  0.000  0.001  0.001     0.000     0.001     0.001   
+tsk_pstnPs2 -0.140  0.000  0.000  0.001     0.000     0.000     0.000   
+tsk_pstnPs3 -0.135  0.000  0.000  0.000     0.000     0.000     0.000   
+tsk_pstnPs4 -0.055  0.000  0.000  0.000     0.000     0.000     0.000   
+            trgt_mtns trl_p_ tsk_P2 tsk_P3
+trl_strtAI-                               
+trl_strAI--                               
+trgt_mtndsg                               
+targt_mtnfr                               
+trgt_mtnhpp                               
+trgt_mtnntr                               
+targt_mtnsd                               
+tril_pstn_z -0.001                        
+tsk_pstnPs2  0.000    -0.004              
+tsk_pstnPs3  0.000    -0.001  0.465       
+tsk_pstnPs4  0.000    -0.002  0.187  0.180

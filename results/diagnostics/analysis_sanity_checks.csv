@@ -1,0 +1,11 @@
+check,passed
+Prepared validation checks passed,TRUE
+Accuracy model used only common emotions,TRUE
+RT model used only correct in-bound trials,TRUE
+Accuracy model retained disjoint trial rows,TRUE
+AI-diverse model estimate pooled after fitting,TRUE
+Clinical correlations use participant rows,TRUE
+All mixed models converged without singularity,TRUE
+Gender direct contrasts are complete and finite,TRUE
+White-status direct contrasts are complete and finite,TRUE
+No confirmatory non-inferiority conclusion generated,TRUE

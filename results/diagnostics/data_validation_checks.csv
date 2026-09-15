@@ -1,0 +1,11 @@
+check,passed
+Expected participant count,TRUE
+Released participant IDs unique,TRUE
+Every trial participant exists in participant file,TRUE
+Expected post-cleaning trial count,TRUE
+Each included trial has one disjoint stratum,TRUE
+No duplicate participant-trial row,TRUE
+FACES stimuli are white-labelled,TRUE
+FACES has no surprise target,TRUE
+All eight retained clinical totals reproduce from released items,TRUE
+RT inclusion implies a correct response,TRUE

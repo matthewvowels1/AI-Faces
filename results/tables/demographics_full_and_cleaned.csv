@@ -1,0 +1,359 @@
+sample,variable,summary_type,level_or_statistic,value,denominator,percent
+Full participant frame,age,numeric,n,1064,1277,
+Full participant frame,age,numeric,missing,213,1277,
+Full participant frame,age,numeric,mean,41.29323308270677,1277,
+Full participant frame,age,numeric,sd,13.593151368889078,1277,
+Full participant frame,age,numeric,median,40,1277,
+Full participant frame,age,numeric,q25,31,1277,
+Full participant frame,age,numeric,q75,51,1277,
+Full participant frame,age,numeric,min,18,1277,
+Full participant frame,age,numeric,max,80,1277,
+Full participant frame,cape15_score,numeric,n,1081,1277,
+Full participant frame,cape15_score,numeric,missing,196,1277,
+Full participant frame,cape15_score,numeric,mean,22.354301572617945,1277,
+Full participant frame,cape15_score,numeric,sd,7.660704354141487,1277,
+Full participant frame,cape15_score,numeric,median,20,1277,
+Full participant frame,cape15_score,numeric,q25,17,1277,
+Full participant frame,cape15_score,numeric,q75,25,1277,
+Full participant frame,cape15_score,numeric,min,15,1277,
+Full participant frame,cape15_score,numeric,max,55,1277,
+Full participant frame,altman_srms_score,numeric,n,1082,1277,
+Full participant frame,altman_srms_score,numeric,missing,195,1277,
+Full participant frame,altman_srms_score,numeric,mean,4.128465804066543,1277,
+Full participant frame,altman_srms_score,numeric,sd,3.49747407904793,1277,
+Full participant frame,altman_srms_score,numeric,median,4,1277,
+Full participant frame,altman_srms_score,numeric,q25,1,1277,
+Full participant frame,altman_srms_score,numeric,q75,6,1277,
+Full participant frame,altman_srms_score,numeric,min,0,1277,
+Full participant frame,altman_srms_score,numeric,max,19,1277,
+Full participant frame,isi_score,numeric,n,1081,1277,
+Full participant frame,isi_score,numeric,missing,196,1277,
+Full participant frame,isi_score,numeric,mean,9.974098057354302,1277,
+Full participant frame,isi_score,numeric,sd,6.474685373852219,1277,
+Full participant frame,isi_score,numeric,median,9,1277,
+Full participant frame,isi_score,numeric,q25,5,1277,
+Full participant frame,isi_score,numeric,q75,14,1277,
+Full participant frame,isi_score,numeric,min,0,1277,
+Full participant frame,isi_score,numeric,max,28,1277,
+Full participant frame,ocir_score,numeric,n,1080,1277,
+Full participant frame,ocir_score,numeric,missing,197,1277,
+Full participant frame,ocir_score,numeric,mean,17.737037037037037,1277,
+Full participant frame,ocir_score,numeric,sd,14.628970663936023,1277,
+Full participant frame,ocir_score,numeric,median,14,1277,
+Full participant frame,ocir_score,numeric,q25,5,1277,
+Full participant frame,ocir_score,numeric,q75,27,1277,
+Full participant frame,ocir_score,numeric,min,0,1277,
+Full participant frame,ocir_score,numeric,max,69,1277,
+Full participant frame,minispin_score,numeric,n,1080,1277,
+Full participant frame,minispin_score,numeric,missing,197,1277,
+Full participant frame,minispin_score,numeric,mean,5.258333333333334,1277,
+Full participant frame,minispin_score,numeric,sd,3.7196625804899215,1277,
+Full participant frame,minispin_score,numeric,median,5,1277,
+Full participant frame,minispin_score,numeric,q25,2,1277,
+Full participant frame,minispin_score,numeric,q75,8,1277,
+Full participant frame,minispin_score,numeric,min,0,1277,
+Full participant frame,minispin_score,numeric,max,12,1277,
+Full participant frame,asrs_score,numeric,n,1081,1277,
+Full participant frame,asrs_score,numeric,missing,196,1277,
+Full participant frame,asrs_score,numeric,mean,27.320074005550417,1277,
+Full participant frame,asrs_score,numeric,sd,15.958779494606757,1277,
+Full participant frame,asrs_score,numeric,median,26,1277,
+Full participant frame,asrs_score,numeric,q25,15,1277,
+Full participant frame,asrs_score,numeric,q75,39,1277,
+Full participant frame,asrs_score,numeric,min,0,1277,
+Full participant frame,asrs_score,numeric,max,72,1277,
+Full participant frame,gad7_score,numeric,n,468,1277,
+Full participant frame,gad7_score,numeric,missing,809,1277,
+Full participant frame,gad7_score,numeric,mean,11.805555555555555,1277,
+Full participant frame,gad7_score,numeric,sd,4.681574790308233,1277,
+Full participant frame,gad7_score,numeric,median,12,1277,
+Full participant frame,gad7_score,numeric,q25,8,1277,
+Full participant frame,gad7_score,numeric,q75,15,1277,
+Full participant frame,gad7_score,numeric,min,0,1277,
+Full participant frame,gad7_score,numeric,max,21,1277,
+Full participant frame,hamd6_score,numeric,n,420,1277,
+Full participant frame,hamd6_score,numeric,missing,857,1277,
+Full participant frame,hamd6_score,numeric,mean,9.876190476190477,1277,
+Full participant frame,hamd6_score,numeric,sd,3.512528515843074,1277,
+Full participant frame,hamd6_score,numeric,median,9,1277,
+Full participant frame,hamd6_score,numeric,q25,8,1277,
+Full participant frame,hamd6_score,numeric,q75,12,1277,
+Full participant frame,hamd6_score,numeric,min,1,1277,
+Full participant frame,hamd6_score,numeric,max,21,1277,
+Full participant frame,gender_original,categorical,Man,497,1277,38.919342208300705
+Full participant frame,gender_original,categorical,Missing,213,1277,16.67971808927173
+Full participant frame,gender_original,categorical,Non-binary,29,1277,2.2709475332811273
+Full participant frame,gender_original,categorical,Other,2,1277,0.15661707126076743
+Full participant frame,gender_original,categorical,Rather not say,1,1277,0.07830853563038372
+Full participant frame,gender_original,categorical,Woman,535,1277,41.89506656225529
+Full participant frame,participant_ethnicity_group,categorical,Asian,66,1277,5.168363351605325
+Full participant frame,participant_ethnicity_group,categorical,Black,130,1277,10.180109631949882
+Full participant frame,participant_ethnicity_group,categorical,Latino,40,1277,3.1323414252153485
+Full participant frame,participant_ethnicity_group,categorical,Missing,214,1277,16.758026624902115
+Full participant frame,participant_ethnicity_group,categorical,Mixed/multiple,48,1277,3.7588097102584186
+Full participant frame,participant_ethnicity_group,categorical,Multiple categories selected,48,1277,3.7588097102584186
+Full participant frame,participant_ethnicity_group,categorical,Other,8,1277,0.6264682850430697
+Full participant frame,participant_ethnicity_group,categorical,Prefer not to answer,9,1277,0.7047768206734534
+Full participant frame,participant_ethnicity_group,categorical,White,714,1277,55.912294440093966
+Full participant frame,education,categorical,Attended college but has not graduated,235,1277,18.402505873140175
+Full participant frame,education,categorical,Attended graduate school,56,1277,4.385277995301488
+Full participant frame,education,categorical,Completed master's or doctoral degree,182,1277,14.252153484729835
+Full participant frame,education,categorical,Graduated college,399,1277,31.245105716523103
+Full participant frame,education,categorical,Graduated high school or completed GED,173,1277,13.547376664056381
+Full participant frame,education,categorical,Has not completed high school,18,1277,1.4095536413469067
+Full participant frame,education,categorical,Missing,214,1277,16.758026624902115
+Full participant frame,employment,categorical,Disabled,66,1277,5.168363351605325
+Full participant frame,employment,categorical,Full Time,509,1277,39.85904463586531
+Full participant frame,employment,categorical,Homemaker,54,1277,4.22866092404072
+Full participant frame,employment,categorical,Missing,215,1277,16.8363351605325
+Full participant frame,employment,categorical,Part Time,199,1277,15.58339859044636
+Full participant frame,employment,categorical,Retired (other than disability),52,1277,4.072043852779953
+Full participant frame,employment,categorical,Seeking work,58,1277,4.541895066562255
+Full participant frame,employment,categorical,Studying,56,1277,4.385277995301488
+Full participant frame,employment,categorical,Unemployed,68,1277,5.324980422866092
+Full participant frame,prior_mh_status,categorical,Missing,218,1277,17.07126076742365
+Full participant frame,prior_mh_status,categorical,No prior condition reported,169,1277,13.234142521534848
+Full participant frame,prior_mh_status,categorical,Prior condition reported,890,1277,69.6945967110415
+Full participant frame,task_position,categorical,Missing,208,1277,16.288175411119813
+Full participant frame,task_position,categorical,Position 1,380,1277,29.757243539545808
+Full participant frame,task_position,categorical,Position 2,351,1277,27.48629600626468
+Full participant frame,task_position,categorical,Position 3,308,1277,24.119028974158184
+Full participant frame,task_position,categorical,Position 4,30,1277,2.3492560689115116
+Primary accuracy sample,age,numeric,n,1008,1047,
+Primary accuracy sample,age,numeric,missing,39,1047,
+Primary accuracy sample,age,numeric,mean,41.2906746031746,1047,
+Primary accuracy sample,age,numeric,sd,13.685785591281057,1047,
+Primary accuracy sample,age,numeric,median,40,1047,
+Primary accuracy sample,age,numeric,q25,30.75,1047,
+Primary accuracy sample,age,numeric,q75,51,1047,
+Primary accuracy sample,age,numeric,min,18,1047,
+Primary accuracy sample,age,numeric,max,80,1047,
+Primary accuracy sample,cape15_score,numeric,n,1019,1047,
+Primary accuracy sample,cape15_score,numeric,missing,28,1047,
+Primary accuracy sample,cape15_score,numeric,mean,22.197252208047104,1047,
+Primary accuracy sample,cape15_score,numeric,sd,7.493766388266196,1047,
+Primary accuracy sample,cape15_score,numeric,median,20,1047,
+Primary accuracy sample,cape15_score,numeric,q25,17,1047,
+Primary accuracy sample,cape15_score,numeric,q75,25,1047,
+Primary accuracy sample,cape15_score,numeric,min,15,1047,
+Primary accuracy sample,cape15_score,numeric,max,55,1047,
+Primary accuracy sample,altman_srms_score,numeric,n,1020,1047,
+Primary accuracy sample,altman_srms_score,numeric,missing,27,1047,
+Primary accuracy sample,altman_srms_score,numeric,mean,4.0588235294117645,1047,
+Primary accuracy sample,altman_srms_score,numeric,sd,3.487601844019686,1047,
+Primary accuracy sample,altman_srms_score,numeric,median,3,1047,
+Primary accuracy sample,altman_srms_score,numeric,q25,1,1047,
+Primary accuracy sample,altman_srms_score,numeric,q75,6,1047,
+Primary accuracy sample,altman_srms_score,numeric,min,0,1047,
+Primary accuracy sample,altman_srms_score,numeric,max,19,1047,
+Primary accuracy sample,isi_score,numeric,n,1019,1047,
+Primary accuracy sample,isi_score,numeric,missing,28,1047,
+Primary accuracy sample,isi_score,numeric,mean,9.944062806673209,1047,
+Primary accuracy sample,isi_score,numeric,sd,6.543327828911031,1047,
+Primary accuracy sample,isi_score,numeric,median,9,1047,
+Primary accuracy sample,isi_score,numeric,q25,5,1047,
+Primary accuracy sample,isi_score,numeric,q75,14,1047,
+Primary accuracy sample,isi_score,numeric,min,0,1047,
+Primary accuracy sample,isi_score,numeric,max,28,1047,
+Primary accuracy sample,ocir_score,numeric,n,1018,1047,
+Primary accuracy sample,ocir_score,numeric,missing,29,1047,
+Primary accuracy sample,ocir_score,numeric,mean,17.55500982318271,1047,
+Primary accuracy sample,ocir_score,numeric,sd,14.515153965459845,1047,
+Primary accuracy sample,ocir_score,numeric,median,14,1047,
+Primary accuracy sample,ocir_score,numeric,q25,5,1047,
+Primary accuracy sample,ocir_score,numeric,q75,26.75,1047,
+Primary accuracy sample,ocir_score,numeric,min,0,1047,
+Primary accuracy sample,ocir_score,numeric,max,69,1047,
+Primary accuracy sample,minispin_score,numeric,n,1018,1047,
+Primary accuracy sample,minispin_score,numeric,missing,29,1047,
+Primary accuracy sample,minispin_score,numeric,mean,5.274066797642436,1047,
+Primary accuracy sample,minispin_score,numeric,sd,3.746979821293109,1047,
+Primary accuracy sample,minispin_score,numeric,median,5,1047,
+Primary accuracy sample,minispin_score,numeric,q25,2,1047,
+Primary accuracy sample,minispin_score,numeric,q75,8,1047,
+Primary accuracy sample,minispin_score,numeric,min,0,1047,
+Primary accuracy sample,minispin_score,numeric,max,12,1047,
+Primary accuracy sample,asrs_score,numeric,n,1019,1047,
+Primary accuracy sample,asrs_score,numeric,missing,28,1047,
+Primary accuracy sample,asrs_score,numeric,mean,27.048086359175663,1047,
+Primary accuracy sample,asrs_score,numeric,sd,15.900372651611605,1047,
+Primary accuracy sample,asrs_score,numeric,median,26,1047,
+Primary accuracy sample,asrs_score,numeric,q25,15,1047,
+Primary accuracy sample,asrs_score,numeric,q75,38,1047,
+Primary accuracy sample,asrs_score,numeric,min,0,1047,
+Primary accuracy sample,asrs_score,numeric,max,72,1047,
+Primary accuracy sample,gad7_score,numeric,n,444,1047,
+Primary accuracy sample,gad7_score,numeric,missing,603,1047,
+Primary accuracy sample,gad7_score,numeric,mean,11.801801801801801,1047,
+Primary accuracy sample,gad7_score,numeric,sd,4.715508862701666,1047,
+Primary accuracy sample,gad7_score,numeric,median,12,1047,
+Primary accuracy sample,gad7_score,numeric,q25,8,1047,
+Primary accuracy sample,gad7_score,numeric,q75,15,1047,
+Primary accuracy sample,gad7_score,numeric,min,0,1047,
+Primary accuracy sample,gad7_score,numeric,max,21,1047,
+Primary accuracy sample,hamd6_score,numeric,n,399,1047,
+Primary accuracy sample,hamd6_score,numeric,missing,648,1047,
+Primary accuracy sample,hamd6_score,numeric,mean,9.859649122807017,1047,
+Primary accuracy sample,hamd6_score,numeric,sd,3.5202716428409233,1047,
+Primary accuracy sample,hamd6_score,numeric,median,9,1047,
+Primary accuracy sample,hamd6_score,numeric,q25,8,1047,
+Primary accuracy sample,hamd6_score,numeric,q75,12,1047,
+Primary accuracy sample,hamd6_score,numeric,min,1,1047,
+Primary accuracy sample,hamd6_score,numeric,max,21,1047,
+Primary accuracy sample,gender_original,categorical,Man,464,1047,44.3170964660936
+Primary accuracy sample,gender_original,categorical,Missing,39,1047,3.7249283667621778
+Primary accuracy sample,gender_original,categorical,Non-binary,27,1047,2.5787965616045847
+Primary accuracy sample,gender_original,categorical,Other,2,1047,0.19102196752626552
+Primary accuracy sample,gender_original,categorical,Rather not say,1,1047,0.09551098376313276
+Primary accuracy sample,gender_original,categorical,Woman,514,1047,49.09264565425024
+Primary accuracy sample,participant_ethnicity_group,categorical,Asian,62,1047,5.921680993314231
+Primary accuracy sample,participant_ethnicity_group,categorical,Black,122,1047,11.652340019102196
+Primary accuracy sample,participant_ethnicity_group,categorical,Latino,38,1047,3.629417382999045
+Primary accuracy sample,participant_ethnicity_group,categorical,Missing,40,1047,3.8204393505253105
+Primary accuracy sample,participant_ethnicity_group,categorical,Mixed/multiple,47,1047,4.48901623686724
+Primary accuracy sample,participant_ethnicity_group,categorical,Multiple categories selected,48,1047,4.584527220630372
+Primary accuracy sample,participant_ethnicity_group,categorical,Other,7,1047,0.6685768863419294
+Primary accuracy sample,participant_ethnicity_group,categorical,Prefer not to answer,8,1047,0.7640878701050621
+Primary accuracy sample,participant_ethnicity_group,categorical,White,675,1047,64.46991404011462
+Primary accuracy sample,education,categorical,Attended college but has not graduated,226,1047,21.585482330468004
+Primary accuracy sample,education,categorical,Attended graduate school,52,1047,4.966571155682904
+Primary accuracy sample,education,categorical,Completed master's or doctoral degree,172,1047,16.427889207258833
+Primary accuracy sample,education,categorical,Graduated college,376,1047,35.91212989493792
+Primary accuracy sample,education,categorical,Graduated high school or completed GED,164,1047,15.663801337153775
+Primary accuracy sample,education,categorical,Has not completed high school,17,1047,1.6236867239732569
+Primary accuracy sample,education,categorical,Missing,40,1047,3.8204393505253105
+Primary accuracy sample,employment,categorical,Disabled,64,1047,6.112702960840497
+Primary accuracy sample,employment,categorical,Full Time,480,1047,45.845272206303726
+Primary accuracy sample,employment,categorical,Homemaker,52,1047,4.966571155682904
+Primary accuracy sample,employment,categorical,Missing,40,1047,3.8204393505253105
+Primary accuracy sample,employment,categorical,Part Time,185,1047,17.66953199617956
+Primary accuracy sample,employment,categorical,Retired (other than disability),50,1047,4.775549188156638
+Primary accuracy sample,employment,categorical,Seeking work,56,1047,5.348615090735435
+Primary accuracy sample,employment,categorical,Studying,54,1047,5.157593123209169
+Primary accuracy sample,employment,categorical,Unemployed,66,1047,6.303724928366762
+Primary accuracy sample,prior_mh_status,categorical,Missing,41,1047,3.9159503342884436
+Primary accuracy sample,prior_mh_status,categorical,No prior condition reported,161,1047,15.377268385864372
+Primary accuracy sample,prior_mh_status,categorical,Prior condition reported,845,1047,80.70678127984718
+Primary accuracy sample,task_position,categorical,Position 1,372,1047,35.53008595988539
+Primary accuracy sample,task_position,categorical,Position 2,345,1047,32.95128939828081
+Primary accuracy sample,task_position,categorical,Position 3,301,1047,28.74880611270296
+Primary accuracy sample,task_position,categorical,Position 4,29,1047,2.76981852913085
+Primary RT sample,age,numeric,n,1008,1046,
+Primary RT sample,age,numeric,missing,38,1046,
+Primary RT sample,age,numeric,mean,41.2906746031746,1046,
+Primary RT sample,age,numeric,sd,13.685785591281057,1046,
+Primary RT sample,age,numeric,median,40,1046,
+Primary RT sample,age,numeric,q25,30.75,1046,
+Primary RT sample,age,numeric,q75,51,1046,
+Primary RT sample,age,numeric,min,18,1046,
+Primary RT sample,age,numeric,max,80,1046,
+Primary RT sample,cape15_score,numeric,n,1019,1046,
+Primary RT sample,cape15_score,numeric,missing,27,1046,
+Primary RT sample,cape15_score,numeric,mean,22.197252208047104,1046,
+Primary RT sample,cape15_score,numeric,sd,7.493766388266196,1046,
+Primary RT sample,cape15_score,numeric,median,20,1046,
+Primary RT sample,cape15_score,numeric,q25,17,1046,
+Primary RT sample,cape15_score,numeric,q75,25,1046,
+Primary RT sample,cape15_score,numeric,min,15,1046,
+Primary RT sample,cape15_score,numeric,max,55,1046,
+Primary RT sample,altman_srms_score,numeric,n,1020,1046,
+Primary RT sample,altman_srms_score,numeric,missing,26,1046,
+Primary RT sample,altman_srms_score,numeric,mean,4.0588235294117645,1046,
+Primary RT sample,altman_srms_score,numeric,sd,3.487601844019686,1046,
+Primary RT sample,altman_srms_score,numeric,median,3,1046,
+Primary RT sample,altman_srms_score,numeric,q25,1,1046,
+Primary RT sample,altman_srms_score,numeric,q75,6,1046,
+Primary RT sample,altman_srms_score,numeric,min,0,1046,
+Primary RT sample,altman_srms_score,numeric,max,19,1046,
+Primary RT sample,isi_score,numeric,n,1019,1046,
+Primary RT sample,isi_score,numeric,missing,27,1046,
+Primary RT sample,isi_score,numeric,mean,9.944062806673209,1046,
+Primary RT sample,isi_score,numeric,sd,6.543327828911031,1046,
+Primary RT sample,isi_score,numeric,median,9,1046,
+Primary RT sample,isi_score,numeric,q25,5,1046,
+Primary RT sample,isi_score,numeric,q75,14,1046,
+Primary RT sample,isi_score,numeric,min,0,1046,
+Primary RT sample,isi_score,numeric,max,28,1046,
+Primary RT sample,ocir_score,numeric,n,1018,1046,
+Primary RT sample,ocir_score,numeric,missing,28,1046,
+Primary RT sample,ocir_score,numeric,mean,17.55500982318271,1046,
+Primary RT sample,ocir_score,numeric,sd,14.515153965459845,1046,
+Primary RT sample,ocir_score,numeric,median,14,1046,
+Primary RT sample,ocir_score,numeric,q25,5,1046,
+Primary RT sample,ocir_score,numeric,q75,26.75,1046,
+Primary RT sample,ocir_score,numeric,min,0,1046,
+Primary RT sample,ocir_score,numeric,max,69,1046,
+Primary RT sample,minispin_score,numeric,n,1018,1046,
+Primary RT sample,minispin_score,numeric,missing,28,1046,
+Primary RT sample,minispin_score,numeric,mean,5.274066797642436,1046,
+Primary RT sample,minispin_score,numeric,sd,3.746979821293109,1046,
+Primary RT sample,minispin_score,numeric,median,5,1046,
+Primary RT sample,minispin_score,numeric,q25,2,1046,
+Primary RT sample,minispin_score,numeric,q75,8,1046,
+Primary RT sample,minispin_score,numeric,min,0,1046,
+Primary RT sample,minispin_score,numeric,max,12,1046,
+Primary RT sample,asrs_score,numeric,n,1019,1046,
+Primary RT sample,asrs_score,numeric,missing,27,1046,
+Primary RT sample,asrs_score,numeric,mean,27.048086359175663,1046,
+Primary RT sample,asrs_score,numeric,sd,15.900372651611605,1046,
+Primary RT sample,asrs_score,numeric,median,26,1046,
+Primary RT sample,asrs_score,numeric,q25,15,1046,
+Primary RT sample,asrs_score,numeric,q75,38,1046,
+Primary RT sample,asrs_score,numeric,min,0,1046,
+Primary RT sample,asrs_score,numeric,max,72,1046,
+Primary RT sample,gad7_score,numeric,n,444,1046,
+Primary RT sample,gad7_score,numeric,missing,602,1046,
+Primary RT sample,gad7_score,numeric,mean,11.801801801801801,1046,
+Primary RT sample,gad7_score,numeric,sd,4.715508862701666,1046,
+Primary RT sample,gad7_score,numeric,median,12,1046,
+Primary RT sample,gad7_score,numeric,q25,8,1046,
+Primary RT sample,gad7_score,numeric,q75,15,1046,
+Primary RT sample,gad7_score,numeric,min,0,1046,
+Primary RT sample,gad7_score,numeric,max,21,1046,
+Primary RT sample,hamd6_score,numeric,n,399,1046,
+Primary RT sample,hamd6_score,numeric,missing,647,1046,
+Primary RT sample,hamd6_score,numeric,mean,9.859649122807017,1046,
+Primary RT sample,hamd6_score,numeric,sd,3.5202716428409233,1046,
+Primary RT sample,hamd6_score,numeric,median,9,1046,
+Primary RT sample,hamd6_score,numeric,q25,8,1046,
+Primary RT sample,hamd6_score,numeric,q75,12,1046,
+Primary RT sample,hamd6_score,numeric,min,1,1046,
+Primary RT sample,hamd6_score,numeric,max,21,1046,
+Primary RT sample,gender_original,categorical,Man,464,1046,44.35946462715105
+Primary RT sample,gender_original,categorical,Missing,38,1046,3.632887189292543
+Primary RT sample,gender_original,categorical,Non-binary,27,1046,2.581261950286807
+Primary RT sample,gender_original,categorical,Other,2,1046,0.19120458891013384
+Primary RT sample,gender_original,categorical,Rather not say,1,1046,0.09560229445506692
+Primary RT sample,gender_original,categorical,Woman,514,1046,49.1395793499044
+Primary RT sample,participant_ethnicity_group,categorical,Asian,62,1046,5.927342256214149
+Primary RT sample,participant_ethnicity_group,categorical,Black,122,1046,11.663479923518166
+Primary RT sample,participant_ethnicity_group,categorical,Latino,38,1046,3.632887189292543
+Primary RT sample,participant_ethnicity_group,categorical,Missing,39,1046,3.72848948374761
+Primary RT sample,participant_ethnicity_group,categorical,Mixed/multiple,47,1046,4.493307839388145
+Primary RT sample,participant_ethnicity_group,categorical,Multiple categories selected,48,1046,4.588910133843212
+Primary RT sample,participant_ethnicity_group,categorical,Other,7,1046,0.6692160611854685
+Primary RT sample,participant_ethnicity_group,categorical,Prefer not to answer,8,1046,0.7648183556405354
+Primary RT sample,participant_ethnicity_group,categorical,White,675,1046,64.53154875717017
+Primary RT sample,education,categorical,Attended college but has not graduated,226,1046,21.606118546845124
+Primary RT sample,education,categorical,Attended graduate school,52,1046,4.97131931166348
+Primary RT sample,education,categorical,Completed master's or doctoral degree,172,1046,16.44359464627151
+Primary RT sample,education,categorical,Graduated college,376,1046,35.94646271510516
+Primary RT sample,education,categorical,Graduated high school or completed GED,164,1046,15.678776290630974
+Primary RT sample,education,categorical,Has not completed high school,17,1046,1.6252390057361379
+Primary RT sample,education,categorical,Missing,39,1046,3.72848948374761
+Primary RT sample,employment,categorical,Disabled,64,1046,6.118546845124283
+Primary RT sample,employment,categorical,Full Time,480,1046,45.88910133843212
+Primary RT sample,employment,categorical,Homemaker,52,1046,4.97131931166348
+Primary RT sample,employment,categorical,Missing,39,1046,3.72848948374761
+Primary RT sample,employment,categorical,Part Time,185,1046,17.686424474187383
+Primary RT sample,employment,categorical,Retired (other than disability),50,1046,4.780114722753346
+Primary RT sample,employment,categorical,Seeking work,56,1046,5.353728489483748
+Primary RT sample,employment,categorical,Studying,54,1046,5.162523900573614
+Primary RT sample,employment,categorical,Unemployed,66,1046,6.309751434034416
+Primary RT sample,prior_mh_status,categorical,Missing,40,1046,3.824091778202677
+Primary RT sample,prior_mh_status,categorical,No prior condition reported,161,1046,15.391969407265774
+Primary RT sample,prior_mh_status,categorical,Prior condition reported,845,1046,80.78393881453155
+Primary RT sample,task_position,categorical,Position 1,372,1046,35.5640535372849
+Primary RT sample,task_position,categorical,Position 2,344,1046,32.88718929254302
+Primary RT sample,task_position,categorical,Position 3,301,1046,28.776290630975144
+Primary RT sample,task_position,categorical,Position 4,29,1046,2.7724665391969405

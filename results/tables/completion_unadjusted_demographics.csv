@@ -1,0 +1,137 @@
+outcome_definition,outcome_group,variable,level_or_statistic,n,value,percent
+Any valid emotion-recognition data,Included/complete,age,Mean (SD),1008,41.29 (13.69),
+Any valid emotion-recognition data,Not included/incomplete,age,Mean (SD),56,41.34 (11.91),
+Any valid emotion-recognition data,Included/complete,education,Attended college but has not graduated,226,226,21.585482330468004
+Any valid emotion-recognition data,Included/complete,education,Attended graduate school,52,52,4.966571155682904
+Any valid emotion-recognition data,Included/complete,education,Completed master's or doctoral degree,172,172,16.427889207258833
+Any valid emotion-recognition data,Included/complete,education,Graduated college,376,376,35.91212989493792
+Any valid emotion-recognition data,Included/complete,education,Graduated high school or completed GED,164,164,15.663801337153775
+Any valid emotion-recognition data,Included/complete,education,Has not completed high school,17,17,1.6236867239732569
+Any valid emotion-recognition data,Included/complete,education,Missing,40,40,3.8204393505253105
+Any valid emotion-recognition data,Included/complete,employment,Disabled,64,64,6.112702960840497
+Any valid emotion-recognition data,Included/complete,employment,Full Time,480,480,45.845272206303726
+Any valid emotion-recognition data,Included/complete,employment,Homemaker,52,52,4.966571155682904
+Any valid emotion-recognition data,Included/complete,employment,Missing,40,40,3.8204393505253105
+Any valid emotion-recognition data,Included/complete,employment,Part Time,185,185,17.66953199617956
+Any valid emotion-recognition data,Included/complete,employment,Retired (other than disability),50,50,4.775549188156638
+Any valid emotion-recognition data,Included/complete,employment,Seeking work,56,56,5.348615090735435
+Any valid emotion-recognition data,Included/complete,employment,Studying,54,54,5.157593123209169
+Any valid emotion-recognition data,Included/complete,employment,Unemployed,66,66,6.303724928366762
+Any valid emotion-recognition data,Included/complete,gender_original,Man,464,464,44.3170964660936
+Any valid emotion-recognition data,Included/complete,gender_original,Missing,39,39,3.7249283667621778
+Any valid emotion-recognition data,Included/complete,gender_original,Non-binary,27,27,2.5787965616045847
+Any valid emotion-recognition data,Included/complete,gender_original,Other,2,2,0.19102196752626552
+Any valid emotion-recognition data,Included/complete,gender_original,Rather not say,1,1,0.09551098376313276
+Any valid emotion-recognition data,Included/complete,gender_original,Woman,514,514,49.09264565425024
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Asian,62,62,5.921680993314231
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Black,122,122,11.652340019102196
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Latino,38,38,3.629417382999045
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Missing,40,40,3.8204393505253105
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Mixed/multiple,47,47,4.48901623686724
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Multiple categories selected,48,48,4.584527220630372
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Other,7,7,0.6685768863419294
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,Prefer not to answer,8,8,0.7640878701050621
+Any valid emotion-recognition data,Included/complete,participant_ethnicity_group,White,675,675,64.46991404011462
+Any valid emotion-recognition data,Included/complete,participant_white_status,Missing,48,48,4.584527220630372
+Any valid emotion-recognition data,Included/complete,participant_white_status,Non-white,324,324,30.945558739255013
+Any valid emotion-recognition data,Included/complete,participant_white_status,White,675,675,64.46991404011462
+Any valid emotion-recognition data,Included/complete,prior_mh_status,Missing,41,41,3.9159503342884436
+Any valid emotion-recognition data,Included/complete,prior_mh_status,No prior condition reported,161,161,15.377268385864372
+Any valid emotion-recognition data,Included/complete,prior_mh_status,Prior condition reported,845,845,80.70678127984718
+Any valid emotion-recognition data,Not included/incomplete,education,Attended college but has not graduated,9,9,3.91304347826087
+Any valid emotion-recognition data,Not included/incomplete,education,Attended graduate school,4,4,1.7391304347826086
+Any valid emotion-recognition data,Not included/incomplete,education,Completed master's or doctoral degree,10,10,4.3478260869565215
+Any valid emotion-recognition data,Not included/incomplete,education,Graduated college,23,23,10
+Any valid emotion-recognition data,Not included/incomplete,education,Graduated high school or completed GED,9,9,3.91304347826087
+Any valid emotion-recognition data,Not included/incomplete,education,Has not completed high school,1,1,0.43478260869565216
+Any valid emotion-recognition data,Not included/incomplete,education,Missing,174,174,75.65217391304347
+Any valid emotion-recognition data,Not included/incomplete,employment,Disabled,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,employment,Full Time,29,29,12.608695652173912
+Any valid emotion-recognition data,Not included/incomplete,employment,Homemaker,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,employment,Missing,175,175,76.08695652173914
+Any valid emotion-recognition data,Not included/incomplete,employment,Part Time,14,14,6.086956521739131
+Any valid emotion-recognition data,Not included/incomplete,employment,Retired (other than disability),2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,employment,Seeking work,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,employment,Studying,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,employment,Unemployed,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,gender_original,Man,33,33,14.347826086956522
+Any valid emotion-recognition data,Not included/incomplete,gender_original,Missing,174,174,75.65217391304347
+Any valid emotion-recognition data,Not included/incomplete,gender_original,Non-binary,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,gender_original,Woman,21,21,9.130434782608695
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Asian,4,4,1.7391304347826086
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Black,8,8,3.4782608695652173
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Latino,2,2,0.8695652173913043
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Missing,174,174,75.65217391304347
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Mixed/multiple,1,1,0.43478260869565216
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Other,1,1,0.43478260869565216
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,Prefer not to answer,1,1,0.43478260869565216
+Any valid emotion-recognition data,Not included/incomplete,participant_ethnicity_group,White,39,39,16.956521739130434
+Any valid emotion-recognition data,Not included/incomplete,participant_white_status,Missing,175,175,76.08695652173914
+Any valid emotion-recognition data,Not included/incomplete,participant_white_status,Non-white,16,16,6.956521739130435
+Any valid emotion-recognition data,Not included/incomplete,participant_white_status,White,39,39,16.956521739130434
+Any valid emotion-recognition data,Not included/incomplete,prior_mh_status,Missing,177,177,76.95652173913044
+Any valid emotion-recognition data,Not included/incomplete,prior_mh_status,No prior condition reported,8,8,3.4782608695652173
+Any valid emotion-recognition data,Not included/incomplete,prior_mh_status,Prior condition reported,45,45,19.565217391304348
+Completed 80 valid trials among starters,Included/complete,age,Mean (SD),997,41.18 (13.65),
+Completed 80 valid trials among starters,Not included/incomplete,age,Mean (SD),11,51.73 (13.76),
+Completed 80 valid trials among starters,Included/complete,education,Attended college but has not graduated,224,224,21.768707482993197
+Completed 80 valid trials among starters,Included/complete,education,Attended graduate school,52,52,5.053449951409135
+Completed 80 valid trials among starters,Included/complete,education,Completed master's or doctoral degree,171,171,16.61807580174927
+Completed 80 valid trials among starters,Included/complete,education,Graduated college,368,368,35.76287657920311
+Completed 80 valid trials among starters,Included/complete,education,Graduated high school or completed GED,164,164,15.937803692905733
+Completed 80 valid trials among starters,Included/complete,education,Has not completed high school,17,17,1.6520894071914478
+Completed 80 valid trials among starters,Included/complete,education,Missing,33,33,3.206997084548105
+Completed 80 valid trials among starters,Included/complete,employment,Disabled,63,63,6.122448979591836
+Completed 80 valid trials among starters,Included/complete,employment,Full Time,474,474,46.06413994169096
+Completed 80 valid trials among starters,Included/complete,employment,Homemaker,52,52,5.053449951409135
+Completed 80 valid trials among starters,Included/complete,employment,Missing,33,33,3.206997084548105
+Completed 80 valid trials among starters,Included/complete,employment,Part Time,184,184,17.881438289601554
+Completed 80 valid trials among starters,Included/complete,employment,Retired (other than disability),47,47,4.56754130223518
+Completed 80 valid trials among starters,Included/complete,employment,Seeking work,56,56,5.442176870748299
+Completed 80 valid trials among starters,Included/complete,employment,Studying,54,54,5.247813411078718
+Completed 80 valid trials among starters,Included/complete,employment,Unemployed,66,66,6.41399416909621
+Completed 80 valid trials among starters,Included/complete,gender_original,Man,461,461,44.80077745383868
+Completed 80 valid trials among starters,Included/complete,gender_original,Missing,32,32,3.1098153547133136
+Completed 80 valid trials among starters,Included/complete,gender_original,Non-binary,26,26,2.5267249757045676
+Completed 80 valid trials among starters,Included/complete,gender_original,Other,2,2,0.1943634596695821
+Completed 80 valid trials among starters,Included/complete,gender_original,Rather not say,1,1,0.09718172983479105
+Completed 80 valid trials among starters,Included/complete,gender_original,Woman,507,507,49.27113702623907
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Asian,61,61,5.928085519922255
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Black,122,122,11.85617103984451
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Latino,38,38,3.69290573372206
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Missing,33,33,3.206997084548105
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Mixed/multiple,46,46,4.470359572400389
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Multiple categories selected,48,48,4.664723032069971
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Other,7,7,0.6802721088435374
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,Prefer not to answer,7,7,0.6802721088435374
+Completed 80 valid trials among starters,Included/complete,participant_ethnicity_group,White,667,667,64.82021379980564
+Completed 80 valid trials among starters,Included/complete,participant_white_status,Missing,40,40,3.8872691933916426
+Completed 80 valid trials among starters,Included/complete,participant_white_status,Non-white,322,322,31.292517006802722
+Completed 80 valid trials among starters,Included/complete,participant_white_status,White,667,667,64.82021379980564
+Completed 80 valid trials among starters,Included/complete,prior_mh_status,Missing,34,34,3.3041788143828956
+Completed 80 valid trials among starters,Included/complete,prior_mh_status,No prior condition reported,160,160,15.54907677356657
+Completed 80 valid trials among starters,Included/complete,prior_mh_status,Prior condition reported,835,835,81.14674441205054
+Completed 80 valid trials among starters,Not included/incomplete,education,Attended college but has not graduated,2,2,11.11111111111111
+Completed 80 valid trials among starters,Not included/incomplete,education,Completed master's or doctoral degree,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,education,Graduated college,8,8,44.44444444444444
+Completed 80 valid trials among starters,Not included/incomplete,education,Missing,7,7,38.88888888888889
+Completed 80 valid trials among starters,Not included/incomplete,employment,Disabled,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,employment,Full Time,6,6,33.33333333333333
+Completed 80 valid trials among starters,Not included/incomplete,employment,Missing,7,7,38.88888888888889
+Completed 80 valid trials among starters,Not included/incomplete,employment,Part Time,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,employment,Retired (other than disability),3,3,16.666666666666664
+Completed 80 valid trials among starters,Not included/incomplete,gender_original,Man,3,3,16.666666666666664
+Completed 80 valid trials among starters,Not included/incomplete,gender_original,Missing,7,7,38.88888888888889
+Completed 80 valid trials among starters,Not included/incomplete,gender_original,Non-binary,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,gender_original,Woman,7,7,38.88888888888889
+Completed 80 valid trials among starters,Not included/incomplete,participant_ethnicity_group,Asian,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,participant_ethnicity_group,Missing,7,7,38.88888888888889
+Completed 80 valid trials among starters,Not included/incomplete,participant_ethnicity_group,Mixed/multiple,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,participant_ethnicity_group,Prefer not to answer,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,participant_ethnicity_group,White,8,8,44.44444444444444
+Completed 80 valid trials among starters,Not included/incomplete,participant_white_status,Missing,8,8,44.44444444444444
+Completed 80 valid trials among starters,Not included/incomplete,participant_white_status,Non-white,2,2,11.11111111111111
+Completed 80 valid trials among starters,Not included/incomplete,participant_white_status,White,8,8,44.44444444444444
+Completed 80 valid trials among starters,Not included/incomplete,prior_mh_status,Missing,7,7,38.88888888888889
+Completed 80 valid trials among starters,Not included/incomplete,prior_mh_status,No prior condition reported,1,1,5.555555555555555
+Completed 80 valid trials among starters,Not included/incomplete,prior_mh_status,Prior condition reported,10,10,55.55555555555556

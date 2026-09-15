@@ -1,0 +1,2 @@
+model,formula,participant_n,trial_n,singular,convergence_message,captured_warnings
+sensitivity_complete_task_rt_model,log_rt ~ trial_stratum + target_emotion + trial_position_z +      task_position + (1 | participant_id) + (1 | stimulus_id),1029,61550,FALSE,,
