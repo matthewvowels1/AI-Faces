@@ -17,7 +17,7 @@
 
 required_packages <- c(
   "readr", "dplyr", "tidyr", "purrr", "ggplot2", "lme4",
-  "broom", "broom.mixed", "MASS", "scales", "gridExtra", "knitr"
+  "broom", "MASS", "scales", "gridExtra", "knitr"
 )
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages) > 0) {
@@ -31,7 +31,6 @@ suppressPackageStartupMessages({
   library(purrr)
   library(ggplot2)
   library(lme4)
-  library(broom.mixed)
   library(scales)
   library(gridExtra)
   library(knitr)
@@ -74,8 +73,8 @@ log_path <- file.path(logs_dir, "02_run_analyses.log")
 writeLines(character(), log_path)
 log_message <- function(...) {
   line <- paste0(format(Sys.time(), "%Y-%m-%d %H:%M:%S"), " | ", paste0(..., collapse = ""))
-  cat(line, "\n")
-  cat(line, "\n", file = log_path, append = TRUE)
+  cat(line, "\n", sep = "")
+  cat(line, "\n", file = log_path, append = TRUE, sep = "")
 }
 
 log_message("Analysis started")
@@ -150,10 +149,23 @@ save_model_artifacts <- function(model_result, model_name, participant_n, trial_
   model <- model_result$model
   capture.output(summary(model), file = file.path(diagnostics_dir, paste0(model_name, "_summary.txt")))
 
-  coefficients <- broom.mixed::tidy(
-    model, effects = "fixed", conf.int = TRUE, conf.method = "Wald"
+  coefficient_matrix <- as.data.frame(stats::coef(summary(model)))
+  statistic_column <- intersect(c("z value", "t value"), names(coefficient_matrix))
+  p_value_column <- grep("^Pr\\(", names(coefficient_matrix), value = TRUE)
+  if (length(statistic_column) != 1) {
+    stop("Could not identify the model test-statistic column for ", model_name)
+  }
+
+  coefficients <- tibble(
+    effect = "fixed",
+    term = rownames(coefficient_matrix),
+    estimate = coefficient_matrix[["Estimate"]],
+    std.error = coefficient_matrix[["Std. Error"]],
+    statistic = coefficient_matrix[[statistic_column]],
+    conf.low = estimate - stats::qnorm(0.975) * std.error,
+    conf.high = estimate + stats::qnorm(0.975) * std.error
   )
-  if (!"p.value" %in% names(coefficients)) {
+  if (length(p_value_column) == 0) {
     coefficients <- coefficients %>%
       mutate(
         p.value = 2 * stats::pnorm(abs(statistic), lower.tail = FALSE),
@@ -161,7 +173,12 @@ save_model_artifacts <- function(model_result, model_name, participant_n, trial_
       )
   } else {
     coefficients <- coefficients %>%
-      mutate(p_method = "model-reported Wald test")
+      mutate(
+        p.value = coefficient_matrix[[p_value_column]],
+        p_method = "model-reported Wald test"
+      ) %>%
+      select(effect, term, estimate, std.error, statistic, p.value,
+             conf.low, conf.high, p_method)
   }
   coefficients <- coefficients %>%
     mutate(model = model_name, participant_n = participant_n, trial_n = trial_n,
@@ -2265,7 +2282,8 @@ table_figure_index <- c(
 )
 writeLines(table_figure_index, file.path(analysis_root, "table_and_figure_index.md"))
 
-capture.output(sessionInfo(), file = file.path(provenance_dir, "session_info_analysis.txt"))
+session_lines <- sub("[[:blank:]]+$", "", capture.output(sessionInfo()))
+writeLines(session_lines, file.path(provenance_dir, "session_info_analysis.txt"))
 analysis_packages <- sort(unique(c(required_packages, "jsonlite", "stringr", "tibble")))
 package_versions <- tibble(
   package = analysis_packages,

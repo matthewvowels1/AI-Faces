@@ -1,6 +1,5 @@
 package,version
 broom,1.0.5
-broom.mixed,0.2.9.5
 dplyr,1.1.2
 ggplot2,3.4.2
 gridExtra,2.3

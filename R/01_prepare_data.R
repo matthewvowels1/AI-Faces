@@ -48,8 +48,8 @@ log_path <- file.path(logs_dir, "01_prepare_data.log")
 writeLines(character(), log_path)
 log_message <- function(...) {
   line <- paste0(..., collapse = "")
-  cat(line, "\n")
-  cat(line, "\n", file = log_path, append = TRUE)
+  cat(line, "\n", sep = "")
+  cat(line, "\n", file = log_path, append = TRUE, sep = "")
 }
 
 expected_participants <- 1277L
@@ -730,7 +730,8 @@ validation_report <- c(
   paste0("- ", validation_checks$check, ": PASS")
 )
 writeLines(validation_report, file.path(diagnostics_dir, "data_validation_report.md"))
-capture.output(sessionInfo(), file = file.path(provenance_dir, "session_info_preparation.txt"))
+session_lines <- sub("[[:blank:]]+$", "", capture.output(sessionInfo()))
+writeLines(session_lines, file.path(provenance_dir, "session_info_preparation.txt"))
 
 log_message("Preparation completed successfully")
 log_message("Participants: ", nrow(participants))

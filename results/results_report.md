@@ -1,6 +1,6 @@
 # Emotion Recognition: FACES vs AI Faces Results Report
 
-Generated: 2026-09-15 13:42:48 CEST
+Generated: 2026-09-15 14:07:59 CEST
 
 > Status: complete provisional run. The primary clinical family and non-inferiority margin remain unresolved, so no confirmatory replacement claim is made.
 

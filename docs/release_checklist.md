@@ -20,6 +20,8 @@
 - [ ] Add permitted AI image files using synthetic stimulus IDs, or explicitly
   state in the submission that images are available through controlled access
 - [ ] Choose and add appropriate code and data licences
+- [ ] Update the manuscript software sentence to omit `broom.mixed`; the release
+  script now uses a simpler base-R extraction of fixed-effect coefficient tables
 - [ ] Re-run both R scripts and the anonymity audit after the final Git commit
 - [ ] Keep author details, affiliations, acknowledgements, ethics-board identity,
   and a named citation file outside the blinded repository until unblinding
