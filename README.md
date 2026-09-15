@@ -17,11 +17,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 \
   Rscript R/02_run_analyses.R
 ```
 
-The thread limits make numerical output stable across common BLAS
-implementations. The scripts stop with an error if the released schema, trial
-counts, score calculations, or key analysis checks do not match expectations.
-
-Package versions are recorded in `renv.lock`. To recreate the package library:
+Package versions are recorded in `renv.lock`. 
 
 ```r
 install.packages("renv")
@@ -61,7 +57,7 @@ free text, source filenames, and original linkage keys are not included.
 
 ## Important interpretation points
 
-The fitted trial strata are mutually exclusive: FACES, AI-white, and
+The fitted trial variations are mutually exclusive: FACES, AI-white, and
 AI-non-white. The reported AI-diverse estimate is then pooled from all AI trials,
 so AI-white remains a subset of AI-diverse without duplicating observations in
 the mixed models.
@@ -74,9 +70,3 @@ The established FACES photographs are not redistributed here. The stimulus
 manifest is sufficient to reproduce every reported analysis because the models
 use released synthetic stimulus IDs and coded stimulus attributes. See
 `docs/stimulus_materials.md` for image-generation and availability details.
-
-## Where to start
-
-Read `results/results_report.md` for the complete numerical summary and
-`docs/manuscript_results_map.md` to locate the source table behind each reported
-result. `docs/code_reading_guide.md` maps the two scripts section by section.
