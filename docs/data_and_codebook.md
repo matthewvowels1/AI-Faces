@@ -38,6 +38,22 @@ Eight complete-item totals are followed by their 79 numeric item responses:
 A total is present only when all required items are present. Script 1 recalculates
 every total and stops if any released total differs from its item sum.
 
+GAD-7 and HAMD-6 were administered through branched screening modules. The
+released item fields are blank for participants with screening data who did not
+trigger the full module; those rows are not ordinary missing continuous scores.
+The release file therefore includes branch-aware binary flags
+(`gad7_branch_positive` and `hamd6_branch_positive`) that code those
+branch-skipped rows as screen-negative/subclinical when screening data were
+available. Script 1 recalculates these flags from the released item fields,
+stops if they differ, and reports the denominators in
+`results/tables/screening_branching_summary.csv`. Completed GAD-7 modules are
+coded screen-positive at total >=10. Completed HAMD-6 modules are coded
+screen-positive at total >=7. The GAD-7 prescreener asked about feeling anxious,
+nervous, or on edge and being unable to stop worrying; the HAMD-6 prescreener
+asked about little interest or pleasure and feeling down, depressed, or
+hopeless. For both instruments, either prescreen item endorsed as more than half
+the days or nearly every day triggered the full module.
+
 ## Trial fields
 
 Each of the 80 possible slots contributes ten columns:

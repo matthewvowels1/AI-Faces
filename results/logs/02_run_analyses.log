@@ -1,20 +1,20 @@
-2026-09-15 14:06:24 | Analysis started
-2026-09-15 14:06:25 | Prepared data loaded: 1277 participants and 83206 trials
-2026-09-15 14:06:25 | Completion regressions fitted
-2026-09-15 14:06:25 | Fitting primary accuracy mixed model on 77238 trials
-2026-09-15 14:06:33 | Fitting primary RT mixed model on 62167 trials
-2026-09-15 14:06:35 | Fitting complete-task accuracy sensitivity model
-2026-09-15 14:06:43 | Fitting complete-task RT sensitivity model
-2026-09-15 14:06:45 | Fitting no-happy accuracy sensitivity model
-2026-09-15 14:06:51 | Fitting narrow-window RT sensitivity model
-2026-09-15 14:06:53 | Fitting all-positive RT sensitivity model
-2026-09-15 14:06:56 | Primary mixed models and pooled overlapping-set contrasts completed
-2026-09-15 14:06:56 | Calculating participant-bootstrap clinical correlations
-2026-09-15 14:07:29 | Clinical signal analyses completed
-2026-09-15 14:07:29 | Fitting gender moderation accuracy model
-2026-09-15 14:07:40 | Fitting gender moderation RT model
-2026-09-15 14:07:42 | Fitting white-status moderation accuracy model
-2026-09-15 14:07:49 | Fitting white-status moderation RT model
-2026-09-15 14:07:52 | Demographic moderation models completed
-2026-09-15 14:07:59 | Analysis completed successfully
-2026-09-15 14:07:59 | Results report: results/results_report.md
+2026-10-07 14:51:22 | Analysis started
+2026-10-07 14:51:23 | Prepared data loaded: 1277 participants and 83206 trials
+2026-10-07 14:51:23 | Completion regressions fitted
+2026-10-07 14:51:23 | Fitting primary accuracy mixed model on 77238 trials
+2026-10-07 14:51:31 | Fitting primary RT mixed model on 62167 trials
+2026-10-07 14:51:33 | Fitting complete-task accuracy sensitivity model
+2026-10-07 14:51:40 | Fitting complete-task RT sensitivity model
+2026-10-07 14:51:43 | Fitting no-happy accuracy sensitivity model
+2026-10-07 14:51:48 | Fitting narrow-window RT sensitivity model
+2026-10-07 14:51:51 | Fitting all-positive RT sensitivity model
+2026-10-07 14:51:53 | Primary mixed models and pooled overlapping-set contrasts completed
+2026-10-07 14:51:53 | Calculating participant-bootstrap clinical correlations
+2026-10-07 14:52:34 | Clinical signal analyses completed
+2026-10-07 14:52:34 | Fitting gender moderation accuracy model
+2026-10-07 14:52:44 | Fitting gender moderation RT model
+2026-10-07 14:52:47 | Fitting white-status moderation accuracy model
+2026-10-07 14:52:53 | Fitting white-status moderation RT model
+2026-10-07 14:52:56 | Demographic moderation models completed
+2026-10-07 14:53:03 | Analysis completed successfully
+2026-10-07 14:53:03 | Results report: results/results_report.md

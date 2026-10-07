@@ -1,6 +1,6 @@
 # Analysis Sanity-Check Report
 
-Generated: 2026-09-15 14:07:59 CEST
+Generated: 2026-10-07 14:53:03 CEST
 
 ## Automated Checks
 

@@ -10,13 +10,14 @@ inspected without a notebook or hidden state.
 
 1. Loads packages and resolves paths relative to the repository.
 2. Reads the participant-wide CSV and checks its exact schema.
-3. Recalculates all eight questionnaire totals from the released items and
-   checks the stored totals; it also calculates Cronbach's alpha.
+3. Recalculates all eight questionnaire totals from the released items, checks
+   the stored totals, validates the branch-aware GAD-7/HAMD-6 binary screener
+   flags, and calculates Cronbach's alpha.
 4. Converts the 80 repeated trial slots into a conventional trial-level table.
 5. Creates inclusion flags, mutually exclusive trial strata, and the overlapping
    reported condition summaries.
-6. Produces cohort, demographics, missingness, cleaning, balance, and instrument
-   tables.
+6. Produces cohort, demographics, missingness, cleaning, balance, instrument,
+   and screening-branch tables.
 7. Runs structural checks and writes three analysis-ready CSVs to `derived/`.
 
 The main handoff files are `derived/participants.csv`, `derived/trials.csv`, and
@@ -33,8 +34,8 @@ The main handoff files are `derived/participants.csv`, `derived/trials.csv`, and
 4. Participant-level descriptive statistics.
 5. Completer/non-completer logistic regressions.
 6. Primary accuracy and response-time mixed models and sensitivity models.
-7. Clinical correlations, paired correlation differences, and adjusted
-   incremental association models.
+7. Clinical correlations, including branch-aware screener-status outcomes,
+   paired correlation differences, and adjusted incremental association models.
 8. Participant gender and white-status moderation models.
 9. Split-half reliability, FACES/AI agreement, and confusion matrices.
 10. Publication figures.

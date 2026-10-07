@@ -22,4 +22,5 @@ emotion-recognition slots were reshaped to trial level.
 - FACES stimuli are white-labelled: PASS
 - FACES has no surprise target: PASS
 - All eight retained clinical totals reproduce from released items: PASS
+- Branch-aware GAD-7/HAMD-6 flags reproduce from released items: PASS
 - RT inclusion implies a correct response: PASS

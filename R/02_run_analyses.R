@@ -58,7 +58,7 @@ bootstrap_repetitions <- 500L
 coefficient_simulations <- 2000L
 common_emotions <- c("anger", "disgust", "fear", "happy", "neutral", "sad")
 reported_sets <- c("FACES", "AI-white", "AI-diverse")
-clinical_scores <- c(
+clinical_total_scores <- c(
   cape15_score = "CAPE-15 total",
   altman_srms_score = "Altman SRMS total",
   isi_score = "ISI total",
@@ -68,6 +68,11 @@ clinical_scores <- c(
   gad7_score = "GAD-7 total",
   hamd6_score = "HAMD-6 total"
 )
+clinical_branch_binary_scores <- c(
+  gad7_branch_positive = "GAD-7 screen positive (branch-aware; >=10)",
+  hamd6_branch_positive = "HAMD-6 screen positive (branch-aware; >=7)"
+)
+clinical_scores <- c(clinical_total_scores, clinical_branch_binary_scores)
 
 log_path <- file.path(logs_dir, "02_run_analyses.log")
 writeLines(character(), log_path)
@@ -87,9 +92,10 @@ condition_scores_path <- file.path(derived_dir, "condition_scores.csv")
 instrument_descriptives_path <- file.path(
   tables_dir, "clinical_instrument_descriptives_reliability.csv"
 )
+screening_branching_path <- file.path(tables_dir, "screening_branching_summary.csv")
 
 required_inputs <- c(trials_path, participants_path, condition_scores_path,
-                     instrument_descriptives_path,
+                     instrument_descriptives_path, screening_branching_path,
                      file.path(diagnostics_dir, "data_validation_checks.csv"))
 if (!all(file.exists(required_inputs))) {
   stop("Prepared inputs are missing. Run R/01_prepare_data.R first.")
@@ -100,6 +106,9 @@ participants <- readr::read_csv(participants_path, show_col_types = FALSE, progr
 condition_scores <- readr::read_csv(condition_scores_path, show_col_types = FALSE, progress = FALSE)
 instrument_descriptives <- readr::read_csv(
   instrument_descriptives_path, show_col_types = FALSE, progress = FALSE
+)
+screening_branching_summary <- readr::read_csv(
+  screening_branching_path, show_col_types = FALSE, progress = FALSE
 )
 preparation_checks <- readr::read_csv(
   file.path(diagnostics_dir, "data_validation_checks.csv"), show_col_types = FALSE
@@ -221,7 +230,11 @@ summarise_participant_metric <- function(data, group_variables, metric) {
 
 odds_ratio_table <- function(model, model_name) {
   model_n <- stats::nobs(model)
-  broom::tidy(model, conf.int = TRUE) %>%
+  broom::tidy(model) %>%
+    mutate(
+      conf.low = estimate - 1.96 * std.error,
+      conf.high = estimate + 1.96 * std.error
+    ) %>%
     mutate(
       model = model_name,
       odds_ratio = exp(estimate),
@@ -285,32 +298,41 @@ attrition_descriptives <- function(data, outcome_name, outcome_label) {
 
 safe_correlation <- function(x, y, method) {
   keep <- complete.cases(x, y)
-  if (sum(keep) < 10 || length(unique(x[keep])) < 2 || length(unique(y[keep])) < 2) return(NA_real_)
-  suppressWarnings(stats::cor(x[keep], y[keep], method = method))
+  x_valid <- suppressWarnings(as.numeric(x[keep]))
+  y_valid <- suppressWarnings(as.numeric(y[keep]))
+  keep_valid <- complete.cases(x_valid, y_valid)
+  x_valid <- x_valid[keep_valid]
+  y_valid <- y_valid[keep_valid]
+  if (length(x_valid) < 10 || length(unique(x_valid)) < 2 || length(unique(y_valid)) < 2) return(NA_real_)
+  suppressWarnings(stats::cor(x_valid, y_valid, method = method))
 }
 
 bootstrap_correlation <- function(data, x_name, y_name, repetitions) {
-  complete <- data %>% filter(!is.na(.data[[x_name]]), !is.na(.data[[y_name]]))
+  complete <- data %>%
+    transmute(
+      x = suppressWarnings(as.numeric(.data[[x_name]])),
+      y = suppressWarnings(as.numeric(.data[[y_name]]))
+    ) %>%
+    filter(!is.na(x), !is.na(y))
   if (nrow(complete) < 10) {
     return(tibble(method = c("pearson", "spearman"), estimate = NA_real_,
                   conf_low = NA_real_, conf_high = NA_real_, p_value = NA_real_,
                   n = nrow(complete)))
   }
   estimates <- c(
-    pearson = safe_correlation(complete[[x_name]], complete[[y_name]], "pearson"),
-    spearman = safe_correlation(complete[[x_name]], complete[[y_name]], "spearman")
+    pearson = safe_correlation(complete$x, complete$y, "pearson"),
+    spearman = safe_correlation(complete$x, complete$y, "spearman")
   )
   p_values <- c(
-    pearson = suppressWarnings(cor.test(complete[[x_name]], complete[[y_name]],
-                                        method = "pearson")$p.value),
-    spearman = suppressWarnings(cor.test(complete[[x_name]], complete[[y_name]],
+    pearson = suppressWarnings(cor.test(complete$x, complete$y, method = "pearson")$p.value),
+    spearman = suppressWarnings(cor.test(complete$x, complete$y,
                                          method = "spearman", exact = FALSE)$p.value)
   )
   draws <- replicate(repetitions, {
     rows <- sample.int(nrow(complete), nrow(complete), replace = TRUE)
     c(
-      pearson = safe_correlation(complete[[x_name]][rows], complete[[y_name]][rows], "pearson"),
-      spearman = safe_correlation(complete[[x_name]][rows], complete[[y_name]][rows], "spearman")
+      pearson = safe_correlation(complete$x[rows], complete$y[rows], "pearson"),
+      spearman = safe_correlation(complete$x[rows], complete$y[rows], "spearman")
     )
   })
   tibble(
@@ -326,16 +348,20 @@ bootstrap_correlation <- function(data, x_name, y_name, repetitions) {
 bootstrap_correlation_difference <- function(data, first_name, second_name, outcome_name,
                                              repetitions) {
   complete <- data %>%
-    filter(!is.na(.data[[first_name]]), !is.na(.data[[second_name]]),
-           !is.na(.data[[outcome_name]]))
+    transmute(
+      first = suppressWarnings(as.numeric(.data[[first_name]])),
+      second = suppressWarnings(as.numeric(.data[[second_name]])),
+      outcome = suppressWarnings(as.numeric(.data[[outcome_name]]))
+    ) %>%
+    filter(!is.na(first), !is.na(second), !is.na(outcome))
   if (nrow(complete) < 10) {
     return(tibble(method = c("pearson", "spearman"), difference = NA_real_,
                   conf_low = NA_real_, conf_high = NA_real_, p_value = NA_real_,
                   n = nrow(complete)))
   }
   difference_once <- function(rows, method) {
-    safe_correlation(complete[[second_name]][rows], complete[[outcome_name]][rows], method) -
-      safe_correlation(complete[[first_name]][rows], complete[[outcome_name]][rows], method)
+    safe_correlation(complete$second[rows], complete$outcome[rows], method) -
+      safe_correlation(complete$first[rows], complete$outcome[rows], method)
   }
   all_rows <- seq_len(nrow(complete))
   estimates <- c(
@@ -1151,8 +1177,10 @@ invisible(gc())
 
 clinical_long_source <- condition_scores %>%
   filter(stimulus_set %in% c("FACES", "AI-white", "AI-diverse", "All-stimuli")) %>%
-  left_join(participants %>% select(participant_id, all_of(names(clinical_scores))),
-            by = "participant_id")
+  left_join(
+    participants[, c("participant_id", names(clinical_scores)), drop = FALSE],
+    by = "participant_id"
+  )
 
 metric_definitions <- tibble::tribble(
   ~metric, ~value_column, ~coverage_column,
@@ -1246,9 +1274,10 @@ clinical_correlation_differences <- pmap_dfr(
 readr::write_csv(clinical_correlation_differences,
                  file.path(tables_dir, "dependent_clinical_correlation_differences.csv"), na = "")
 
-# Incremental models use complete validated scores and report AI and FACES
-# together. They are secondary because the primary clinical family is unresolved.
-incremental_clinical_models <- map_dfr(names(clinical_scores), function(clinical_score) {
+# Incremental linear models use complete validated totals and report AI and FACES
+# together. Branch-aware binary screener outcomes stay in the correlation tables
+# rather than being fitted with a linear severity model.
+incremental_clinical_models <- map_dfr(names(clinical_total_scores), function(clinical_score) {
   map_dfr(c("accuracy_common_pct", "correct_rt_common_mean_sec"), function(metric) {
     faces_name <- paste0(metric, "__FACES")
     ai_name <- paste0(metric, "__AI-diverse")
@@ -1672,7 +1701,7 @@ clinical_forest_plot <- ggplot(clinical_forest_data,
        x = "Spearman correlation (participant-bootstrap 95% CI)", y = NULL,
        colour = "Stimulus set") +
   publication_theme()
-save_plot(clinical_forest_plot, "figure_05_clinical_correlation_forest", width = 10, height = 7)
+save_plot(clinical_forest_plot, "figure_05_clinical_correlation_forest", width = 10, height = 8)
 
 gender_plot_data <- gender_descriptives %>%
   filter(metric == "accuracy_common_pct", stimulus_set %in% reported_sets,
@@ -1908,7 +1937,7 @@ top_clinical_report <- clinical_correlations %>%
 
 incremental_clinical_report <- incremental_clinical_performance_terms %>%
   mutate(
-    clinical_label = unname(clinical_scores[clinical_score]),
+    clinical_label = unname(clinical_total_scores[clinical_score]),
     performance_term = recode(factor(term),
                               faces_z = "FACES",
                               ai_diverse_z = "AI-diverse"),
@@ -1917,6 +1946,22 @@ incremental_clinical_report <- incremental_clinical_performance_terms %>%
   ) %>%
   select(metric, clinical_label, performance_term, n, estimate,
          conf.low, conf.high, p.value, p_fdr)
+
+screening_branching_report <- screening_branching_summary %>%
+  filter(sample == "Primary accuracy sample") %>%
+  transmute(
+    instrument,
+    threshold_rule,
+    total_n = n_total,
+    screening_block_missing = n_screening_block_missing,
+    branch_skipped_no_items = n_branch_skipped_no_items,
+    full_module_complete = n_full_module_complete,
+    partial_module = n_partial_module,
+    binary_available = n_branch_aware_binary_available,
+    screen_positive = n_branch_aware_positive,
+    screen_negative_or_subclinical = n_branch_aware_negative_or_subclinical,
+    pct_positive = pct_positive_among_binary_available
+  )
 
 attrition_model_report <- completion_or %>%
   filter(term != "(Intercept)") %>%
@@ -2018,9 +2063,15 @@ results_report <- c(
   "",
   "## Clinical Instrument Descriptives and Internal Consistency",
   "",
-  "Totals required complete item data. Cronbach's alpha was calculated from complete item responses in the primary accuracy sample.",
+  "Totals required complete item data. Cronbach's alpha was calculated from complete item responses in the primary accuracy sample. GAD-7 and HAMD-6 totals describe only participants who triggered and completed the full screener module.",
   "",
   format_markdown_table(instrument_descriptives_report, 3),
+  "",
+  "### Branch-aware screener status",
+  "",
+  "For GAD-7 and HAMD-6 binary screener status, participants with screening data who did not trigger the full module are treated as screen-negative/subclinical. Completed modules use GAD-7 total >=10 and HAMD-6 total >=7; partial modules and absent screening blocks remain missing. The GAD-7 prescreener asked about feeling anxious, nervous, or on edge and being unable to stop worrying; the HAMD-6 prescreener asked about little interest or pleasure and feeling down, depressed, or hopeless. For both instruments, either prescreen item endorsed as More than half the days or Nearly every day triggered the full module. These flags indicate clinical-range screen-positive symptom status rather than interview-verified diagnosis.",
+  "",
+  format_markdown_table(screening_branching_report, 3),
   "",
   "## Descriptive Performance",
   "",
@@ -2164,23 +2215,27 @@ publication_tables <- c(
   "",
   format_markdown_table(instrument_descriptives_report, 3),
   "",
-  "## Table 4. Model-standardised performance contrasts",
+  "## Table 4. Branch-aware GAD-7 and HAMD-6 screener status",
+  "",
+  format_markdown_table(screening_branching_report, 3),
+  "",
+  "## Table 5. Model-standardised performance contrasts",
   "",
   format_markdown_table(model_set_contrasts, 4),
   "",
-  "## Table 5. Adjusted task inclusion and completion models",
+  "## Table 6. Adjusted task inclusion and completion models",
   "",
   format_markdown_table(attrition_model_report, 3),
   "",
-  "## Table 6. Strongest descriptive clinical associations",
+  "## Table 7. Strongest descriptive clinical associations",
   "",
   format_markdown_table(top_clinical_report, 4),
   "",
-  "## Table 7. Demographic moderation interaction terms",
+  "## Table 8. Demographic moderation interaction terms",
   "",
   format_markdown_table(moderation_interaction_report, 4),
   "",
-  "## Table 8. Direct ingroup/outgroup contrasts",
+  "## Table 9. Direct ingroup/outgroup contrasts",
   "",
   format_markdown_table(gender_group_difference_report, 4),
   "",
@@ -2190,19 +2245,19 @@ publication_tables <- c(
   "",
   format_markdown_table(white_status_contrast_report, 4),
   "",
-  "## Table 9. Incremental clinical-signal performance terms",
+  "## Table 10. Incremental clinical-signal performance terms",
   "",
   format_markdown_table(incremental_clinical_report, 4),
   "",
-  "## Table 10. Reliability",
+  "## Table 11. Reliability",
   "",
   format_markdown_table(reliability, 3),
   "",
-  "## Table 11. FACES versus AI-diverse agreement",
+  "## Table 12. FACES versus AI-diverse agreement",
   "",
   format_markdown_table(agreement_summary, 3),
   "",
-  "## Table 12. Focused sensitivity contrasts",
+  "## Table 13. Focused sensitivity contrasts",
   "",
   format_markdown_table(sensitivity_contrasts_report, 4)
 )
@@ -2246,21 +2301,22 @@ table_figure_index <- c(
   "",
   "1. `demographics_full_and_cleaned.csv`: source, primary accuracy, and primary RT demographics.",
   "2. `clinical_instrument_descriptives_reliability.csv`: score distributions and Cronbach's alpha in the primary sample.",
-  "3. `trial_sampling_randomisation_checks.csv`: source and within-source emotion balance checks for the supplied sampling implementation.",
-  "4. `condition_descriptive_statistics.csv`: participant performance across stimulus sets.",
-  "5. `mixed_model_stimulus_set_estimates.csv`: standardised accuracy and RT estimates.",
-  "6. `clinical_correlations.csv`: clinical associations by set and metric.",
-  "7. `completion_logistic_regression.csv`: adjusted completer/non-completer comparisons.",
-  "8. `descriptives_by_gender_and_stimulus_set.csv`: gender subgroup estimates.",
-  "9. `descriptives_by_ethnicity_and_stimulus_set.csv`: ethnicity subgroup estimates.",
-  "10. `gender_moderation_standardised_estimates.csv`: model-standardised gender cells.",
-  "11. `white_status_moderation_standardised_estimates.csv`: model-standardised white-status cells.",
-  "12. `gender_moderation_contrasts.csv` and `white_status_moderation_contrasts.csv`: direct congruence and participant-group contrasts.",
-  "13. `dependent_clinical_correlation_differences.csv`: paired differences in clinical association.",
-  "14. `reliability_split_half.csv` and `faces_ai_diverse_agreement.csv`: replacement-relevant psychometrics.",
-  "15. `publication_tables.md`: selected human-readable manuscript tables.",
-  "16. `sensitivity_stimulus_set_estimates.csv` and `sensitivity_stimulus_set_contrasts.csv`: focused robustness results.",
-  "17. `incremental_clinical_signal_performance_terms.csv`: FACES and AI-diverse unique clinical associations with FDR correction.",
+  "3. `screening_branching_summary.csv`: branch-aware GAD-7/HAMD-6 module completion, prescreen gates, and binary status denominators.",
+  "4. `trial_sampling_randomisation_checks.csv`: source and within-source emotion balance checks for the supplied sampling implementation.",
+  "5. `condition_descriptive_statistics.csv`: participant performance across stimulus sets.",
+  "6. `mixed_model_stimulus_set_estimates.csv`: standardised accuracy and RT estimates.",
+  "7. `clinical_correlations.csv`: clinical associations by set and metric, including branch-aware screener binary outcomes.",
+  "8. `completion_logistic_regression.csv`: adjusted completer/non-completer comparisons.",
+  "9. `descriptives_by_gender_and_stimulus_set.csv`: gender subgroup estimates.",
+  "10. `descriptives_by_ethnicity_and_stimulus_set.csv`: ethnicity subgroup estimates.",
+  "11. `gender_moderation_standardised_estimates.csv`: model-standardised gender cells.",
+  "12. `white_status_moderation_standardised_estimates.csv`: model-standardised white-status cells.",
+  "13. `gender_moderation_contrasts.csv` and `white_status_moderation_contrasts.csv`: direct congruence and participant-group contrasts.",
+  "14. `dependent_clinical_correlation_differences.csv`: paired differences in clinical association.",
+  "15. `reliability_split_half.csv` and `faces_ai_diverse_agreement.csv`: replacement-relevant psychometrics.",
+  "16. `publication_tables.md`: selected human-readable manuscript tables.",
+  "17. `sensitivity_stimulus_set_estimates.csv` and `sensitivity_stimulus_set_contrasts.csv`: focused robustness results.",
+  "18. `incremental_clinical_signal_performance_terms.csv`: FACES and AI-diverse unique clinical associations with FDR correction.",
   "",
   "## Main Figures",
   "",

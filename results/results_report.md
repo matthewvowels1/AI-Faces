@@ -1,6 +1,6 @@
 # Emotion Recognition: FACES vs AI Faces Results Report
 
-Generated: 2026-09-15 14:07:59 CEST
+Generated: 2026-10-07 14:53:03 CEST
 
 > Status: complete provisional run. The primary clinical family and non-inferiority margin remain unresolved, so no confirmatory replacement claim is made.
 
@@ -47,18 +47,18 @@ The first model concerns any valid emotion-recognition data. The second has only
 
 |model                                    |    n|term                              | odds_ratio| odds_ratio_low| odds_ratio_high| p.value| p_fdr|
 |:----------------------------------------|----:|:---------------------------------|----------:|--------------:|---------------:|-------:|-----:|
-|Any valid emotion-recognition data       | 1019|age_z                             |      0.983|          0.733|           1.328|   0.908| 0.908|
-|Any valid emotion-recognition data       | 1019|gender_binaryMan                  |      0.538|          0.293|           0.963|   0.040| 0.159|
-|Any valid emotion-recognition data       | 1019|participant_white_statusNon-white |      1.133|          0.599|           2.237|   0.709| 0.908|
-|Any valid emotion-recognition data       | 1019|prior_mh_binaryPrior condition    |      0.808|          0.323|           1.748|   0.615| 0.908|
-|Completed 80 valid trials among starters |  969|age_z                             |      0.645|          0.332|           1.249|   0.188| 0.754|
-|Completed 80 valid trials among starters |  969|gender_binaryMan                  |      1.592|          0.413|           7.635|   0.516| 0.848|
-|Completed 80 valid trials among starters |  969|participant_white_statusNon-white |      1.175|          0.259|           8.309|   0.848| 0.848|
-|Completed 80 valid trials among starters |  969|prior_mh_binaryPrior condition    |      0.725|          0.039|           4.115|   0.765| 0.848|
+|Any valid emotion-recognition data       | 1019|age_z                             |      0.983|          0.731|           1.322|   0.908| 0.908|
+|Any valid emotion-recognition data       | 1019|gender_binaryMan                  |      0.538|          0.298|           0.971|   0.040| 0.159|
+|Any valid emotion-recognition data       | 1019|participant_white_statusNon-white |      1.133|          0.589|           2.181|   0.709| 0.908|
+|Any valid emotion-recognition data       | 1019|prior_mh_binaryPrior condition    |      0.808|          0.352|           1.856|   0.615| 0.908|
+|Completed 80 valid trials among starters |  969|age_z                             |      0.645|          0.336|           1.240|   0.188| 0.754|
+|Completed 80 valid trials among starters |  969|gender_binaryMan                  |      1.592|          0.392|           6.464|   0.516| 0.848|
+|Completed 80 valid trials among starters |  969|participant_white_statusNon-white |      1.175|          0.226|           6.106|   0.848| 0.848|
+|Completed 80 valid trials among starters |  969|prior_mh_binaryPrior condition    |      0.725|          0.088|           5.967|   0.765| 0.848|
 
 ## Clinical Instrument Descriptives and Internal Consistency
 
-Totals required complete item data. Cronbach's alpha was calculated from complete item responses in the primary accuracy sample.
+Totals required complete item data. Cronbach's alpha was calculated from complete item responses in the primary accuracy sample. GAD-7 and HAMD-6 totals describe only participants who triggered and completed the full screener module.
 
 
 
@@ -72,6 +72,17 @@ Totals required complete item data. Cronbach's alpha was calculated from complet
 |ASRS       |    18| 1019| 27.048| 15.900|     26|0-72           |0-72              |          0.947|
 |GAD-7      |     7|  444| 11.802|  4.716|     12|0-21           |0-21              |          0.835|
 |HAMD-6     |     6|  399|  9.860|  3.520|      9|1-21           |0-22              |          0.657|
+
+### Branch-aware screener status
+
+For GAD-7 and HAMD-6 binary screener status, participants with screening data who did not trigger the full module are treated as screen-negative/subclinical. Completed modules use GAD-7 total >=10 and HAMD-6 total >=7; partial modules and absent screening blocks remain missing. The GAD-7 prescreener asked about feeling anxious, nervous, or on edge and being unable to stop worrying; the HAMD-6 prescreener asked about little interest or pleasure and feeling down, depressed, or hopeless. For both instruments, either prescreen item endorsed as More than half the days or Nearly every day triggered the full module. These flags indicate clinical-range screen-positive symptom status rather than interview-verified diagnosis.
+
+
+
+|instrument |threshold_rule    | total_n| screening_block_missing| branch_skipped_no_items| full_module_complete| partial_module| binary_available| screen_positive| screen_negative_or_subclinical| pct_positive|
+|:----------|:-----------------|-------:|-----------------------:|-----------------------:|--------------------:|--------------:|----------------:|---------------:|------------------------------:|------------:|
+|GAD-7      |GAD-7 total >= 10 |    1047|                      39|                     564|                  444|              0|             1008|             290|                            718|       28.770|
+|HAMD-6     |HAMD-6 total >= 7 |    1047|                      39|                     608|                  399|              1|             1007|             332|                            675|       32.969|
 
 ## Descriptive Performance
 
@@ -128,28 +139,28 @@ These are ranked descriptive Spearman associations with participant-bootstrap co
 
 
 
-|metric     |clinical_label    |stimulus_set |    n| estimate| conf_low| conf_high|p_fdr   |
-|:----------|:-----------------|:------------|----:|--------:|--------:|---------:|:-------|
-|Accuracy   |CAPE-15 total     |FACES        | 1016|  -0.1866|  -0.2429|   -0.1290|< 0.001 |
-|Accuracy   |OCI-R total       |FACES        | 1015|  -0.1689|  -0.2312|   -0.1052|< 0.001 |
-|Accuracy   |CAPE-15 total     |AI-diverse   | 1016|  -0.1258|  -0.1833|   -0.0529|< 0.001 |
-|Accuracy   |OCI-R total       |AI-diverse   | 1015|  -0.1126|  -0.1723|   -0.0559|0.00195 |
-|Accuracy   |CAPE-15 total     |AI-white     | 1005|  -0.1081|  -0.1663|   -0.0521|0.00218 |
-|Accuracy   |ASRS total        |FACES        | 1016|  -0.1080|  -0.1666|   -0.0476|0.00218 |
-|Accuracy   |Altman SRMS total |FACES        | 1017|  -0.1069|  -0.1664|   -0.0424|0.00218 |
-|Accuracy   |OCI-R total       |AI-white     | 1004|  -0.1061|  -0.1705|   -0.0391|0.00229 |
-|Accuracy   |Altman SRMS total |AI-diverse   | 1017|  -0.0994|  -0.1630|   -0.0284|0.00403 |
-|Correct RT |ASRS total        |AI-white     | 1008|  -0.0787|  -0.1411|   -0.0179|0.29884 |
-|Accuracy   |ASRS total        |AI-white     | 1005|  -0.0689|  -0.1302|   -0.0134|0.06941 |
-|Correct RT |ASRS total        |AI-diverse   | 1011|  -0.0631|  -0.1222|   -0.0025|0.36291 |
-|Accuracy   |ISI total         |FACES        | 1016|  -0.0606|  -0.1259|    0.0003|0.11536 |
-|Accuracy   |Altman SRMS total |AI-white     | 1006|  -0.0599|  -0.1221|    0.0090|0.11536 |
-|Accuracy   |ASRS total        |AI-diverse   | 1016|  -0.0584|  -0.1157|    0.0031|0.11550 |
-|Correct RT |Mini-SPIN total   |AI-diverse   | 1010|  -0.0522|  -0.1078|    0.0209|0.36291 |
-|Correct RT |OCI-R total       |FACES        | 1013|  -0.0521|  -0.1176|    0.0081|0.36291 |
-|Correct RT |GAD-7 total       |AI-white     |  442|  -0.0516|  -0.1449|    0.0441|0.58055 |
-|Correct RT |ISI total         |AI-diverse   | 1011|  -0.0516|  -0.1123|    0.0111|0.36291 |
-|Correct RT |ISI total         |AI-white     | 1008|  -0.0513|  -0.1096|    0.0131|0.36291 |
+|metric     |clinical_label                             |stimulus_set |    n| estimate| conf_low| conf_high|p_fdr   |
+|:----------|:------------------------------------------|:------------|----:|--------:|--------:|---------:|:-------|
+|Accuracy   |CAPE-15 total                              |FACES        | 1016|  -0.1866|  -0.2429|   -0.1290|< 0.001 |
+|Accuracy   |OCI-R total                                |FACES        | 1015|  -0.1689|  -0.2267|   -0.1094|< 0.001 |
+|Accuracy   |CAPE-15 total                              |AI-diverse   | 1016|  -0.1258|  -0.1833|   -0.0529|< 0.001 |
+|Accuracy   |OCI-R total                                |AI-diverse   | 1015|  -0.1126|  -0.1771|   -0.0512|0.00244 |
+|Accuracy   |CAPE-15 total                              |AI-white     | 1005|  -0.1081|  -0.1663|   -0.0521|0.00273 |
+|Accuracy   |ASRS total                                 |FACES        | 1016|  -0.1080|  -0.1666|   -0.0476|0.00273 |
+|Accuracy   |Altman SRMS total                          |FACES        | 1017|  -0.1069|  -0.1664|   -0.0424|0.00273 |
+|Accuracy   |OCI-R total                                |AI-white     | 1004|  -0.1061|  -0.1700|   -0.0427|0.00286 |
+|Accuracy   |Altman SRMS total                          |AI-diverse   | 1017|  -0.0994|  -0.1630|   -0.0284|0.00504 |
+|Correct RT |ASRS total                                 |AI-white     | 1008|  -0.0787|  -0.1411|   -0.0179|0.37356 |
+|Accuracy   |ASRS total                                 |AI-white     | 1005|  -0.0689|  -0.1302|   -0.0134|0.08677 |
+|Correct RT |ASRS total                                 |AI-diverse   | 1011|  -0.0631|  -0.1222|   -0.0025|0.39693 |
+|Accuracy   |ISI total                                  |FACES        | 1016|  -0.0606|  -0.1251|   -0.0034|0.14420 |
+|Accuracy   |Altman SRMS total                          |AI-white     | 1006|  -0.0599|  -0.1221|    0.0090|0.14420 |
+|Accuracy   |ASRS total                                 |AI-diverse   | 1016|  -0.0584|  -0.1157|    0.0031|0.14437 |
+|Correct RT |GAD-7 screen positive (branch-aware; >=10) |AI-white     |  999|  -0.0560|  -0.1200|    0.0039|0.39693 |
+|Correct RT |Mini-SPIN total                            |AI-diverse   | 1010|  -0.0522|  -0.1179|    0.0177|0.39693 |
+|Correct RT |OCI-R total                                |FACES        | 1013|  -0.0521|  -0.1105|    0.0092|0.39693 |
+|Correct RT |GAD-7 total                                |AI-white     |  442|  -0.0516|  -0.1312|    0.0435|0.54427 |
+|Correct RT |ISI total                                  |AI-diverse   | 1011|  -0.0516|  -0.1048|    0.0125|0.39693 |
 
 9 Spearman associations among the three reported sets survived the provisional within-family FDR correction. No dependent difference in clinical association survived FDR correction (0 passed the adjusted threshold).
 

@@ -62,6 +62,23 @@ Adult ADHD Self-Report Scale, GAD-7, and HAMD-6. Script 1 recalculates every sco
 from released item responses. Descriptive statistics and Cronbach's alpha used
 complete item responses in the primary accuracy sample.
 
+GAD-7 and HAMD-6 used branched screening modules, so their continuous totals are
+available only for participants who triggered and completed the full module. For
+binary screener status, participants with screening data who did not trigger the
+full module were coded screen-negative/subclinical; absent screening blocks and
+partial modules remained missing. Completed modules used GAD-7 total >=10, the
+conventional probable-GAD cut point from the original validation, and HAMD-6
+total >=7, a clinical-range depressive-symptom threshold described in HAM-D6
+screening work. The GAD-7 prescreener asked "Over the last two weeks: Have you
+been feeling anxious, nervous, or on edge?" and "Over the last two weeks: Have
+you not being able to stop worrying, feeling like you're worrying all day about
+everything?" The HAMD-6 prescreener asked "Over the last two weeks: Have you had
+little interest or pleasure in doing things?" and "Over the last two weeks: Have
+you been feeling down, depressed, or hopeless?" For both instruments, endorsing
+either prescreen item as more than half the days or nearly every day triggered
+the full module. These branch-aware binary flags indicate screen-positive
+symptom status rather than interview-verified diagnoses.
+
 ## Demographics and attrition
 
 Demographics and missingness were summarised for the full frame, primary
@@ -107,21 +124,26 @@ kept the primary covariates and random intercepts.
 ## Clinical associations
 
 Pearson and Spearman correlations related participant accuracy and mean correct
-RT to each complete clinical score for all stimuli, FACES, AI-white, and
-AI-diverse. Percentile 95% confidence intervals used 500 participant bootstrap
-samples. Differences between dependent correlations were calculated within each
-bootstrap draw.
+RT to each complete clinical score, and to the branch-aware GAD-7 and HAMD-6
+binary screener-status flags, for all stimuli, FACES, AI-white, and AI-diverse.
+Percentile 95% confidence intervals used 500 participant bootstrap samples.
+Differences between dependent correlations were calculated within each bootstrap
+draw.
 
 For the manuscript correlations, Benjamini-Hochberg correction was applied to
-the 24 tests spanning eight measures and FACES, AI-white, and AI-diverse,
+the 30 tests spanning six complete-score Qualtrics instruments, GAD-7 and HAMD-6
+full-module totals, GAD-7 and HAMD-6 branch-aware screener status, and FACES,
+AI-white, and AI-diverse,
 separately within each performance-metric and correlation-method family.
-All-stimuli correlations were adjusted as separate eight-test families.
+All-stimuli correlations were adjusted as separate ten-test families.
 Bootstrap confidence intervals were not multiplicity-adjusted; consequently, an
 interval can exclude zero when its FDR-adjusted p-value is at least .05.
 
 Secondary linear models included FACES and AI-diverse performance jointly and
 adjusted for age, binary gender contrast, and white/non-white participant status.
-These estimate concurrent associations, not diagnostic classification.
+These adjusted models use complete validated totals only; branch-aware binary
+screener outcomes remain in the correlation tables. All clinical analyses
+estimate concurrent associations, not diagnostic classification.
 
 ## Demographic moderation
 

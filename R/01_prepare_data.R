@@ -97,6 +97,7 @@ participant_columns <- c(
   "emotion_task_complete_event"
 )
 score_columns <- paste0(names(instrument_specs), "_score")
+branch_status_columns <- c("gad7_branch_positive", "hamd6_branch_positive")
 item_columns <- unlist(lapply(names(instrument_specs), function(instrument) {
   paste0(
     instrument, "_item_",
@@ -111,7 +112,9 @@ trial_fields <- c(
 trial_columns <- unlist(lapply(sprintf("%03d", 1:80), function(slot) {
   paste0("trial_", slot, "_", trial_fields)
 }))
-required_columns <- c(participant_columns, score_columns, item_columns, trial_columns)
+required_columns <- c(
+  participant_columns, score_columns, branch_status_columns, item_columns, trial_columns
+)
 missing_columns <- setdiff(required_columns, names(study_wide))
 unexpected_columns <- setdiff(names(study_wide), required_columns)
 if (length(missing_columns) > 0 || length(unexpected_columns) > 0) {
@@ -138,14 +141,18 @@ parse_logical <- function(value) {
 }
 
 participants_base <- study_wide %>%
-  select(all_of(participant_columns), all_of(score_columns), all_of(item_columns)) %>%
+  select(
+    all_of(participant_columns), all_of(score_columns),
+    all_of(branch_status_columns), all_of(item_columns)
+  ) %>%
   mutate(
     age = suppressWarnings(as.numeric(age)),
     across(all_of(c(score_columns, item_columns)), ~suppressWarnings(as.numeric(.x))),
     across(
       c(
         screening_data_available, intake_demographics_available,
-        emotion_task_attempted, emotion_task_complete_event
+        emotion_task_attempted, emotion_task_complete_event,
+        all_of(branch_status_columns)
       ),
       parse_logical
     )
@@ -199,6 +206,43 @@ for (instrument in names(instrument_specs)) {
   participants[[paste0(instrument, "_partial_sum")]] <- scored$partial_sum
   participants[[released_score_name]] <- scored$complete_score
 }
+
+derive_branch_positive <- function(screening_available, n_answered, score, threshold) {
+  case_when(
+    !(screening_available %in% TRUE) ~ NA,
+    is.na(n_answered) ~ NA,
+    n_answered == 0 ~ FALSE,
+    !is.na(score) ~ score >= threshold,
+    TRUE ~ NA
+  )
+}
+
+participants <- participants %>%
+  mutate(
+    expected_gad7_branch_positive = derive_branch_positive(screening_data_available, gad7_n_answered, gad7_score, 10),
+    expected_hamd6_branch_positive = derive_branch_positive(screening_data_available, hamd6_n_answered, hamd6_score, 7)
+  )
+
+branch_flags_reproduce <- identical(
+  participants$gad7_branch_positive,
+  participants$expected_gad7_branch_positive
+) && identical(
+  participants$hamd6_branch_positive,
+  participants$expected_hamd6_branch_positive
+)
+if (!branch_flags_reproduce) {
+  stop("Released branch-aware screener flags differ from the item-derived rules")
+}
+
+participants <- participants %>%
+  mutate(
+    gad7_branch_positive = derive_branch_positive(screening_data_available, gad7_n_answered, gad7_score, 10),
+    hamd6_branch_positive = derive_branch_positive(screening_data_available, hamd6_n_answered, hamd6_score, 7)
+  ) %>%
+  select(
+    -expected_gad7_branch_positive,
+    -expected_hamd6_branch_positive
+  )
 
 # Names retained here match the clearly labelled variables in Script 2.
 participants <- participants %>%
@@ -561,7 +605,12 @@ clinical_score_columns <- c(
   "cape15_score", "altman_srms_score", "isi_score", "ocir_score",
   "minispin_score", "asrs_score", "gad7_score", "hamd6_score"
 )
+clinical_branch_status_columns <- c("gad7_branch_positive", "hamd6_branch_positive")
 for (clinical_score in clinical_score_columns) {
+  analysis_samples[[paste("Clinical:", clinical_score)]] <-
+    participants$included_primary_accuracy & !is.na(participants[[clinical_score]])
+}
+for (clinical_score in clinical_branch_status_columns) {
   analysis_samples[[paste("Clinical:", clinical_score)]] <-
     participants$included_primary_accuracy & !is.na(participants[[clinical_score]])
 }
@@ -570,6 +619,72 @@ demographics_by_analysis <- imap_dfr(analysis_samples, function(included, sample
 })
 
 primary_ids <- participants$participant_id[participants$included_primary_accuracy]
+
+screening_branch_summary_row <- function(data, sample_name, instrument, score_variable,
+                                         n_answered_variable, branch_flag_variable,
+                                         threshold_rule, threshold_basis,
+                                         prescreen_item_1, prescreen_item_2,
+                                         prescreen_positive_rule) {
+  n_answered <- data[[n_answered_variable]]
+  branch_flag <- data[[branch_flag_variable]]
+  screening_available <- data$screening_data_available %in% TRUE
+  binary_available <- screening_available & !is.na(branch_flag)
+  positive <- sum(branch_flag %in% TRUE, na.rm = TRUE)
+  tibble(
+    sample = sample_name,
+    instrument = instrument,
+    score_variable = score_variable,
+    branch_aware_flag_variable = branch_flag_variable,
+    threshold_rule = threshold_rule,
+    threshold_basis = threshold_basis,
+    prescreen_item_1 = prescreen_item_1,
+    prescreen_item_2 = prescreen_item_2,
+    prescreen_positive_rule = prescreen_positive_rule,
+    n_total = nrow(data),
+    n_screening_block_missing = sum(!screening_available),
+    n_branch_skipped_no_items = sum(screening_available & !is.na(n_answered) & n_answered == 0),
+    n_full_module_complete = sum(screening_available & !is.na(data[[score_variable]])),
+    n_partial_module = sum(screening_available & !is.na(n_answered) & n_answered > 0 & is.na(data[[score_variable]])),
+    n_branch_aware_binary_available = sum(binary_available),
+    n_branch_aware_positive = positive,
+    n_branch_aware_negative_or_subclinical = sum(branch_flag %in% FALSE, na.rm = TRUE),
+    pct_positive_among_binary_available = ifelse(
+      sum(binary_available) > 0,
+      positive / sum(binary_available) * 100,
+      NA_real_
+    )
+  )
+}
+
+summarise_screening_branching <- function(data, sample_name) {
+  bind_rows(
+    screening_branch_summary_row(
+      data, sample_name, "GAD-7", "gad7_score", "gad7_n_answered",
+      "gad7_branch_positive", "GAD-7 total >= 10",
+      "Conventional probable-GAD cut point from the original GAD-7 validation (Spitzer et al., 2006).",
+      "Over the last two weeks: Have you been feeling anxious, nervous, or on edge?",
+      "Over the last two weeks: Have you not being able to stop worrying, feeling like you're worrying all day about everything?",
+      "Full GAD-7 module displayed if either prescreen item was endorsed as More than half the days or Nearly every day."
+    ),
+    screening_branch_summary_row(
+      data, sample_name, "HAMD-6", "hamd6_score", "hamd6_n_answered",
+      "hamd6_branch_positive", "HAMD-6 total >= 7",
+      "Clinical-range depressive symptom threshold: Bachner et al. (2013) report that Bech et al. suggest HAM-D6 scores of 7+ indicate clinically significant depressive symptoms warranting clinical assessment.",
+      "Over the last two weeks: Have you had little interest or pleasure in doing things?",
+      "Over the last two weeks: Have you been feeling down, depressed, or hopeless?",
+      "Full HAMD-6 module displayed if either prescreen item was endorsed as More than half the days or Nearly every day."
+    )
+  )
+}
+
+screening_branching_summary <- bind_rows(
+  summarise_screening_branching(participants, "Full participant frame"),
+  summarise_screening_branching(
+    filter(participants, included_primary_accuracy),
+    "Primary accuracy sample"
+  )
+)
+
 clinical_instrument_descriptives <- map_dfr(names(instrument_specs), function(instrument) {
   spec <- instrument_specs[[instrument]]
   item_names <- paste0(instrument, "_item_", sprintf("%02d", seq_len(spec$items)))
@@ -653,6 +768,7 @@ validation_checks <- tibble(
     "No duplicate participant-trial row",
     "FACES stimuli are white-labelled", "FACES has no surprise target",
     "All eight retained clinical totals reproduce from released items",
+    "Branch-aware GAD-7/HAMD-6 flags reproduce from released items",
     "RT inclusion implies a correct response"
   ),
   passed = c(
@@ -665,6 +781,7 @@ validation_checks <- tibble(
     all(trials$face_ethnicity[trials$source == "FACES"] == "white"),
     !any(trials$source == "FACES" & trials$target_emotion == "surprise"),
     TRUE,
+    branch_flags_reproduce,
     all(trials$correct[trials$rt_included])
   )
 )
@@ -696,6 +813,10 @@ readr::write_csv(
 readr::write_csv(
   clinical_instrument_descriptives,
   file.path(tables_dir, "clinical_instrument_descriptives_reliability.csv"), na = ""
+)
+readr::write_csv(
+  screening_branching_summary,
+  file.path(tables_dir, "screening_branching_summary.csv"), na = ""
 )
 readr::write_csv(
   trial_balance_summary, file.path(tables_dir, "trial_balance_summary.csv"), na = ""

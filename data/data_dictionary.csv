@@ -21,6 +21,8 @@ minispin_score,clinical total,Complete-item total for the named retained instrum
 asrs_score,clinical total,Complete-item total for the named retained instrument
 gad7_score,clinical total,Complete-item total for the named retained instrument
 hamd6_score,clinical total,Complete-item total for the named retained instrument
+gad7_branch_positive,clinical screener status,"Branch-aware GAD-7 screen-positive flag: complete modules use total >=10, branch-skipped screening participants are subclinical/negative, and partial or absent screening data are missing"
+hamd6_branch_positive,clinical screener status,"Branch-aware HAMD-6 clinical-range screen-positive flag: complete modules use total >=7, branch-skipped screening participants are subclinical/negative, and partial or absent screening data are missing"
 cape15_item_01,clinical item,Numeric response to the named retained instrument item
 cape15_item_02,clinical item,Numeric response to the named retained instrument item
 cape15_item_03,clinical item,Numeric response to the named retained instrument item

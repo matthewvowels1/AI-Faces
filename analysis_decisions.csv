@@ -15,5 +15,6 @@ AI-non-white minimum common-emotion trials,10,fixed_for_run
 AI-diverse minimum common-emotion trials,20,fixed_for_run
 All-stimuli minimum common-emotion trials,40,fixed_for_run
 Clinical score completeness,all required items answered; partial sums retained only for audit,fixed_for_run
+Branch-aware screener status,"For GAD-7 and HAMD-6, screening-available participants who skipped the full module after prescreen branching are coded screen-negative/subclinical in the branch-aware binary flags; completed modules use GAD-7 total >=10 and HAMD-6 total >=7, and partial modules remain missing. These flags indicate clinical-range screen-positive symptom status, not interview-verified diagnosis. Full modules were gated by two symptom-frequency prescreen items per instrument; either item endorsed at More than half the days or Nearly every day triggered the module.",fixed_for_run
 Primary clinical scale family,UNRESOLVED - validated scales reported as a secondary family,requires_study_team_decision
 Non-inferiority margin,UNRESOLVED - no confirmatory non-inferiority conclusion,requires_study_team_decision

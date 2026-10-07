@@ -5,6 +5,7 @@
 - [x] One participant-wide deidentified CSV with a stable data dictionary
 - [x] Synthetic participant and stimulus identifiers with no released crosswalk
 - [x] Exact questionnaire rescoring and trial reconstruction checks
+- [x] Branch-aware GAD-7/HAMD-6 screener-status flags and denominator table
 - [x] Two self-contained, numbered, commented R scripts
 - [x] Full analysis run from released data only
 - [x] Generated tables, figures, diagnostics, and file hashes

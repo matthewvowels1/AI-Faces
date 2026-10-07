@@ -44,10 +44,11 @@ renv::restore()
 
 ## Data structure
 
-`data/ai_faces_study.csv` contains 1,277 rows and 901 columns. It includes
-participant-level grouped demographics, eight retained questionnaire totals and
-their 79 component items, and up to 80 emotion-recognition trials per person.
-Each trial has ten consistently named fields, for example
+`data/ai_faces_study.csv` contains 1,277 rows and 903 columns. It includes
+participant-level grouped demographics, eight retained questionnaire totals,
+two branch-aware GAD-7/HAMD-6 screener-status flags, their 79 component items,
+and up to 80 emotion-recognition trials per person. Each trial has ten
+consistently named fields, for example
 `trial_001_target_emotion`, `trial_001_correct`, and `trial_001_rt_sec`.
 Blank trial slots represent trials that were not observed.
 
@@ -65,6 +66,13 @@ the mixed models.
 The package is a reproducible observational analysis, not evidence of diagnostic
 validity, non-inferiority, or interchangeability. A confirmatory clinical-outcome
 family and non-inferiority margin were not specified.
+
+GAD-7 and HAMD-6 totals are full-module completer scores because those modules
+were gated by prescreening questions. The release therefore includes
+branch-aware binary screener-status flags, which Script 1 recalculates from the
+released items: screening participants who did not trigger the full module are
+treated as screen-negative/subclinical, completed modules use GAD-7 >=10 and
+HAMD-6 >=7, and absent screening blocks or partial modules remain missing.
 
 The established FACES photographs are not redistributed here. The stimulus
 manifest is sufficient to reproduce every reported analysis because the models

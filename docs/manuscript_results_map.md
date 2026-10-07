@@ -10,13 +10,16 @@ repository root.
 |---|---|---|
 | Table 1, sample characteristics | `results/tables/demographics_full_and_cleaned.csv` | Full-frame and analysis-sample demographics |
 | Table 2, instrument descriptives | `results/tables/clinical_instrument_descriptives_reliability.csv` | n, mean, SD, median, range, and Cronbach's alpha for eight measures |
+| Table 2 note, branched screener denominators | `results/tables/screening_branching_summary.csv` | GAD-7/HAMD-6 full-module completion, branch-skipped counts, binary status counts, prescreen items, and thresholds |
 | Table 3, model-standardised performance | `results/tables/mixed_model_stimulus_set_estimates.csv` | Accuracy and geometric mean RT by stimulus set |
 | Table 3, pairwise tests | `results/tables/mixed_model_stimulus_set_contrasts.csv` | Covariance-aware stimulus-set differences and FDR p-values |
 | Table 4, clinical accuracy correlations | `results/tables/clinical_correlations.csv` | Filter to Accuracy, Spearman, and FACES/AI-white/AI-diverse |
 
-Table 4 presents 24 accuracy-Spearman tests: eight instruments by three reported
-stimulus sets. Its percentile confidence intervals are unadjusted, while its
-p-values are Benjamini-Hochberg adjusted together as one 24-test family.
+Table 4 presents 30 accuracy-Spearman tests: six complete-score Qualtrics
+instruments, GAD-7 and HAMD-6 full-module totals, and GAD-7/HAMD-6 branch-aware
+binary screener status by three reported stimulus sets. Its percentile
+confidence intervals are unadjusted, while its p-values are Benjamini-Hochberg
+adjusted together as one 30-test family.
 
 ## Figures
 
